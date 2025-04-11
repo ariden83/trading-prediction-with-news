@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prévisions du cours du Brent</title>
+    <link rel="stylesheet" href="public/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Actualités et Prévisions du Brent</h1>
+            <p class="subtitle">Analyse en temps réel du cours du pétrole Brent</p>
+        </header>
+
+        <main>
+            <section class="current-price">
+                <h2>Cours actuel du Brent</h2>
+                <div class="price-container">
+                    <div id="current-price">--,-- $</div>
+                    <div id="price-change">--,-- (--,--%) <span id="price-direction"></span></div>
+                </div>
+                <div class="last-update">Dernière mise à jour: <span id="last-update-time">--:--</span></div>
+            </section>
+
+            <section class="chart-container">
+                <h2>Évolution du cours</h2>
+                <div class="period-selector">
+                    <button data-period="1d" class="active">1J</button>
+                    <button data-period="5d">5J</button>
+                    <button data-period="1mo">1M</button>
+                    <button data-period="6mo">6M</button>
+                    <button data-period="1y">1A</button>
+                </div>
+                <canvas id="price-chart"></canvas>
+            </section>
+
+            <section class="prediction">
+                <h2>Prévision pour aujourd'hui</h2>
+                <div class="prediction-container">
+                    <div class="prediction-value">
+                        <span id="prediction-price">--,-- $</span>
+                        <span id="prediction-change">--,-- (--,--%) <span id="prediction-direction"></span></span>
+                    </div>
+                    <div class="prediction-confidence">
+                        Indice de confiance: <span id="confidence-level">--</span>%
+                    </div>
+                </div>
+                <div class="prediction-factors">
+                    <h3>Facteurs d'influence</h3>
+                    <ul id="factors-list">
+                        <li>Chargement des facteurs...</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="news">
+                <h2>Actualités récentes</h2>
+                <div id="news-container">
+                    <p class="loading-message">Chargement des actualités...</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Les prévisions sont générées automatiquement à partir de données historiques et d'actualités récentes. Elles ne constituent pas des conseils d'investissement.</p>
+            <p>&copy; 2025 - Prévisions du cours du Brent</p>
+        </footer>
+    </div>
+
+    <!-- Chargement des scripts -->
+    <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+    <script src="node_modules/moment/min/moment.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="src/app.browser.js"></script>
+</body>
+</html>
