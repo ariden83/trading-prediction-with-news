@@ -26,20 +26,34 @@ let currentPeriod = '1d'; // Période d'affichage par défaut
 let historicalData = []; // Données historiques
 let newsData = []; // Données d'actualités
 let predictionData = null; // Données de prévision
+let updateInterval = null;
+
+window.addEventListener('beforeunload', () => {
+    if (updateInterval) {
+        clearInterval(updateInterval);
+    }
+});
 
 // Initialisation de l'application
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Application de prévision du Brent initialisée');
-    
+
     // Initialisation des écouteurs d'événements
     initEventListeners();
-    
+
     // Chargement des données initiales
     loadInitialData();
 });
 
 // Initialisation des écouteurs d'événements
 function initEventListeners() {
+
+    updateInterval = setInterval(() => {
+        fetchHistoricalDataLight(currentPeriod).catch(error => {
+            console.error('Erreur lors de la mise à jour automatique des données:', error);
+        });
+    }, 60000 * 5); // Mise à jour toutes les 60 secondes * 5
+
     // Gestion des boutons de période
     const periodButtons = document.querySelectorAll('.period-selector button');
     periodButtons.forEach(button => {
@@ -47,17 +61,30 @@ function initEventListeners() {
             // Mise à jour de la période active
             periodButtons.forEach(btn => btn.classList.remove('active'));
             e.target.classList.add('active');
-            
+
             // Récupération de la période sélectionnée
             currentPeriod = e.target.getAttribute('data-period');
             console.log("*** CLIC SUR PÉRIODE:", currentPeriod);
-            
+
+            // Arrêter l'intervalle précédent s'il existe
+            if (updateInterval) {
+                clearInterval(updateInterval);
+                updateInterval = null;
+            }
+
             try {
+                // Si la période est '1d', démarrer un intervalle pour les mises à jour automatiques
+                if (currentPeriod === '1d') {
+                    updateInterval = setInterval(() => {
+                        fetchHistoricalDataLight(currentPeriod).catch(error => {
+                            console.error('Erreur lors de la mise à jour automatique des données:', error);
+                        });
+                    }, 60000 * 5); // Mise à jour toutes les 60 secondes * 5
+                }
+
                 // Chargement des données pour la nouvelle période
                 fetchHistoricalDataLight(currentPeriod).catch(error => {
                     console.error('Erreur lors du chargement des données historiques:', error);
-                    // La gestion des erreurs est déjà faite dans fetchHistoricalData
-                    // Ne pas propager l'erreur pour ne pas bloquer l'interface
                 });
             } catch (error) {
                 console.error('Erreur lors du chargement des données:', error);
@@ -70,16 +97,16 @@ function initEventListeners() {
 function loadInitialData() {
     // Affichage d'un message de chargement
     updateLoadingStatus('Chargement des données en cours...');
-    
+
     // Approche plus robuste - charger chaque partie séparément
     // pour éviter qu'une erreur dans une partie n'empêche l'affichage des autres
-    
+
     // Chargement des données historiques
     fetchHistoricalData(currentPeriod).catch((error) => {
         console.error('Erreur lors du chargement initial des données historiques:', error);
         // La gestion des erreurs est déjà faite dans fetchHistoricalData
     });
-    
+
     // Chargement des actualités indépendamment des données historiques
     fetchNewsData().catch((error) => {
         console.error('Erreur lors du chargement initial des actualités:', error);
@@ -99,13 +126,13 @@ function showApiErrorMessage() {
             <button id="retry-button">Réessayer</button>
         </div>
     `;
-    
+
     // Insérer le bandeau au début du body
     document.body.insertBefore(errorBanner, document.body.firstChild);
-    
+
     // Nettoyer l'interface des données partielles ou incorrectes
     clearDataDisplay();
-    
+
     // Ajouter un événement au bouton de réessai
     document.getElementById('retry-button').addEventListener('click', () => {
         // Supprimer le bandeau d'erreur
@@ -123,15 +150,15 @@ function clearDataDisplay() {
         chart.destroy();
         chart = null;
     }
-    
+
     // Effacer le prix actuel
     document.getElementById('current-price').textContent = '--,-- $';
     document.getElementById('price-change').textContent = '--,-- (--,--%) ';
     document.getElementById('price-direction').textContent = '';
-    
+
     // Effacer les actualités
     document.getElementById('news-container').innerHTML = '<p class="loading-message">Données non disponibles</p>';
-    
+
     // Effacer la prévision
     document.getElementById('prediction-price').textContent = '--,-- $';
     document.getElementById('prediction-change').textContent = '--,-- (--,--%) ';
@@ -247,17 +274,17 @@ async function fetchHistoricalDataLight(period) {
 async function fetchHistoricalData(period) {
     try {
         console.log(`Récupération des données historiques pour la période: ${period}`);
-        
+
         // Log explicite pour la période
         console.log(`La période actuelle est: ${period}`);
-        
+
         // Affichage d'un message de chargement
         updateLoadingStatus('Récupération des données historiques...');
-        
+
         // URL pour récupérer les données historiques
         const url = `${config.apiBaseUrl}/historical-data?period=${period}`;
         console.log(`Requête API: ${url}`);
-        
+
         // Appel à l'API
         const response = await fetch(url, {
             method: 'GET',
@@ -266,64 +293,64 @@ async function fetchHistoricalData(period) {
                 'Cache-Control': 'no-cache'
             }
         });
-        
+
         if (!response.ok) {
             throw new Error(`Erreur HTTP: ${response.status}`);
         }
-        
+
         // Traitement des données
         const responseText = await response.text();
         console.log('Réponse brute:', responseText);
-        
+
         const result = JSON.parse(responseText);
         console.log('Données historiques reçues:', result);
-        
+
         // Vérification des données
         if (!result.data || !Array.isArray(result.data) || result.data.length === 0) {
             console.error('Données historiques invalides ou vides');
             throw new Error('Données historiques invalides ou vides');
         }
-        
+
         // Vérification des métadonnées
         if (!result.metadata) {
             console.error('Métadonnées manquantes dans la réponse');
             throw new Error('Métadonnées manquantes dans la réponse');
         }
-        
+
         console.log(`AVANT: Nombre de points de données pour la période ${currentPeriod}: ${historicalData.length}`);
-        
+
         // Mise à jour explicite des données historiques
         historicalData = [...result.data]; // Copie profonde pour s'assurer que c'est une nouvelle référence
-        
+
         console.log(`APRÈS: Nombre de points de données pour la période ${period}: ${historicalData.length}`);
         console.log('Exemple de données :', historicalData.slice(0, 3));
-        
+
         // Mise à jour de l'affichage du prix actuel
         updatePriceDisplay(
             result.metadata.regularMarketPrice,
             result.metadata.change,
             result.metadata.changePercent
         );
-        
+
         // Force la destruction et recréation du graphique
         if (chart) {
             console.log('Destruction forcée du graphique existant');
             chart.destroy();
             chart = null;
         }
-        
+
         // Création d'un délai court pour s'assurer que le DOM est mis à jour
         setTimeout(() => {
             try {
                 // Mise à jour du graphique avec les nouvelles données
                 console.log(`Mise à jour du graphique avec ${result.data.length} points de données pour la période ${period}`);
-                
+
                 // Force le changement de la période courante au moment du rafraîchissement
                 currentPeriod = period;
-                
+
                 // Mise à jour du graphique
                 recreateChartWithData(result.data);
-                
+
                 // Génération de la prévision si nous avons des actualités
                 if (newsData.length > 0) {
                     try {
@@ -336,19 +363,19 @@ async function fetchHistoricalData(period) {
                 console.error('Erreur lors de la mise à jour du graphique:', chartError);
             }
         }, 100);
-        
+
         // Suppression de tout bandeau d'erreur existant puisque la requête a réussi
         const existingErrorBanner = document.querySelector('.error-banner');
         if (existingErrorBanner) {
             existingErrorBanner.remove();
         }
-        
+
         console.log('Données historiques récupérées avec succès');
         return result;
     } catch (error) {
         console.error('Erreur lors de la récupération des données historiques:', error);
         updateLoadingStatus('Erreur lors de la récupération des données.');
-        
+
         // Afficher un message d'erreur
         showApiErrorMessage();
         throw error; // Propager l'erreur
@@ -359,28 +386,28 @@ async function fetchHistoricalData(period) {
 async function fetchNewsData() {
     try {
         console.log('Récupération des actualités');
-        
+
         // Affichage d'un message de chargement
         updateLoadingStatus('Récupération des actualités...');
-        
+
         // URL pour récupérer les actualités
         const url = `${config.apiBaseUrl}/news`;
-        
+
         // Appel à l'API
         const response = await fetch(url);
         if (!response.ok) {
             throw new Error(`Erreur HTTP: ${response.status}`);
         }
-        
+
         // Traitement des données
         const news = await response.json();
-        
+
         // Mise à jour des données d'actualités
         newsData = news;
-        
+
         // Mise à jour de l'affichage des actualités
         updateNewsDisplay(news);
-        
+
         // Génération de la prévision si nous avons des données historiques
         if (historicalData.length > 0) {
             try {
@@ -390,12 +417,12 @@ async function fetchNewsData() {
                 // Ne pas arrêter le flux principal
             }
         }
-        
+
         console.log('Actualités récupérées avec succès');
     } catch (error) {
         console.error('Erreur lors de la récupération des actualités:', error);
         updateLoadingStatus('Erreur lors de la récupération des actualités.');
-        
+
         // Message simple dans la section actualités au lieu d'un bandeau d'erreur
         // si nous avons déjà chargé les données historiques avec succès
         if (historicalData.length > 0) {
@@ -414,22 +441,22 @@ async function fetchNewsData() {
 async function generatePrediction() {
     try {
         console.log('Génération de la prévision');
-        
+
         // Vérification des données nécessaires
         if (historicalData.length === 0 || newsData.length === 0) {
             console.error('Données insuffisantes pour générer une prévision');
             return;
         }
-        
+
         // URL pour générer la prévision
         const url = `${config.apiBaseUrl}/prediction`;
-        
+
         // Préparation des données pour l'appel API
         const requestData = {
             historicalData: historicalData,
             news: newsData
         };
-        
+
         // Appel à l'API
         const response = await fetch(url, {
             method: 'POST',
@@ -438,20 +465,20 @@ async function generatePrediction() {
             },
             body: JSON.stringify(requestData)
         });
-        
+
         if (!response.ok) {
             throw new Error(`Erreur HTTP: ${response.status}`);
         }
-        
+
         // Traitement des données
         const prediction = await response.json();
-        
+
         // Mise à jour des données de prévision
         predictionData = prediction;
-        
+
         // Mise à jour de l'affichage de la prévision
         await updatePredictionDisplay(prediction);
-        
+
         console.log('Prévision générée avec succès');
 
 
@@ -462,10 +489,10 @@ async function generatePrediction() {
     } catch (error) {
         console.error('Erreur lors de la génération de la prévision:', error);
         updateLoadingStatus('Erreur lors de la génération de la prévision.');
-        
+
         // Ne pas afficher le bandeau d'erreur et ne pas propager l'erreur pour les prévisions
         // car c'est une fonctionnalité secondaire et les données principales sont déjà chargées
-        
+
         // Mettre à jour l'interface avec un message pour indiquer que la prévision n'est pas disponible
         document.getElementById('prediction-price').textContent = '--,-- $';
         document.getElementById('prediction-change').textContent = '--,-- (--,--%) ';
@@ -683,11 +710,11 @@ function updatePriceDisplay(price, change = 0, changePercent = 0) {
 function recreateChartWithData(data) {
     console.log('Recréation complète du graphique avec période:', currentPeriod);
     console.log('Données pour la recréation:', data);
-    
+
     // Récupération du canvas
     const chartContainer = document.querySelector('.chart-container');
     const existingCanvas = document.getElementById('price-chart');
-    
+
     if (chart) {
         try {
             chart.destroy();
@@ -696,17 +723,17 @@ function recreateChartWithData(data) {
         }
         chart = null;
     }
-    
+
     // Suppression du canvas existant
     if (existingCanvas && existingCanvas.parentNode) {
         existingCanvas.parentNode.removeChild(existingCanvas);
     }
-    
+
     // Création d'un nouveau canvas
     const newCanvas = document.createElement('canvas');
     newCanvas.id = 'price-chart';
     chartContainer.appendChild(newCanvas);
-    
+
     // Formatage des dates pour meilleure lisibilité
     const formattedData = [];
     for (let i = 0; i < data.length; i++) {
@@ -715,18 +742,18 @@ function recreateChartWithData(data) {
             formattedDate: formatDate(data[i].date, currentPeriod)
         });
     }
-    
+
     // Tri des données par date (croissant)
     formattedData.sort((a, b) => {
         return new Date(a.date) - new Date(b.date);
     });
-    
+
     // Préparation des données pour le graphique
     const labels = formattedData.map(item => item.formattedDate);
     const prices = formattedData.map(item => item.close);
-    
+
     console.log(`Préparation du graphique avec ${labels.length} labels et ${prices.length} prix.`);
-    
+
     // Adapter le nombre de ticks en fonction de la période
     let ticksConfig = {};
     if (currentPeriod === '1m') {
@@ -740,7 +767,7 @@ function recreateChartWithData(data) {
     } else {
         ticksConfig = { maxTicksLimit: 12 };
     }
-    
+
     // Création du nouveau graphique
     const ctx = newCanvas.getContext('2d');
     chart = new Chart(ctx, {
@@ -795,7 +822,7 @@ function recreateChartWithData(data) {
             }
         }
     });
-    
+
     console.log('Graphique créé avec succès pour la période:', currentPeriod);
 }
 
@@ -808,20 +835,20 @@ function formatDate(dateString, period) {
             date.getMinutes().toString().padStart(2, '0');
     } else if (period === '1d') {
         // Pour une journée, afficher l'heure
-        return date.getHours().toString().padStart(2, '0') + ':' + 
+        return date.getHours().toString().padStart(2, '0') + ':' +
                date.getMinutes().toString().padStart(2, '0');
     } else if (period === '5d') {
         // Pour 5 jours, afficher le jour et l'heure
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' + 
+        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
                date.getDate().toString().padStart(2, '0') + ' ' +
                date.getHours().toString().padStart(2, '0') + 'h';
     } else if (period === '1mo') {
         // Pour un mois, afficher le jour
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' + 
+        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
                date.getDate().toString().padStart(2, '0');
     } else {
         // Pour les périodes plus longues, afficher mois/année
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' + 
+        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
                date.getFullYear().toString().substring(2);
     }
 }
@@ -829,10 +856,10 @@ function formatDate(dateString, period) {
 // Mise à jour de l'affichage des actualités
 function updateNewsDisplay(news) {
     const newsContainer = document.getElementById('news-container');
-    
+
     // Effacement du contenu actuel
     newsContainer.innerHTML = '';
-    
+
     // Ajout des actualités
     if (news.length === 0) {
         newsContainer.innerHTML = '<p class="loading-message">Aucune actualité disponible</p>';
@@ -850,7 +877,7 @@ function updateNewsDisplay(news) {
                 <div class="news-source">Source: <a href="${item.url}" target="_blank" title="${item.source}"> ${item.source}</a></div>
                 <div class="news-date">Date: ${item.date}</div>
             `;
-            
+
             newsContainer.appendChild(newsItem);
         });
     }
@@ -864,13 +891,13 @@ function updatePredictionDisplay(prediction) {
     const predictionDirectionElement = document.getElementById('prediction-direction');
     const confidenceLevelElement = document.getElementById('confidence-level');
     const factorsListElement = document.getElementById('factors-list');
-    
+
     // Mise à jour du prix prévu
     predictionPriceElement.textContent = `${prediction.predictedPrice.toFixed(2)} $`;
-    
+
     // Mise à jour de la variation prévue
     predictionChangeElement.textContent = `${prediction.change.toFixed(2)} (${prediction.changePercent.toFixed(2)}%) `;
-    
+
     // Mise à jour de la direction (flèche)
     if (prediction.change > 0) {
         predictionDirectionElement.textContent = '▲';
@@ -885,10 +912,10 @@ function updatePredictionDisplay(prediction) {
         predictionChangeElement.classList.remove('price-up');
         predictionChangeElement.classList.remove('price-down');
     }
-    
+
     // Mise à jour du niveau de confiance
     confidenceLevelElement.textContent = prediction.confidence;
-    
+
     // Mise à jour des facteurs d'influence
     factorsListElement.innerHTML = '';
 
