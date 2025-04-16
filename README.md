@@ -1,4 +1,4 @@
-# Application de Prévision du Cours du Brent
+# Application de Prévision du Cours du Brent en fonction des actualités uniquement
 
 Cette application permet de suivre l'évolution du cours du pétrole Brent et de générer des prévisions basées sur les données historiques et l'analyse d'actualités.
 
