@@ -150,8 +150,8 @@ async function getBrentNews() {
 
             let entries;
 
-           if (cached && cached.expires > now) {
-               console.log('utilisation du cache pour', source.name);
+            if (cached && cached.expires > now) {
+                console.log('utilisation du cache pour', source.name);
                 entries = cached.data;
             } else {
                 // Fetch + parse
@@ -163,7 +163,7 @@ async function getBrentNews() {
                     data: entries,
                     expires: now + CACHE_DURATION_MS
                 });
-           }
+            }
 
             const items = Array.isArray(entries) ? entries : [entries];
 
@@ -211,7 +211,7 @@ function getNested(obj, path) {
 
 /**
  * Analyse le sentiment des actualités pour déterminer l'impact sur le prix du Brent
- * 
+ *
  * @param {Array} news - Liste des actualités avec leur sentiment
  * @returns {Object} - Résultat de l'analyse avec score et facteurs d'influence
  */
@@ -285,7 +285,7 @@ function analyzeNewsSentiment(news) {
 function getSentimentFromPython(text) {
     return new Promise((resolve, reject) => {
         // Utilisation de child_process.exec pour exécuter le script Python
-        exec(`python3 ./src/python/vadersSentiment.py "${text}"`, (error, stdout, stderr) => {
+        exec(`python3 ./src/python/vadersSentiment.v2.py "${text}"`, (error, stdout, stderr) => {
             if (error) {
                 return reject(`Error executing Python script: ${stderr}`);
             }
