@@ -27,10 +27,14 @@ let historicalData = []; // Données historiques
 let newsData = []; // Données d'actualités
 let predictionData = null; // Données de prévision
 let updateInterval = null;
+let updateNewsInterval = null;
 
 window.addEventListener('beforeunload', () => {
     if (updateInterval) {
         clearInterval(updateInterval);
+    }
+    if (updateNewsInterval) {
+        clearInterval(updateNewsInterval);
     }
 });
 
@@ -53,6 +57,12 @@ function initEventListeners() {
             console.error('Erreur lors de la mise à jour automatique des données:', error);
         });
     }, 60000 * 5); // Mise à jour toutes les 60 secondes * 5
+
+    updateNewsInterval = setInterval(() => {
+        fetchNewsData().catch(error => {
+            console.error('Erreur lors de la mise à jour automatique des données:', error);
+        });
+    }, 60000 * 60 + 10); // Mise à jour toutes les 60 secondes * 5
 
     // Gestion des boutons de période
     const periodButtons = document.querySelectorAll('.period-selector button');
@@ -454,7 +464,21 @@ async function generatePrediction() {
         // Préparation des données pour l'appel API
         const requestData = {
             historicalData: historicalData,
-            news: newsData
+            news: newsData.map(item => {
+                const today = moment().format('YYYY-MM-DD');
+                const newsItem = {
+                    sentiment: item.sentiment,
+                    date: item.date,
+                    sentiments: {
+                        compound: item.sentiments.compound,
+                    }
+                };
+                if (item.date === today) {
+                    newsItem.title = item.title;
+                    newsItem.source = item.source;
+                }
+                return newsItem;
+            }),
         };
 
         // Appel à l'API
@@ -636,8 +660,8 @@ async function updateScoreChart(scoreHistory) {
                     tension: 0.4,
                     fill: false,
                     pointStyle: dailyChanges.map(value => (value > 0 ? 'triangle' : 'circle')), // Triangle pour hausse, cercle pour baisse
-                    pointBackgroundColor: dailyChanges.map(value => (value > 0 ? 'green' : 'red')), // Vert pour hausse, rouge pour baisse
-                    pointBorderColor: dailyChanges.map(value => (value > 0 ? 'green' : 'red')),
+                    pointBackgroundColor: dailyChanges.map(value => (value > 0 ? '#6faa6f' : '#aa6f6f')), // Vert grisé pour hausse, rouge grisé pour baisse
+                    pointBorderColor: dailyChanges.map(value => (value > 0 ? '#6faa6f' : '#aa6f6f')),
                     pointRadius: 6 // Taille des points
                 }
             ]
@@ -798,8 +822,11 @@ function recreateChartWithData(data) {
                     mode: 'index',
                     intersect: false,
                     callbacks: {
-                        title: function(tooltipItems) {
-                            return 'Date: ' + tooltipItems[0].label;
+                        title: function(tooltipItem) {
+                            if (!tooltipItem[0]) {
+                                return "";
+                            }
+                            return 'Date: ' + tooltipItem[0].raw.x;
                         },
                         label: function(context) {
                             return 'Prix: ' + context.parsed.y.toFixed(2) + ' $';

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Prévisions du cours du Brent</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
     <div class="container">
@@ -57,24 +57,28 @@
 
             <section>
                 <div class="prediction-factors-score">
-                    <canvas id="score-chart">Chargement du graphique...</canvas>
+                    <div id="score-chart">
+                        <p class="loading-message">Loading the chart* ...</p>
+                        <p>* 5 min wait</p>
+                    </div>
                 </div>
             </section>
 
             <section class="news">
-                <h2>Actualités récentes</h2>
+                <h2>Recent news</h2>
                 <div id="news-container">
-                    <p class="loading-message">Chargement des actualités...</p>
+                    <p class="loading-message">Loading news...</p>
                 </div>
             </section>
         </main>
 
         <footer>
-            <p>Les prévisions sont générées automatiquement à partir de données historiques et d'actualités récentes. Elles ne constituent pas des conseils d'investissement.</p>
-            <p>&copy; 2025 - Prévisions du cours du Brent</p>
+            <p>Forecasts are automatically generated from historical data and recent news. They do not constitute investment advice..</p>
+            <p>&copy; 2025 - Brent Crude Price Forecast</p>
         </footer>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <!-- Chargement des scripts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment"></script>

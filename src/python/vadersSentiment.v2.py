@@ -14,15 +14,16 @@ oil_keywords = set([
 ])
 
 up_keywords = {
-    'rise', 'rises', 'rose', 'increase', 'increases', 'increased', 'up',
+    'rise', 'rises', 'rose', 'increase', 'increases', 'increased', 'up', 'gains',
     'gain', 'gained', 'surge', 'surged', 'jump', 'jumped', 'soar', 'soared',
     'skyrocket', 'skyrocketed', 'spike', 'spiked', 'climb', 'climbed',
     'boost', 'boosted', 'rebound', 'rebounded', 'rises', 'rising', 'climb', 'jumps',
+    'approaches one-month highs', 'approaches one-month high',
 }
-down_keywords = {
+down_keywords = {'dives',
     'fall', 'falls', 'fell', 'decrease', 'decreases', 'decreased', 'down',
     'drop', 'dropped', 'slip', 'slipped', 'plunge', 'plunged', 'tumble',
-    'tumbled', 'sink', 'sank', 'plummet', 'plummeted', 'dive', 'dived',
+    'tumbled', 'sink', 'sank', 'plummet', 'plummeted', 'dive', 'dived', 'approaches one-month low',
     'crash', 'crashed', 'collapse', 'collapsed', 'slump', 'slumped', 'settles down',
 }
 

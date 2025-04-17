@@ -6,8 +6,17 @@ Cette application permet de suivre l'évolution du cours du pétrole Brent et de
 
 - Affichage en temps réel du cours du Brent
 - Visualisation de l'historique des prix pour différentes périodes (1j, 5j, 1m, 6m, 1a)
+
+![cours du Brent](./doc/assets/web-top.png)
+
 - Prévision automatique de l'évolution du cours
+
+![prévisions du Brent](./doc/assets/previsions.png)
+
 - Analyse des actualités récentes et leur impact sur le prix
+
+![news du Brent](./doc/assets/news.png)
+
 - Indicateurs techniques et niveau de confiance des prévisions
 
 ## Architecture
@@ -116,6 +125,12 @@ Le serveur expose les API REST suivantes :
 - L'analyse des actualités est simulée dans cette version et pourrait être améliorée avec une API d'actualités réelle
 - Ajout de plus de facteurs d'influence dans l'algorithme de prévision
 - Implémentation d'un modèle d'apprentissage automatique pour améliorer la précision des prévisions
+
+## Avertissement
+
+⚠️ Projet de test uniquement : Cette application a été développée à des fins de démonstration ou d’expérimentation personnelle. Les prévisions générées ne doivent en aucun cas être interprétées comme des conseils financiers ou d’investissement.
+
+L’auteur décline toute responsabilité quant à l’usage qui pourrait être fait des informations fournies par ce projet.
 
 ## Licence
 

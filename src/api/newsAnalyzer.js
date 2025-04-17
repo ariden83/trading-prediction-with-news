@@ -12,6 +12,18 @@ const { exec } = require('child_process')
 const xml2js = require('xml2js');
 const tough = require('tough-cookie');
 const { CookieJar } = require('tough-cookie');
+const storage = require('node-persist');
+
+// Initialisation du stockage persistant
+(async () => {
+    await storage.init({
+        dir: './cache', // Répertoire où seront stockées les données
+        stringify: JSON.stringify,
+        parse: JSON.parse,
+        encoding: 'utf8',
+        ttl: 2 * 60 * 60 * 1000 // 2 heures (en millisecondes)
+    });
+})();
 
 // Configuration des sources d'actualités
 const NEWS_SOURCES = [
@@ -46,16 +58,16 @@ const NEWS_SOURCES = [
         titlePath: 'title',
         linkPath: 'link',
         datePath: 'pubDate'
-    }/*,
+    },
     {
         name: 'Bloomberg – Energy News',
-        url: 'https://news.google.com/rss/search?q=brent&when:24h+allinurl:bloomberg.com&hl=en-US&gl=US&ceid=US:en',
+        url: 'https://news.google.com/rss/search?q=bloomberg+brent&when:24h+allinurl:bloomberg.com&hl=en-US&gl=US&ceid=US:en',
         type: 'rss',
         entriesPath: 'rss.channel.item',
         titlePath: 'title',
         linkPath: 'link',
         datePath: 'pubDate'
-    },
+    }/*,
     {
         name: 'U.S. Energy Information Administration (EIA)',
         url: 'https://news.google.com/rss/search?q=eia.com+brent&when:24h+allinurl:eia.gov&hl=en-US&gl=US&ceid=US:en',
@@ -137,69 +149,76 @@ async function fetchWithManualRedirects(url, retries = 3, delay = 100) {
 
 
 const cache = new Map(); // Map<url, { data: any, expires: number }>
-const CACHE_DURATION_MS = 30 * 60 * 1000; // 30 minutes
+const CACHE_DURATION_MS = 1 * 60 * 60 * 1000; // 60 minutes * 2h
 
 async function getBrentNews() {
     const parser = new xml2js.Parser({ explicitArray: false });
-    const allNews = [];
+    let allNews = [];
+    const cacheVersion = "v1.0.0"
 
     for (const source of NEWS_SOURCES) {
         try {
             const now = Date.now();
-            const cached = cache.get(source.url);
+            const cached = await storage.getItem(encodeURIComponent(cacheVersion+source.url));
 
             let entries;
+            let allNewsFromURL = [];
 
             if (cached && cached.expires > now) {
                 console.log('utilisation du cache pour', source.name);
-                entries = cached.data;
+                allNewsFromURL = cached.data;
+
             } else {
                 // Fetch + parse
                 const response = await fetchWithManualRedirects(source.url);
                 const parsed = await parser.parseStringPromise(response.data);
 
                 entries = getNested(parsed, source.entriesPath);
-                cache.set(source.url, {
-                    data: entries,
+
+                const items = Array.isArray(entries) ? entries : [entries];
+
+                for (const item of items) {
+                    const title = getNested(item, source.titlePath);
+                    const date = getNested(item, source.datePath);
+                    const link = getNested(item, source.linkPath);
+
+                    let sentimentsItem = await getSentimentFromPython(title);
+                    let sentiment = 'neutre';
+                    if (sentimentsItem.compound > 0) {
+                        sentiment = 'positive'
+                    } else if (sentimentsItem.compound < 0) {
+                        sentiment = 'negative'
+                    }
+
+                    const formattedDate = date
+                        ? moment(date).format('YYYY-MM-DD')
+                        : null;
+
+                    if (title && formattedDate) {
+                        allNewsFromURL.push({
+                            title,
+                            date: formattedDate,
+                            url: link,
+                            source: source.name,
+                            sentiment: sentiment,
+                            sentiments: sentimentsItem,
+                        });
+                    }
+                }
+
+                storage.setItem(encodeURIComponent(cacheVersion+source.url), {
+                    data: allNewsFromURL,
                     expires: now + CACHE_DURATION_MS
                 });
             }
 
-            const items = Array.isArray(entries) ? entries : [entries];
-
-            for (const item of items) {
-                const title = getNested(item, source.titlePath);
-                const date = getNested(item, source.datePath);
-                const link = getNested(item, source.linkPath);
-
-                let sentimentsItem = await getSentimentFromPython(title);
-                let sentiment = 'neutre';
-                if (sentimentsItem.compound > 0) {
-                    sentiment = 'positive'
-                } else if (sentimentsItem.compound < 0) {
-                    sentiment = 'negative'
-                }
-
-                const formattedDate = date
-                    ? moment(date).format('YYYY-MM-DD')
-                    : null;
-
-                if (title && formattedDate) {
-                    allNews.push({
-                        title,
-                        date: formattedDate,
-                        url: link,
-                        source: source.name,
-                        sentiment: sentiment,
-                        sentiments: sentimentsItem,
-                    });
-                }
-            }
+            allNews.push(...allNewsFromURL);
         } catch (err) {
             console.error(`Erreur avec ${source.name} : ${err.message}`);
         }
     }
 
+    console.log('Nombre total d\'actualités:', allNews.length);
     return allNews;
 }
 
