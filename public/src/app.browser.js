@@ -763,7 +763,7 @@ function recreateChartWithData(data) {
     for (let i = 0; i < data.length; i++) {
         formattedData.push({
             ...data[i],
-            formattedDate: formatDate(data[i].date, currentPeriod)
+            formattedDate: formatDate(data[i].timestamp, currentPeriod)
         });
     }
 
@@ -816,35 +816,17 @@ function recreateChartWithData(data) {
             },
             plugins: {
                 legend: {
-                    display: false
+                    display: true // Afficher la légende pour distinguer les deux lignes
                 },
-                tooltip: {
-                    mode: 'index',
-                    intersect: false,
-                    callbacks: {
-                        title: function(tooltipItem) {
-                            if (!tooltipItem[0]) {
-                                return "";
-                            }
-                            return 'Date: ' + tooltipItem[0].raw.x;
-                        },
-                        label: function(context) {
-                            return 'Prix: ' + context.parsed.y.toFixed(2) + ' $';
-                        }
-                    }
-                }
             },
             scales: {
+                y: {
+                    beginAtZero: false
+                },
                 x: {
                     grid: {
                         display: false
-                    },
-                    ticks: ticksConfig
-                },
-                y: {
-                    beginAtZero: false,
-                    // suggestedMin: Math.min(...prices) * 0.995,
-                    // suggestedMax: Math.max(...prices) * 1.005
+                    }
                 }
             }
         }
@@ -855,28 +837,44 @@ function recreateChartWithData(data) {
 
 // Formater la date en fonction de la période
 function formatDate(dateString, period) {
-    const date = new Date(dateString);
+    // Création d'une date à partir de la chaîne
+    const date = new Date(dateString * 1000);
+    // console.log('***************** period', date);
+    // return date.toLocaleDateString('fr-FR');
 
-    if (period === '5m') {
-        return date.getHours().toString().padStart(2, '0') + ':' +
-            date.getMinutes().toString().padStart(2, '0');
-    } else if (period === '1d') {
-        // Pour une journée, afficher l'heure
-        return date.getHours().toString().padStart(2, '0') + ':' +
-               date.getMinutes().toString().padStart(2, '0');
+    // Déterminer l'affichage en fonction de la période
+    if (period === '1d') {
+        // Vérifier l'intervalle actuel dans la configuration
+        const interval = config.periods['1d'].interval; // Devrait être '5m'
+
+        // Format HH:MM pour un intervalle de 5 minutes
+        return date.toLocaleTimeString('fr-FR', {
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+        });
     } else if (period === '5d') {
-        // Pour 5 jours, afficher le jour et l'heure
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
-               date.getDate().toString().padStart(2, '0') + ' ' +
-               date.getHours().toString().padStart(2, '0') + 'h';
+        // Format JJ/MM HHh pour un intervalle de 30 minutes
+        return date.toLocaleDateString('fr-FR', {
+                day: '2-digit',
+                month: '2-digit'
+            }) + ' ' +
+            date.getHours().toString().padStart(2, '0') + 'h';
     } else if (period === '1mo') {
-        // Pour un mois, afficher le jour
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
-               date.getDate().toString().padStart(2, '0');
+        // Format JJ/MM pour un intervalle d'un jour
+        return date.toLocaleDateString('fr-FR', {
+            day: '2-digit',
+            month: '2-digit'
+        });
+    } else if (period === '6mo' || period === '1y') {
+        // Format MM/AA pour les périodes plus longues
+        return date.toLocaleDateString('fr-FR', {
+            month: '2-digit',
+            year: '2-digit'
+        });
     } else {
-        // Pour les périodes plus longues, afficher mois/année
-        return (date.getMonth() + 1).toString().padStart(2, '0') + '/' +
-               date.getFullYear().toString().substring(2);
+        // Format par défaut
+        return date.toLocaleDateString('fr-FR');
     }
 }
 
@@ -923,7 +921,11 @@ function updatePredictionDisplay(prediction) {
     predictionPriceElement.textContent = `${prediction.predictedPrice.toFixed(2)} $`;
 
     // Mise à jour de la variation prévue
-    predictionChangeElement.textContent = `${prediction.change.toFixed(2)} (${prediction.changePercent.toFixed(2)}%) `;
+    try {
+        predictionChangeElement.textContent = `${prediction.change.toFixed(2)} (${prediction.changePercent.toFixed(2)}%) `;
+    } catch (e) {
+        console.error(e);
+    }
 
     // Mise à jour de la direction (flèche)
     if (prediction.change > 0) {
