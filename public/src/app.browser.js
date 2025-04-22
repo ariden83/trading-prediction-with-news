@@ -24,6 +24,7 @@ let chart; // Instance du graphique
 let scoreChart;
 let currentPeriod = '1d'; // Période d'affichage par défaut
 let historicalData = []; // Données historiques
+let scoreHistory = [];
 let newsData = []; // Données d'actualités
 let predictionData = null; // Données de prévision
 let updateInterval = null;
@@ -239,11 +240,6 @@ async function fetchHistoricalDataLight(period) {
         );
 
         // Force la destruction et recréation du graphique
-        if (chart) {
-            console.log('Destruction forcée du graphique existant');
-            chart.destroy();
-            chart = null;
-        }
 
         // Création d'un délai court pour s'assurer que le DOM est mis à jour
         setTimeout(() => {
@@ -255,7 +251,8 @@ async function fetchHistoricalDataLight(period) {
                 currentPeriod = period;
 
                 // Mise à jour du graphique
-                recreateChartWithData(result.data);
+                updateChart();
+                /* recreateChartWithData(result.data); */
 
             } catch (chartError) {
                 console.error('Erreur lors de la mise à jour du graphique:', chartError);
@@ -310,10 +307,10 @@ async function fetchHistoricalData(period) {
 
         // Traitement des données
         const responseText = await response.text();
-        console.log('Réponse brute:', responseText);
+        // console.log('Réponse brute:', responseText);
 
         const result = JSON.parse(responseText);
-        console.log('Données historiques reçues:', result);
+        // console.log('Données historiques reçues:', result);
 
         // Vérification des données
         if (!result.data || !Array.isArray(result.data) || result.data.length === 0) {
@@ -327,13 +324,13 @@ async function fetchHistoricalData(period) {
             throw new Error('Métadonnées manquantes dans la réponse');
         }
 
-        console.log(`AVANT: Nombre de points de données pour la période ${currentPeriod}: ${historicalData.length}`);
+        // console.log(`AVANT: Nombre de points de données pour la période ${currentPeriod}: ${historicalData.length}`);
 
         // Mise à jour explicite des données historiques
         historicalData = [...result.data]; // Copie profonde pour s'assurer que c'est une nouvelle référence
 
-        console.log(`APRÈS: Nombre de points de données pour la période ${period}: ${historicalData.length}`);
-        console.log('Exemple de données :', historicalData.slice(0, 3));
+        // console.log(`APRÈS: Nombre de points de données pour la période ${period}: ${historicalData.length}`);
+        // console.log('Exemple de données :', historicalData.slice(0, 3));
 
         // Mise à jour de l'affichage du prix actuel
         updatePriceDisplay(
@@ -422,6 +419,7 @@ async function fetchNewsData() {
         if (historicalData.length > 0) {
             try {
                 generatePrediction();
+                updateChart();
             } catch (error) {
                 console.error('Erreur lors de la génération de la prévision:', error);
                 // Ne pas arrêter le flux principal
@@ -507,8 +505,9 @@ async function generatePrediction() {
 
 
         await new Promise(resolve => setTimeout(resolve, 500));
-        await updateScoreChart(prediction.scoreHistory);
-
+        scoreHistory = prediction.scoreHistory;
+        await updateScoreChart(scoreHistory);
+        await updateChart();
 
     } catch (error) {
         console.error('Erreur lors de la génération de la prévision:', error);
@@ -546,10 +545,10 @@ async function fetchDailyHistoric() {
 
     // Traitement des données
     const responseText = await response.text();
-    console.log('Réponse brute:', responseText);
+    // console.log('Réponse brute:', responseText);
 
     const result = JSON.parse(responseText);
-    console.log('Données historiques reçues:', result);
+    // console.log('Données historiques reçues:', result);
 
     // Vérification des données
     if (!result.data || !Array.isArray(result.data) || result.data.length === 0) {
@@ -732,8 +731,8 @@ function updatePriceDisplay(price, change = 0, changePercent = 0) {
 
 // Recréation complète du graphique avec de nouvelles données
 function recreateChartWithData(data) {
-    console.log('Recréation complète du graphique avec période:', currentPeriod);
-    console.log('Données pour la recréation:', data);
+    // console.log('Recréation complète du graphique avec période:', currentPeriod);
+    // console.log('Données pour la recréation:', data);
 
     // Récupération du canvas
     const chartContainer = document.querySelector('.chart-container');
@@ -806,6 +805,31 @@ function recreateChartWithData(data) {
                 borderWidth: 2,
                 tension: 0.4,
                 fill: true
+            },
+            {
+                label: 'News',
+                data: newsData,
+                borderColor: '#3498db',
+                backgroundColor: newsData.map(value => value > 0 ? 'rgba(52, 152, 219, 0.1)' : 'rgba(231, 76, 60, 0.1)'), // Bleu pour positif, rouge pour négatif
+                borderWidth: 2,
+                tension: 0.4,
+                fill: true,
+                pointStyle: newsData.map(value => {
+                    if (value > 0) return 'triangle'; // Triangle pour les valeurs positives
+                    if (value < 0) return 'triangle'; // Triangle pour les valeurs négatives
+                    return 'circle'; // Cercle pour les valeurs nulles
+                }),
+                pointBackgroundColor: newsData.map(value => {
+                    if (value > 0) return 'green'; // Vert pour les valeurs positives
+                    if (value < 0) return 'red'; // Rouge pour les valeurs négatives
+                    return 'gray'; // Gris pour les valeurs nulles
+                }),
+                pointBorderColor: newsData.map(value => {
+                    if (value > 0) return 'green';
+                    if (value < 0) return 'red';
+                    return 'gray';
+                }),
+                pointRadius: 6 // Taille des points
             }]
         },
         options: {
@@ -834,6 +858,117 @@ function recreateChartWithData(data) {
 
     console.log('Graphique créé avec succès pour la période:', currentPeriod);
 }
+
+async function updateChart() {
+    if (chart && historicalData.length > 0) {
+        try {
+            // Formatage des dates pour meilleure lisibilité
+            const formattedData = historicalData.map(item => ({
+                ...item,
+                formattedDate: formatDate(item.timestamp, currentPeriod)
+            }));
+
+            // Préparation des données pour le graphique
+            const labels = formattedData.map(item => item.formattedDate);
+            const prices = formattedData.map(item => item.close);
+
+            // Mise à jour des données du graphique
+            chart.data.labels = labels;
+            chart.data.datasets[0].data = prices;
+            // console.table(prices);
+
+            // Mise à jour des scores de sentiment si disponibles
+            if (newsData && newsData.length > 0) {
+                // Créer un tableau de points pour les sentiments, alignés avec les dates du graphique
+                const sentimentPoints = Array(labels.length).fill(null);
+                const newsPoints = Array(labels.length).fill(null);
+
+                // console.table(newsData);
+                // Pour chaque actualité, trouver le point correspondant dans les données historiques
+                newsData.forEach(news => {
+                    const newsDate = news.date;
+                    const index = formattedData.findIndex(item => {
+                        if (!item.timestamp) return false;
+                        if (!news.timestamp) return false;
+
+                        const itemDateTime = new Date(item.timestamp * 1000);
+                        let newsDateTime = new Date(news.timestamp);
+
+                        // Comparer année/mois/jour et aussi heure/minute
+                        return itemDateTime.getFullYear() === newsDateTime.getFullYear() &&
+                            itemDateTime.getMonth() === newsDateTime.getMonth() &&
+                            itemDateTime.getDate() === newsDateTime.getDate() &&
+                            Math.abs(itemDateTime.getHours() - newsDateTime.getHours()) <= 1 && // Tolérance d'une heure
+                            Math.abs(itemDateTime.getMinutes() - newsDateTime.getMinutes()) <= 10; // Tolérance de 30 minutes
+                    });
+
+                    // Si une correspondance est trouvée, ajouter un point à la position correspondante
+                    if (index !== -1) {
+                        // Utiliser la valeur du prix à cette date-là pour positionner le point
+                        sentimentPoints[index] = prices[index];
+                        newsPoints[index] = news;
+                        news.value = prices[index];
+                    }
+                });
+
+                // Mettre à jour ou créer le dataset pour les sentiments
+                if (!chart.data.datasets[1]) {
+                    // Création du deuxième dataset s'il n'existe pas
+                    chart.data.datasets.push({
+                        label: 'Actualités',
+                        data: sentimentPoints,
+                        borderColor: 'transparent',
+                        pointStyle: 'star',
+                        pointBackgroundColor: sentimentPoints.map((value, index) => {
+                            if (value === null || !newsPoints[index]) return 'transparent';
+                            return newsPoints[index].sentiment === 'positive' ? 'green' :
+                                newsPoints[index].sentiment === 'negative' ? 'red' : 'gray';
+                        }),
+                        pointBorderColor: 'black',
+                        pointRadius: 8,
+                        fill: false
+                    });
+                } else {
+                    // Mise à jour du dataset existant
+                    chart.data.datasets[1].data = sentimentPoints;
+                    chart.data.datasets[1].pointBackgroundColor = sentimentPoints.map((value, index) => {
+                        if (value === null || !newsPoints[index]) return 'transparent';
+                        return newsPoints[index].sentiment === 'positive' ? 'green' :
+                            newsPoints[index].sentiment === 'negative' ? 'red' : 'gray';
+                    });
+                }
+
+                // Configurer les tooltips pour afficher les titres d'actualités
+                if (!chart.options.plugins.tooltip) {
+                    chart.options.plugins.tooltip = {};
+                }
+
+                chart.options.plugins.tooltip.callbacks = {
+                    label: function(context) {
+                        const datasetIndex = context.datasetIndex;
+                        const pointIndex = context.dataIndex;
+
+                        // Vérifier s'il s'agit du dataset des actualités et si le point a une actualité associée
+                        if (datasetIndex === 1 && newsPoints[pointIndex]) {
+                            return newsPoints[pointIndex].title || 'Actualité sans titre';
+                        }
+
+                        // Comportement par défaut pour les autres points
+                        const value = context.raw;
+                        return value !== null ? `Prix: ${value.toFixed(2)} $` : '';
+                    }
+                };
+            }
+
+            // Appliquer les mises à jour
+            chart.update();
+            console.log('Graphique mis à jour avec succès');
+        } catch (e) {
+            console.error('Erreur lors de la mise à jour du graphique:', e);
+        }
+    }
+}
+
 
 // Formater la date en fonction de la période
 function formatDate(dateString, period) {

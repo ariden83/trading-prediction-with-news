@@ -194,10 +194,15 @@ async function getBrentNews() {
                         ? moment(date).format('YYYY-MM-DD')
                         : null;
 
+                    const timestamp = date
+                        ? moment(date).valueOf()
+                        : null;
+
                     if (title && formattedDate) {
                         allNewsFromURL.push({
                             title,
                             date: formattedDate,
+                            timestamp: timestamp,
                             url: link,
                             source: source.name,
                             sentiment: sentiment,

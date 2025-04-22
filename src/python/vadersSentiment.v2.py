@@ -8,7 +8,7 @@ import re
 nlp = spacy.load("en_core_web_sm")
 
 oil_keywords = set([
-    'brent', 'oil', 'crude', 'wti', 'petroleum', 'fuel', 'gasoline',
+    'brent', 'oil', 'crude', 'wti', 'wti prices', 'petroleum', 'fuel', 'gasoline',
     'oil prices', 'brent crude', 'crude oil', 'oil market', 'oil production',
     'oil supply', 'oil demand', 'oil reserves', 'oil futures'
 ])
@@ -17,7 +17,7 @@ up_keywords = {
     'rise', 'rises', 'rose', 'increase', 'increases', 'increased', 'up', 'gains',
     'gain', 'gained', 'surge', 'surged', 'jump', 'jumped', 'soar', 'soared',
     'skyrocket', 'skyrocketed', 'spike', 'spiked', 'climb', 'climbed',
-    'boost', 'boosted', 'rebound', 'rebounded', 'rises', 'rising', 'climb', 'jumps',
+    'boost', 'boosted', 'rebound', 'rebounded', 'rises', 'rising', 'jumps',
     'approaches one-month highs', 'approaches one-month high',
 }
 down_keywords = {'dives',
