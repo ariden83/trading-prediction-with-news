@@ -947,10 +947,12 @@ async function updateChart() {
                     label: function(context) {
                         const datasetIndex = context.datasetIndex;
                         const pointIndex = context.dataIndex;
-
                         // Vérifier s'il s'agit du dataset des actualités et si le point a une actualité associée
                         if (datasetIndex === 1 && newsPoints[pointIndex]) {
-                            return newsPoints[pointIndex].title || 'Actualité sans titre';
+                            const impactIcon = newsPoints[pointIndex].sentiment === 'positive' ? '▲' :
+                                newsPoints[pointIndex].sentiment === 'negative' ? '▼' : '';
+
+                            return newsPoints[pointIndex].title  + ' ' + impactIcon || 'Actualité';
                         }
 
                         // Comportement par défaut pour les autres points
