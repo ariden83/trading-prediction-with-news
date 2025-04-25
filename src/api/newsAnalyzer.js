@@ -224,10 +224,31 @@ async function getBrentNews() {
     }
 
     console.log('Nombre total d\'actualités:', allNews.length);
+    saveNewsToFile(allNews);
     return allNews;
 }
 
+function saveNewsToFile(allNews) {
+    console.log('Nombre total d\'actualités:', allNews.length);
 
+    const fs = require('fs');
+    const path = require('path');
+    const today = moment().format('YYYY-MM-DD');
+    const seedsDir = path.join(__dirname, '../seeds');
+
+    if (!fs.existsSync(seedsDir)) {
+        fs.mkdirSync(seedsDir, { recursive: true });
+    }
+
+    const filename = path.join(seedsDir, `brent-news-${today}.json`);
+
+    if (fs.existsSync(filename)) {
+        console.log(`Le fichier ${filename} existe déjà. Mise à jour des données...`);
+    }
+
+    fs.writeFileSync(filename, JSON.stringify(allNews, null, 2), 'utf8');
+    console.log(`Données sauvegardées dans: ${filename}`);
+}
 
 function getNested(obj, path) {
     return path.split('.').reduce((acc, part) => acc && acc[part], obj);
