@@ -1,0 +1,32 @@
+[2025-04-30T11:39:06.083Z] starting launcher...
+[2025-04-30T11:39:06.103Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-30T11:39:06.104Z] Commande CLOSE reçue
+[2025-04-30T11:39:06.105Z] Aucun processus à arrêter
+[2025-04-30T11:39:06.108Z] starting launcher...
+[2025-04-30T11:39:06.111Z] Exception non capturée: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:963:11)
+    at Socket._write (node:net:975:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at sendNativeMessage (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:32:20)
+    at /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:73:17
+    at stopCurrentProcess (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:109:9)
+[2025-04-30T11:39:06.128Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-30T11:39:06.128Z] Commande CLOSE reçue
+[2025-04-30T11:39:06.129Z] Aucun processus à arrêter
+[2025-04-30T11:39:06.135Z] Exception non capturée: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:963:11)
+    at Socket._write (node:net:975:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at sendNativeMessage (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:32:20)
+    at /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:73:17
+    at stopCurrentProcess (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:109:9)

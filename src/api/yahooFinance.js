@@ -34,6 +34,11 @@ async function getBrentHistoricalData(period = '1mo', interval = '1d') {
         
         // Extraction des données pertinentes
         const result = response.data.chart.result[0];
+
+        if (!result.timestamp || !result.indicators || !result.indicators.quote || !result.indicators.quote[0]) {
+            throw new Error('Structure de données Yahoo Finance incomplète ' +  JSON.stringify(result, null, 2));
+        }
+
         const timestamps = result.timestamp;
         const quote = result.indicators.quote[0];
         const adjClose = result.indicators.adjclose ? result.indicators.adjclose[0].adjclose : null;

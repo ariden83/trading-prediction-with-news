@@ -63,7 +63,7 @@ function initEventListeners() {
         fetchNewsData().catch(error => {
             console.error('Erreur lors de la mise à jour automatique des données:', error);
         });
-    }, 60000 * 60 + 10); // Mise à jour toutes les 60 secondes * 5
+    }, 60000 * 60 + 10);
 
     // Gestion des boutons de période
     const periodButtons = document.querySelectorAll('.period-selector button');

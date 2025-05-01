@@ -18,8 +18,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Routes API
-
 // Route pour récupérer toutes les données en une fois
 app.get('/api/all-data', async (req, res) => {
     try {
