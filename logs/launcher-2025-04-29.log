@@ -1,0 +1,225 @@
+[2025-04-29T11:31:33.152Z] starting launcher...
+[2025-04-29T11:31:33.159Z] Message reçu: {"command":"start","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:31:33.159Z] Commande START reçue, chemin: /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news
+[2025-04-29T11:31:33.163Z] Processus lancé avec PID 1920349
+[2025-04-29T11:31:34.454Z] Erreur d'exécution: Command failed: npm run start
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:31:34.454Z] Stderr: node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:31:50.432Z] starting launcher...
+[2025-04-29T11:31:50.440Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:31:50.441Z] Commande CLOSE reçue
+[2025-04-29T11:31:50.441Z] Aucun processus à arrêter
+[2025-04-29T11:31:50.478Z] starting launcher...
+[2025-04-29T11:31:50.486Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:31:50.486Z] Commande CLOSE reçue
+[2025-04-29T11:31:50.487Z] Aucun processus à arrêter
+[2025-04-29T11:31:50.811Z] starting launcher...
+[2025-04-29T11:31:50.819Z] Message reçu: {"command":"start","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:31:50.820Z] Commande START reçue, chemin: /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news
+[2025-04-29T11:31:50.826Z] Processus lancé avec PID 1920580
+[2025-04-29T11:31:51.620Z] Erreur d'exécution: Command failed: npm run start
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:31:51.620Z] Stderr: node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:32:41.518Z] starting launcher...
+[2025-04-29T11:32:41.524Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:32:41.524Z] Commande CLOSE reçue
+[2025-04-29T11:32:41.525Z] Aucun processus à arrêter
+[2025-04-29T11:32:41.773Z] starting launcher...
+[2025-04-29T11:32:41.780Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:32:41.780Z] Commande CLOSE reçue
+[2025-04-29T11:32:41.780Z] Aucun processus à arrêter
+[2025-04-29T11:32:41.783Z] starting launcher...
+[2025-04-29T11:32:41.797Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:32:41.798Z] Commande CLOSE reçue
+[2025-04-29T11:32:41.798Z] Aucun processus à arrêter
+[2025-04-29T11:32:43.340Z] starting launcher...
+[2025-04-29T11:32:43.356Z] Message reçu: {"command":"start","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:32:43.357Z] Commande START reçue, chemin: /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news
+[2025-04-29T11:32:43.366Z] Processus lancé avec PID 1921033
+[2025-04-29T11:32:45.429Z] Erreur d'exécution: Command failed: npm run start
+node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:32:45.430Z] Stderr: node:events:495
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+    at listenInCluster (node:net:1859:12)
+    at Server.listen (node:net:1947:7)
+    at Function.listen (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/index.js:92:5)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1838:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3001
+}
+
+Node.js v18.19.1
+
+[2025-04-29T11:51:23.353Z] starting launcher...
+[2025-04-29T11:51:23.357Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:51:23.358Z] Commande CLOSE reçue
+[2025-04-29T11:51:23.358Z] Aucun processus à arrêter
+[2025-04-29T11:51:23.422Z] starting launcher...
+[2025-04-29T11:51:23.425Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:51:23.425Z] Commande CLOSE reçue
+[2025-04-29T11:51:23.425Z] Aucun processus à arrêter
+[2025-04-29T11:51:23.437Z] starting launcher...
+[2025-04-29T11:51:23.440Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:51:23.441Z] Commande CLOSE reçue
+[2025-04-29T11:51:23.441Z] Aucun processus à arrêter
+[2025-04-29T11:51:25.099Z] starting launcher...
+[2025-04-29T11:51:25.103Z] Message reçu: {"command":"close","projectPath":"/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news"}
+[2025-04-29T11:51:25.103Z] Commande CLOSE reçue
+[2025-04-29T11:51:25.103Z] Aucun processus à arrêter
+[2025-04-29T11:51:25.104Z] Exception non capturée: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:963:11)
+    at Socket._write (node:net:975:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at sendNativeMessage (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:32:20)
+    at /home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:73:17
+    at stopCurrentProcess (/home/adrien.parrochia/go/src/github.com/trading-prediction-with-news/launcher.js:109:9)

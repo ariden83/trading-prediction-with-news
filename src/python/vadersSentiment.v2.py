@@ -21,10 +21,10 @@ up_keywords = {
     'approaches one-month highs', 'approaches one-month high',
 }
 down_keywords = {'dives',
-    'fall', 'falls', 'fell', 'decrease', 'decreases', 'decreased', 'down',
+    'fall', 'falls', 'fell', 'decrease', 'decreases', 'decreased', 'down', 'trains by',
     'drop', 'dropped', 'slip', 'slipped', 'plunge', 'plunged', 'tumble',
     'tumbled', 'sink', 'sank', 'plummet', 'plummeted', 'dive', 'dived', 'approaches one-month low',
-    'crash', 'crashed', 'collapse', 'collapsed', 'slump', 'slumped', 'settles down',
+    'crash', 'crashed', 'collapse', 'collapsed', 'slump', 'slumped', 'settles down', 'benefit melt'
 }
 
 

@@ -1,0 +1,68 @@
+[2025-04-27T22:16:38.872Z] Launcher démarré
+[2025-04-27T22:16:38.877Z] Taille lue: {"command":"start","projectPath":"/path/to/ton/projet"}
+
+[2025-04-27T22:16:38.877Z] Message de taille 0 reçu
+[2025-04-27T22:16:38.877Z] Taille du contenu lu: null
+[2025-04-27T22:16:38.877Z] Erreur: Impossible de lire le contenu du message
+[2025-04-27T22:16:38.877Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:16:38.878Z] Taille lue: null
+[2025-04-27T22:16:38.878Z] Erreur: Impossible de lire la taille du message ou aucun message reçu
+[2025-04-27T22:16:38.878Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:17:53.900Z] Launcher démarré
+[2025-04-27T22:17:53.907Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:17:53.907Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:18:10.967Z] Launcher démarré
+[2025-04-27T22:18:10.977Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:18:10.977Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:18:24.999Z] Launcher démarré
+[2025-04-27T22:18:25.007Z] Taille lue: 0
+[2025-04-27T22:18:25.007Z] Erreur: Impossible de lire le contenu du message
+[2025-04-27T22:18:25.007Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:18:25.007Z] Taille lue: 0
+[2025-04-27T22:18:25.008Z] Erreur: Impossible de lire le contenu du message
+[2025-04-27T22:18:25.008Z] Message reçu non reconnu ou mal formaté
+[2025-04-27T22:19:48.494Z] Message complet reçu: {"command":"start","projectPath":"/path/to/ton/projet"}
+
+[2025-04-27T22:19:48.496Z] Message décodé: {"command":"start","projectPath":"/path/to/ton/projet"}
+[2025-04-27T22:19:48.496Z] Exécution de 'npm run start' dans /path/to/ton/projet
+[2025-04-27T22:19:48.500Z] Erreur d'exécution: spawn /bin/sh ENOENT
+[2025-04-27T22:19:48.500Z] Stderr:
+[2025-04-27T22:21:28.142Z] Message complet reçu: {"command":"start","projectPath":"/path/to/ton/projet"}
+
+[2025-04-27T22:21:28.144Z] Message décodé: {"command":"start","projectPath":"/path/to/ton/projet"}
+[2025-04-27T22:21:28.144Z] Exécution de 'npm run start' dans /path/to/ton/projet
+[2025-04-27T22:21:28.148Z] Erreur d'exécution: spawn /bin/sh ENOENT
+[2025-04-27T22:21:28.148Z] Stderr:
+[2025-04-27T22:28:00.735Z] Message complet reçu: {"command":"start","projectPath":"/path/to/ton/projet"}
+
+[2025-04-27T22:28:00.737Z] Message décodé: {"command":"start","projectPath":"/path/to/ton/projet"}
+[2025-04-27T22:28:00.738Z] Exécution de 'npm run start' dans /path/to/ton/projet
+[2025-04-27T22:28:00.744Z] Erreur lors du traitement du message: Cannot read properties of undefined (reading 'toString')
+[2025-04-27T22:28:00.747Z] Erreur d'exécution: spawn /bin/sh ENOENT
+[2025-04-27T22:28:00.747Z] Stderr:
+[2025-04-27T22:28:47.754Z] Message complet reçu: {"command":"start","projectPath":"/path/to/ton/projet"}
+
+[2025-04-27T22:28:47.755Z] Message décodé: {"command":"start","projectPath":"/path/to/ton/projet"}
+[2025-04-27T22:28:47.755Z] Exécution de 'npm run start' dans /path/to/ton/projet
+[2025-04-27T22:28:47.759Z] Erreur d'exécution: spawn /bin/sh ENOENT
+[2025-04-27T22:28:47.760Z] Stderr:
+[2025-04-27T22:29:01.528Z] Message complet reçu: {"command":"start","projectPath":"."}
+
+[2025-04-27T22:29:01.530Z] Message décodé: {"command":"start","projectPath":"."}
+[2025-04-27T22:29:01.530Z] Exécution de 'npm run start' dans .
+[2025-04-27T22:31:20.068Z] Message complet reçu: {"command":"start","projectPath":"."}
+
+[2025-04-27T22:31:20.070Z] Message décodé: {"command":"start","projectPath":"."}
+[2025-04-27T22:31:20.070Z] Exécution de 'npm run start' dans .
+[2025-04-27T22:31:30.242Z] Message complet reçu: {"command":"start","projectPath":"."}
+
+[2025-04-27T22:31:30.244Z] Message décodé: {"command":"start","projectPath":"."}
+[2025-04-27T22:31:30.244Z] Exécution de 'npm run start' dans .
+[2025-04-27T22:35:07.118Z] Message complet reçu: {"command":"start","projectPath":"."}
+
+[2025-04-27T22:35:07.120Z] Message décodé: {"command":"start","projectPath":"."}
+[2025-04-27T22:35:07.120Z] Exécution de 'npm run start' dans .
+[2025-04-28T07:35:50.914Z] Erreur: Impossible de lire la taille du message
+[2025-04-28T07:35:50.915Z] Message reçu non reconnu ou mal formaté
+[2025-04-28T07:35:50.915Z] Erreur: Impossible de lire la taille du message ou aucun message reçu
+[2025-04-28T07:35:50.917Z] Message reçu non reconnu ou mal formaté
