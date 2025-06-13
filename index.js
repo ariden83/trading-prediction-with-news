@@ -7,10 +7,27 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
+const { createServer } = require('http');
 const appService = require('./src/app');
+
+// Configuration WebSocket
+const ENABLE_WEBSOCKET = process.env.ENABLE_WEBSOCKET === 'true';
 
 // Création de l'application Express
 const app = express();
+const server = createServer(app);
+
+let io = null;
+if (ENABLE_WEBSOCKET) {
+    const { Server } = require('socket.io');
+    io = new Server(server, {
+        cors: {
+            origin: "*",
+            methods: ["GET", "POST"]
+        }
+    });
+}
+
 const port = process.env.PORT || 3001; // Utilisation du port 3001 au lieu de 3000
 
 // Configuration des middlewares
@@ -88,8 +105,76 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+// Configuration du système de vérification périodique des news
+const NEWS_CHECK_INTERVAL = process.env.NEWS_CHECK_INTERVAL || 15 * 60 * 1000; // 15 minutes par défaut
+
+// Fonction pour vérifier les news périodiquement
+async function checkNewsPeriodicaly() {
+    try {
+        console.log('Vérification périodique des news...');
+        const news = await appService.getNews();
+        console.log(`${news.length} actualités récupérées à ${new Date().toISOString()}`);
+        
+        // Diffusion des nouvelles actualités via WebSocket (si activé)
+        if (ENABLE_WEBSOCKET && io) {
+            io.emit('news_update', {
+                timestamp: new Date().toISOString(),
+                count: news.length,
+                news: news.slice(0, 10) // Envoie les 10 dernières actualités
+            });
+        }
+    } catch (error) {
+        console.error('Erreur lors de la vérification périodique des news:', error);
+    }
+}
+
+// Configuration des WebSockets (si activé)
+if (ENABLE_WEBSOCKET && io) {
+    io.on('connection', (socket) => {
+        console.log('Client connecté:', socket.id);
+        
+        // Envoie les données initiales au client
+        socket.emit('connected', {
+            message: 'Connexion WebSocket établie',
+            timestamp: new Date().toISOString()
+        });
+        
+        // Gestion des événements personnalisés
+        socket.on('request_news', async () => {
+            try {
+                const news = await appService.getNews();
+                socket.emit('news_response', {
+                    timestamp: new Date().toISOString(),
+                    news: news.slice(0, 20)
+                });
+            } catch (error) {
+                socket.emit('error', { message: 'Erreur lors de la récupération des news' });
+            }
+        });
+        
+        socket.on('disconnect', () => {
+            console.log('Client déconnecté:', socket.id);
+        });
+    });
+}
+
 // Démarrage du serveur
-app.listen(port, () => {
+server.listen(port, () => {
     console.log(`Serveur démarré sur http://localhost:${port}`);
     console.log(`API disponible sur http://localhost:${port}/api`);
+    
+    if (ENABLE_WEBSOCKET) {
+        console.log(`WebSocket disponible sur ws://localhost:${port}`);
+    } else {
+        console.log(`WebSocket désactivé (utilisez ENABLE_WEBSOCKET=true pour l'activer)`);
+    }
+    
+    // Démarrage de la vérification périodique des news
+    console.log(`Démarrage de la vérification périodique des news toutes les ${NEWS_CHECK_INTERVAL / 1000 / 60} minutes`);
+    
+    // Première vérification immédiate
+    checkNewsPeriodicaly();
+    
+    // Vérification périodique
+    setInterval(checkNewsPeriodicaly, NEWS_CHECK_INTERVAL);
 });
