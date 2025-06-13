@@ -1,0 +1,3617 @@
+[
+  {
+    "title": "Le pétrole relâche une partie de ses gains",
+    "date": "2025-06-12",
+    "timestamp": 1749756600000,
+    "url": "https://prixdubaril.com/news-petrole/73533-le-petrole-relache-une-partie-de-ses-gai.html",
+    "source": "prixdubaril.com",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Le pétrole relâche une partie de ses gains",
+      "txt_translated": "Oil releases part of its earnings",
+      "txt_final": "Oil releases part of its earnings"
+    }
+  },
+  {
+    "title": "Le pétrole revient sur une partie des hausses liées aux tensions entre les Etats-Unis et l'Iran",
+    "date": "2025-06-12",
+    "timestamp": 1749722400000,
+    "url": "https://prixdubaril.com/news-petrole/73531-le-petrole-revient-sur-une-partie-des-ha.html",
+    "source": "prixdubaril.com",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.132,
+      "neu": 0.732,
+      "pos": 0.137,
+      "compound": 0.0258,
+      "txt_original": "Le pétrole revient sur une partie des hausses liées aux tensions entre les Etats-Unis et l'Iran",
+      "txt_translated": "Oil is back on part of the increases linked to tensions between the United States and Iran",
+      "txt_final": "Oil is back on part of the increases linked to tensions between the United States and Iran"
+    }
+  },
+  {
+    "title": "TotalEnergies et Mistral AI annoncent un partenariat",
+    "date": "2025-06-12",
+    "timestamp": 1749714660000,
+    "url": "https://prixdubaril.com/news-petrole/73530-totalenergies-et-mistral-ai-annoncent-un.html",
+    "source": "prixdubaril.com",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "TotalEnergies et Mistral AI annoncent un partenariat",
+      "txt_translated": "Totalnergies and Mistral I have announced a partnership",
+      "txt_final": "Totalnergies and Mistral I have announced a partnership"
+    }
+  },
+  {
+    "title": "Le pétrole bondit, entre risques géopolitiques et négociations commerciales",
+    "date": "2025-06-11",
+    "timestamp": 1749671400000,
+    "url": "https://prixdubaril.com/news-petrole/73529-le-petrole-bondit-entre-risques-geopolit.html",
+    "source": "prixdubaril.com",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Le pétrole bondit, entre risques géopolitiques et négociations commerciales",
+      "txt_translated": "Oil jumped, between geopolitical risks and commercial negotiations",
+      "txt_final": "Oil jumped"
+    }
+  },
+  {
+    "title": "Le pétrole entre optimisme sur la guerre commerciale et pessimisme sur l'excèsde production",
+    "date": "2025-06-11",
+    "timestamp": 1749638700000,
+    "url": "https://prixdubaril.com/news-petrole/73528-le-petrole-entre-optimisme-sur-la-guerre.html",
+    "source": "prixdubaril.com",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.358,
+      "neu": 0.447,
+      "pos": 0.196,
+      "compound": -0.4404,
+      "txt_original": "Le pétrole entre optimisme sur la guerre commerciale et pessimisme sur l'excèsde production",
+      "txt_translated": "Oil between optimism on trade war and pessimism on excess production",
+      "txt_final": "Oil between optimism on trade war and pessimism on excess production"
+    }
+  },
+  {
+    "title": "Le pétrole recule, attentiste face aux discussions entre Washington et Pékin",
+    "date": "2025-06-10",
+    "timestamp": 1749584040000,
+    "url": "https://prixdubaril.com/news-petrole/73527-le-petrole-recule-attentiste-face-aux-di.html",
+    "source": "prixdubaril.com",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Le pétrole recule, attentiste face aux discussions entre Washington et Pékin",
+      "txt_translated": "Oil is retreating, wait -and -by in the face of discussions between Washington and Beijing",
+      "txt_final": "Oil is retreating"
+    }
+  },
+  {
+    "title": "Le pétrole augmente petit à petit avec l'optimisme sur les discussions Pékin-Washington",
+    "date": "2025-06-10",
+    "timestamp": 1749550800000,
+    "url": "https://prixdubaril.com/news-petrole/73526-le-petrole-augmente-petit-a-petit-avec-l.html",
+    "source": "prixdubaril.com",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.696,
+      "pos": 0.304,
+      "compound": 0.5423,
+      "txt_original": "Le pétrole augmente petit à petit avec l'optimisme sur les discussions Pékin-Washington",
+      "txt_translated": "Oil is gradually increasing with optimism on Beijing-Washington discussions",
+      "txt_final": "Oil is gradually increasing with optimism on Beijing-Washington discussions"
+    }
+  },
+  {
+    "title": "Le pétrole avance, poussé par le flou autour du nucléaire iranien",
+    "date": "2025-06-09",
+    "timestamp": 1749495540000,
+    "url": "https://prixdubaril.com/news-petrole/73525-le-petrole-avance-pousse-par-le-flou-aut.html",
+    "source": "prixdubaril.com",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Le pétrole avance, poussé par le flou autour du nucléaire iranien",
+      "txt_translated": "Oil advances, pushed by the vagueness around Iranian nuclear power",
+      "txt_final": "Oil advances"
+    }
+  },
+  {
+    "title": "Oil prices jumps 4% to 2-month high as tensions rise in Middle East - Reuters",
+    "date": "2025-06-11",
+    "timestamp": 1749669414000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ2kwWGNQVnJNYjhQY0pwQzJWWFBKY0d5bDdJOEwzbmx2UXJBRkRfQ2NCMUpkZnVJbTJEZnYwVV9PWVZNblpHTHczYm9FeU5tdW84Z080S3k3ajRFU0dyRmg5NGgzYlRkNmpLUUhtUXdBWDJBem9CVmtNYXJkcWRRajJ3cncxWFdMTzBCNjh2WE5SZGtnZ1d0M3N2bGpwYTNGa0RsRzVsVm5YS0VfU3hDdg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.162,
+      "neu": 0.838,
+      "pos": 0,
+      "compound": -0.4019,
+      "txt_original": "Oil prices jumps 4% to 2-month high as tensions rise in Middle East - Reuters",
+      "txt_translated": "Oil prices jumps 4% to 2-month high as tensions rise in Middle East - Reuters",
+      "txt_final": "Oil prices jumps 4% to 2-month high as tensions rise in Middle East - Reuters"
+    }
+  },
+  {
+    "title": "Crude climbs on US jobs report, China talks - Reuters",
+    "date": "2025-06-06",
+    "timestamp": 1749241159000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNkdmWTFxZDJwdU9ESzJKcjlpSWgyQzlJLUtkOEwxb2tXSTJRTzVpeDEzM2s2ajRCeHoxVV91emtmUjdzanZNZjhld2g0RFd5RERqQnhpYlk2MXhtSlY4QkdMX3RXMS1aa0JaZWR0Qk1tcHd3SVU4TVNBNml1YkhwNHN2UDEyOTdnWGFoMTExSmRuQUJCYXZ4YlRPdHp6cXNQcTV4Mm1sM193RmJIVHE4T2tZR2dmdw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.425,
+      "neu": 0.575,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Crude climbs on US jobs report, China talks - Reuters",
+      "txt_translated": "Crude climbs on US jobs report, China talks - Reuters",
+      "txt_final": "Crude climbs on US jobs report"
+    }
+  },
+  {
+    "title": "Oil posts weekly gain but remains under supply hike pressure - Reuters",
+    "date": "2025-05-16",
+    "timestamp": 1747378800000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT1BMS190LXdGV2xJNnN6bnV4S1k1OHNYQkRmYkllcFYwU250eEthZVBkWVp3WkVqdGFBSklMNmRiNEo1Uy03cUt0QkNVNjNXT3RSQ3J0X1IweHBuNHVYS1RPTkN1UlFBMGYtMjAzQXRRdV8tRTdBSXVHRERyYVIwZUtxNjJTREtqR1VaaWw4eDJRVjNsYy1PU3E1b3daZDZGc3JVVEdySVFyaHlLNUo0Mg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.187,
+      "neu": 0.667,
+      "pos": 0.147,
+      "compound": -0.1531,
+      "txt_original": "Oil posts weekly gain but remains under supply hike pressure - Reuters",
+      "txt_translated": "Oil posts weekly gain but remains under supply hike pressure - Reuters",
+      "txt_final": "Oil posts weekly gain but remains under supply hike pressure - Reuters"
+    }
+  },
+  {
+    "title": "Oil gains on short-covering, nuclear talks - Reuters",
+    "date": "2025-05-23",
+    "timestamp": 1747983600000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTTh5enpYX28xTUw1ZjBuN18tTVAxVXRnZDlVMWkxUE9HeHdvVUhVNzNUZ3NGV0xFaTFRMGtEQ1N1WFN2R01KejlsTUJpcHIxWG9QbFhOMjlGWHBqSmhTRjFlNlFJNVFveGVqTEo0b3p0UkNuNnFkdVlNaWNnbkZrMTlRcExQUkJ6S0JRQ3REc05VejBSeEpWMmxFem1LY1hCZ3hOTVEzaE1mR2I2a0w3UA?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.556,
+      "pos": 0.444,
+      "compound": 0.34,
+      "txt_original": "Oil gains on short-covering, nuclear talks - Reuters",
+      "txt_translated": "Oil gains on short-covering, nuclear talks - Reuters",
+      "txt_final": "Oil gains on short-covering"
+    }
+  },
+  {
+    "title": "Oil prices hold near 7-week high as market waits for news from US-China trade talks - Reuters",
+    "date": "2025-06-10",
+    "timestamp": 1749583952000,
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQjRScWdObjVibTYxNXJpZTk3SnBjWUtfWGFFWmo4aVVCNHp3QUxvMlFGWG5kWjVhbk8yOGZHMjRkdUJySHozdnp5OWpzbmR6bTlQNVBVWmtLLVFqbVoxUnI1UmFmWVJjdEwyay0zNUFsQnRKYXkybXNSSXJrTlo3YTByZlI1T29VSXhsLVFUMUdfa0tKOUpXZTcyX0UwNWdnenFkWA?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil prices hold near 7-week high as market waits for news from US-China trade talks - Reuters",
+      "txt_translated": "Oil prices hold near 7-week high as market waits for news from US-China trade talks - Reuters",
+      "txt_final": "Oil prices hold near 7-week high as market waits for news from US-China trade talks - Reuters"
+    }
+  },
+  {
+    "title": "Oil gains on supply concerns as wildfires disrupt Canada supply, OPEC+ keeps output plans unchanged - Reuters",
+    "date": "2025-06-02",
+    "timestamp": 1748847600000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPajZ0YnB4MjhJUzJ5WHJER0MteUNQOUl3aGs0cEgwWkg4Ty1XcS0waFFUSDZxa2J2U0xFUXV0M2VnYWlOWXRGMTdkdFl5dmh0S3gybWpSZnp4bDNDYkJCc1U1d0R6Y0F0TXkzT1ZUeFVJWkhIckdUM2Vyb3R3SGlIVFB3N0oyMHVsSEVkT2Z1VF9XZGRYUkFKclVwQk1KcFdpZFVKd3JHcjloT0NSSnVZMVRQclQ3Yjg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.789,
+      "pos": 0.211,
+      "compound": 0.34,
+      "txt_original": "Oil gains on supply concerns as wildfires disrupt Canada supply, OPEC+ keeps output plans unchanged - Reuters",
+      "txt_translated": "Oil gains on supply concerns as wildfires disrupt Canada supply, OPEC+ keeps output plans unchanged - Reuters",
+      "txt_final": "Oil gains on supply concerns as wildfires disrupt Canada supply"
+    }
+  },
+  {
+    "title": "HSBC flags downside risks to Brent price outlook due to OPEC+ supply hikes - Reuters",
+    "date": "2025-06-06",
+    "timestamp": 1749206248000,
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZi1fS0ZmSWloenRMd21waTV5STdZNldfV2R3SzdzbEc3VGJjYUdGZ3NnMEQ4akxreGFvb2E3NWp1ZUFrcGlaa1psUDVRMjB2UWRzcUxNQ3pMcENWS3dIaFkwYTBKZVlMVW1OandtdVBDeXR2dGszN0FPbGQ5ZWUzVThMRklRQzB3WUNyU0NXeWd0VFIxSVcwS1RfRG5ndGZHSWtIcWxDamZaWTJELWhJeE83c0l1MjZpU1BZ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.24,
+      "neu": 0.76,
+      "pos": 0,
+      "compound": -0.4767,
+      "txt_original": "HSBC flags downside risks to Brent price outlook due to OPEC+ supply hikes - Reuters",
+      "txt_translated": "HSBC flags downside risks to Brent price outlook due to OPEC+ supply hikes - Reuters",
+      "txt_final": "HSBC flags downside risks to Brent price outlook due to OPEC+ supply hikes - Reuters"
+    }
+  },
+  {
+    "title": "Oil finishes down on possible OPEC+ output hike - Reuters",
+    "date": "2025-05-30",
+    "timestamp": 1748588400000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdmpmSlAxODhFNm9uWlRRTDR5YTYxNWpJejFJOGVidk1hN19QSlJuSVhSSy1oUVdhSHBUWW1pSWs2UHFTWWpoNGpvaVFHTGN4RmRJbVdlaUFvMTFqTjVlS01Mejc5QjhpcmVkZnVSWTlQTURtTlFDU2NubF91RUh2MW51aFlHc2p3emxoT2lKbUlxUVVjZ2huWWY5SmhQX2RGdmFHM2w1YVhES29MQndPVTY4elg0UQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil finishes down on possible OPEC+ output hike - Reuters",
+      "txt_translated": "Oil finishes down on possible OPEC+ output hike - Reuters",
+      "txt_final": "Oil finishes down on possible OPEC+ output hike - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices ease as US-Iran talks, OPEC+ plans spur supply concerns - Reuters",
+    "date": "2025-05-27",
+    "timestamp": 1748329200000,
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbzllUzlNdlN6TGdYdDRuLTFoTHFVN0E4Y0NqdzN5NWhUQ09ZbVZGckJGSnZRaTJ6bGg2X1UzaHNvajZCRU9oQ1Q4dkxvSmpDem9iYVRDUEpNRXNZbVpLbFh6SHpMYmhWb3BmZm16dzQwcWFQZEQ4Q01NeUFyZnZ5eVFYSWw3QmxMOWc4RDh3VHBEaGViZF92RTdNcVE2Rk1uMXc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.667,
+      "pos": 0.333,
+      "compound": 0.3612,
+      "txt_original": "Oil prices ease as US-Iran talks, OPEC+ plans spur supply concerns - Reuters",
+      "txt_translated": "Oil prices ease as US-Iran talks, OPEC+ plans spur supply concerns - Reuters",
+      "txt_final": "Oil prices ease as US-Iran talks"
+    }
+  },
+  {
+    "title": "Oil gains on supply concerns, investors await July OPEC+ output decision - Reuters",
+    "date": "2025-05-28",
+    "timestamp": 1748415600000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRUQwWWxnbVI3RHVMYW0zenJ2VFI0LVdJYVNlekEzZHgydnlieEZyNm1vOHBSU3g2QUVWMlJPWlFPZldSWmFPZ2wtZ29nYUZNUUpUaXpDWkVUZS01T2EwLWlMR2FBaVdUb1d6TDF1YUM2UEJuUWVTeTVtLXR6NXg5YUZnSjJWS2NIaFFuU0dFT2Fqa0w3d1FyY2dvQXg1dEJzVGQxZWtfdkxYbUp1UmlYU1Z5VQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.625,
+      "pos": 0.375,
+      "compound": 0.34,
+      "txt_original": "Oil gains on supply concerns, investors await July OPEC+ output decision - Reuters",
+      "txt_translated": "Oil gains on supply concerns, investors await July OPEC+ output decision - Reuters",
+      "txt_final": "Oil gains on supply concerns"
+    }
+  },
+  {
+    "title": "Brent crude oil prices drop on demand fears - Reuters",
+    "date": "2025-04-28",
+    "timestamp": 1745823600000,
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdDV6VUxLNFNrb3poemU4VTQ0czV0bmthT3lJUmhJU2VoMDJsUE9HRnZ6d3lxdzk3ZnlCRjhrRzc0ZGJiUzFNNkFPajllVnpJVVVHcXY0NG5ndklWWnJ4cVduVVgwVHRfb05DZ2xaVnh2a01VbHR3azRyYjllN3JmNklnSFVURkFYOXhRaXlCQXppaTdEVl9oMk13bk5yTGlXRVc3VTkzdkdSWUpoVWc2SmNYODVXZWpSajBnM0tmQTB4YzlS?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.627,
+      "neu": 0.373,
+      "pos": 0,
+      "compound": -0.8442,
+      "txt_original": "Brent crude oil prices drop on demand fears - Reuters",
+      "txt_translated": "Brent crude oil prices drop on demand fears - Reuters",
+      "txt_final": "Brent crude oil prices drop on demand fears - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices fall as investors assess US court ruling on Trump tariffs - Reuters",
+    "date": "2025-05-29",
+    "timestamp": 1748502000000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT1RFRWJsYmFzZWdTWjJJUlVjaXJuanRDT0ltSDh1aW1Wd3gzVThGaEpfRnpEdjVzX1BhTjZ3bjllOTJFVVpXN2dURDlzVEtfWGU0Z3VwRDAxOVg2b1N3aFJjclUxU2VLNllOTEVER2V5akJ4Qkw1ODlRV3lMLVViZFFTS3c4bVRFTUJzTHBDMWZ3dHdzWDA4b3BPR2hDQmM?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil prices fall as investors assess US court ruling on Trump tariffs - Reuters",
+      "txt_translated": "Oil prices fall as investors assess US court ruling on Trump tariffs - Reuters",
+      "txt_final": "Oil prices fall as investors assess US court ruling on Trump tariffs - Reuters"
+    }
+  },
+  {
+    "title": "Oil price outlook weakens on OPEC+ hikes, lingering trade concerns - Reuters",
+    "date": "2025-05-30",
+    "timestamp": 1748588400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQUdiVzB3VUdWWFVkMEZMRjR6TjFBbkNHZDd6T2JWRmRYZjJMVFU2Z21OZHF2eTlrRkZPdlpiVEJzQTBTOTJMT0p0YUtzOEt5Q3ZXeUlDQjdxWHN5eTJWeDJKR1pFekt0azhFWkd0ZDNydXdjZ1BsVUVHbHNLRWlWRElSZ0xNOWJidzNSZ2p0UW9Zck11SHNZQUstSUxSWC12QlZIRkFFRXRVY2xOX1d1M2JHTQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.277,
+      "neu": 0.723,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "Oil price outlook weakens on OPEC+ hikes, lingering trade concerns - Reuters",
+      "txt_translated": "Oil price outlook weakens on OPEC+ hikes, lingering trade concerns - Reuters",
+      "txt_final": "Oil price outlook weakens on OPEC+ hikes"
+    }
+  },
+  {
+    "title": "North Sea Crude-Brent weakens, WTI offers don't sell - TradingView",
+    "date": "2025-06-12",
+    "timestamp": 1749751049000,
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUlJSlpWSVdUaXRCT2QxOWZQR1N0a0NJVHlJTWJWc2dEYlFZTlNuOHF4S0JHRFhmZjRwSFRWS2NhWXZSSmlSc1ZsUW93b010WnVPcGRGZGk3RENrazBKZXItUmVOU3RpaHlDdzZPWkdwNElnVFY1WWRUeU5zS2o0SUZyNFljaEljakNjX0ptbHNHSHE3c0x1YTlVVVU2dWhnejd1NDRKc3lRU3I3c19Ec2FvblhJb2xnLXcyMVZB?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.434,
+      "neu": 0.566,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "North Sea Crude-Brent weakens, WTI offers don't sell - TradingView",
+      "txt_translated": "North Sea Crude-Brent weakens, WTI offers don't sell - TradingView",
+      "txt_final": "North Sea Crude-Brent weakens"
+    }
+  },
+  {
+    "title": "Brent, WTI prices climb more $1 on possible Iran crude restriction - Reuters",
+    "date": "2025-04-11",
+    "timestamp": 1744354800000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcHNMWHI5dzlWVW1udDlWZ2dxLVZaVEtSU3BDSEkyVlAyNVc4dDhCd08xUDNkOG0zZzZJaU1oNnB2QjF2RVVaVWMzUWh2YUJ0SVBUZ3FlaUNWc0RzcDQ5b3c5U0M1Ulhlb0JKRE9fdVVFYTd3b0pmbzIyU080alN6c19WcnN4RGY4YnhIV0xTUG9xcDQzUWhwR0ktekd4dVhhczk1ZUZLamZUN1lZRVFTdHpETQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Brent, WTI prices climb more  on possible Iran crude restriction - Reuters",
+      "txt_translated": "Brent, WTI prices climb more  on possible Iran crude restriction - Reuters",
+      "txt_final": "Brent"
+    }
+  },
+  {
+    "title": "Oil prices little changed on geopolitical uncertainty, weak China demand signals - Reuters",
+    "date": "2025-05-20",
+    "timestamp": 1747724400000,
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGxXX1cwVnpfWFp4bUxmNlFaanJFUGI1X3MtUU1QazdlLTB1bUJDLUpYWHBGRUUzVUxvSTVYUk5rSUtCb3FaRmJtNno5NjQ0U2FzYnhTX1BRRzMwbnZibDdKdkRuNjRKa1RRaFZKamJyeEdVdU03OFgxLVdpUW11elhLcGNwdjh2aFRheHdDUGZ0UFVweDIyUGhLanVpVnV2b2lEYkJRQTExU1dzNlE?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.286,
+      "neu": 0.714,
+      "pos": 0,
+      "compound": -0.34,
+      "txt_original": "Oil prices little changed on geopolitical uncertainty, weak China demand signals - Reuters",
+      "txt_translated": "Oil prices little changed on geopolitical uncertainty, weak China demand signals - Reuters",
+      "txt_final": "Oil prices little changed on geopolitical uncertainty"
+    }
+  },
+  {
+    "title": "Oil settles up as signs of US-Iran impasse counter economic concerns - Reuters",
+    "date": "2025-05-19",
+    "timestamp": 1747638000000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTm5FYWdVX2VCMHVTN1ZYZUhfcXlrX2VSNmlXOHAtZHplbndUcTVNX3cwOVRnc0VwX1lRTGVUbUdSZWFQM2ZnZUxQS20zSVdfaHM0SjU5YzFFNkNCU0xYdkRrWDBYaFcxNVVXLXloQUNTZmFfV3VIQzNoTHI1UjNBQmxUb1VVVWZsdVJuazFVc0J5aEFVaVpFbFM5d3ZhOXBRTlZMVzR0MENoZXdTY1VyTU9Law?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil settles up as signs of US-Iran impasse counter economic concerns - Reuters",
+      "txt_translated": "Oil settles up as signs of US-Iran impasse counter economic concerns - Reuters",
+      "txt_final": "Oil settles up as signs of US-Iran impasse counter economic concerns - Reuters"
+    }
+  },
+  {
+    "title": "Oil climbs 2% to 2-week high on geopolitical tensions - Reuters",
+    "date": "2025-06-03",
+    "timestamp": 1748934000000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVkUxZEVBYmczcENSLTIwanpVRFBTYjZaa1NXWWJiZDBBVTRLVVVkZnZCalJ3MnVVYVo4TnhMdUVISkZrN29veFVsVUI2SXR6dngxWFcyWmJicklVS01QYWM4Sm9GMmFKLU8yOHVKYm9nZVNKR3RIN0FMRktyNHplaEdlMTQ0M0NSbmQtU0RNR0hjTzFrYWZtR3Z5c2Y?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.213,
+      "neu": 0.787,
+      "pos": 0,
+      "compound": -0.4019,
+      "txt_original": "Oil climbs 2% to 2-week high on geopolitical tensions - Reuters",
+      "txt_translated": "Oil climbs 2% to 2-week high on geopolitical tensions - Reuters",
+      "txt_final": "Oil climbs 2% to 2-week high on geopolitical tensions - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices settle down on potential further increase in OPEC+ output - Reuters",
+    "date": "2025-05-22",
+    "timestamp": 1747897200000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGVsNDd0d2lYaGZSTTJSNGpyY0w2MjFrNnJhTk9vWDhNQnN6NklELUxLbVpvczR4R1ZpS2RycjdNVnpOWTY5WkV1ajYyLWR5Tm9IUVM3bHlocmVEX0NiZWtEYkJsODVuQmtrWlAxVFRsRDEzMzY1bmdzb2ZVdFVPRjRtajZ3bE1sY1ZldGwzRkhYVnZXbV92ZWJNcGZvaGs?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.839,
+      "pos": 0.161,
+      "compound": 0.3182,
+      "txt_original": "Oil prices settle down on potential further increase in OPEC+ output - Reuters",
+      "txt_translated": "Oil prices settle down on potential further increase in OPEC+ output - Reuters",
+      "txt_final": "Oil prices settle down on potential further increase in OPEC+ output - Reuters"
+    }
+  },
+  {
+    "title": "Oil rises 3% on signs of more Europe and China demand, less US output - Reuters",
+    "date": "2025-05-06",
+    "timestamp": 1746514800000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2JrcTlsUjFod1VocVFYb0RuOGptUktHSmZ5dlMtMTRBUWFHbHJBLXpzeW44R0hhUzRKbnFlSnItY2hfdVd2eV9nY0NxZ2kySUVMMG9fcW1MaHlmSEEyN253VjZ4MVp2QS1Tc2sxeVBxZ0pZY2pOR3RPNFVpZmV6NnI3YWFJa3BwNEk1TVBLUFRxOGhWVkFwYnRWUEg5OTJKV0dRaTFER2V2ZlJYM3ByVlMzekY?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.13,
+      "neu": 0.87,
+      "pos": 0,
+      "compound": -0.128,
+      "txt_original": "Oil rises 3% on signs of more Europe and China demand, less US output - Reuters",
+      "txt_translated": "Oil rises 3% on signs of more Europe and China demand, less US output - Reuters",
+      "txt_final": "Oil rises 3% on signs of more Europe and China demand"
+    }
+  },
+  {
+    "title": "Oil prices settled down 2% on expectations for US-Iran nuclear deal - Reuters",
+    "date": "2025-05-15",
+    "timestamp": 1747292400000,
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaE1aOEM2X0p0Ynh6Y2t2aVYtUG9SS19pMEFMTnZqdmJlREdSaGxDaUNnNzNuWGQtaHZWRDJ6SVFINUZ0Y2lDRzZnMmNHYi15Qnpmb1FGTnBqNzBobEc4Q1k4aU1oMkpOVE9ERVk2dElzVkFkd01faWlyZW8xVFFIUUxUM3FuX0htSVpTSXZPTkRzaW02NE5LaGlZUkR0dEZ2a21hUjEwUWxMY3NTaFQ2WjM2OUc0YWtsS1NpLVI5ZVg3Nkk?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil prices settled down 2% on expectations for US-Iran nuclear deal - Reuters",
+      "txt_translated": "Oil prices settled down 2% on expectations for US-Iran nuclear deal - Reuters",
+      "txt_final": "Oil prices settled down 2% on expectations for US-Iran nuclear deal - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles up on supply hits, traders cautious on Ukraine peace talks - Reuters",
+    "date": "2025-02-18",
+    "timestamp": 1739865600000,
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaDBqSEtkcUdMNDFSMHNyYWJHQ2EySmtiYTFTeTdUbVYycTVvTUh3UVNZZ1FCQk5YNEFNN1drRnYxZktqeUtob3lvbExqZ0RqY2EzQ0Q3bWxzOEI2VjYxSmJpS0FzbmlPclVES21BaTBKTWFqdHZvUlBOOGJPVEVDUUt5NjZfUS1jR3lpdGpPOC04cHpodHBOeDFORHZkOTNwR2ZPemE3NXhpejJhcUktajBSSjdCRWdNc1d1aQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil settles up on supply hits, traders cautious on Ukraine peace talks - Reuters",
+      "txt_translated": "Oil settles up on supply hits, traders cautious on Ukraine peace talks - Reuters",
+      "txt_final": "Oil settles up on supply hits"
+    }
+  },
+  {
+    "title": "Oil posts weekly fall on tariff worry and rising supplies - Reuters",
+    "date": "2025-04-25",
+    "timestamp": 1745564400000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQai1acFM2STRsUkZBeHVMcFBkOWJaQ05uRmVmTDVZY2JySjhTVGFFYi1BXzBTYkpBZG9EQ1dWUEQ2S3dhaXhQTms5UTQwUGduVE43bVdCRzZsUWhBcTVfTDJvdnJ0NXdfdjdjTjhtQ0pTRXUtZDJIWDVFdVRtSGZNZU9QcHlqTFM0SGVHMTlIRUxlZThrQjFRcmNvWjZUSDhjeFY2RFBZX1BCWHVYVm5iTQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.209,
+      "neu": 0.791,
+      "pos": 0,
+      "compound": -0.4404,
+      "txt_original": "Oil posts weekly fall on tariff worry and rising supplies - Reuters",
+      "txt_translated": "Oil posts weekly fall on tariff worry and rising supplies - Reuters",
+      "txt_final": "Oil posts weekly fall on tariff worry and rising supplies - Reuters"
+    }
+  },
+  {
+    "title": "Barclays cuts 2025 Brent oil price forecast on soft demand view - Reuters",
+    "date": "2025-03-14",
+    "timestamp": 1741935600000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNa01pZ3RlS2hZcE5qN3U2UGJxSnBVN01IYjN3aVEyTkRJNnRYS3B4UUtJajZCakZFSEVrRW9ubGJsWTZhNTAzeERSeVBZSmtCOTR5dUIzZDc5QktEMFI5UlM2cU1BWHNOTFFZWWVLTm1hTjJ6aTBDMHJxRFNPeTVzZjVZNVRvMGlFMzFKbUNyaUNKdVI1UGtpQlZWSmEwSkd0VExJVFpDV1hYQ2U4c2prVnVR?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.252,
+      "neu": 0.748,
+      "pos": 0,
+      "compound": -0.4019,
+      "txt_original": "Barclays cuts 2025 Brent oil price forecast on soft demand view - Reuters",
+      "txt_translated": "Barclays cuts 2025 Brent oil price forecast on soft demand view - Reuters",
+      "txt_final": "Barclays cuts 2025 Brent oil price forecast on soft demand view - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles down more than 2% after US crude stocks build, OPEC+ hike, US tariffs - Reuters",
+    "date": "2025-03-05",
+    "timestamp": 1741161600000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPM0dzcjBNOTkzTS1EMzNDeHlpV0V4TVVjT2FuQnlqQmVxX2Vodkh5VWd1SE1DUElxWkZ1QVNkVUR0SlNadEozMzN0REtQMmhUV1g5Um53VjdtZlZHZnQySHBEX090bXZzd040TnlXVVd1QjVYcVcwQ2ZaUnZrWUs1SEw5bFJHQ0V6TkJXM0lIQVctVUxINEdweHM3U0tBbm5jNUtoeDU0MGpXMEg2VVBGNlF2RG1NaWpN?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.27,
+      "neu": 0.73,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil settles down more than 2% after US crude stocks build, OPEC+ hike, US tariffs - Reuters",
+      "txt_translated": "Oil settles down more than 2% after US crude stocks build, OPEC+ hike, US tariffs - Reuters",
+      "txt_final": "Oil settles down more than 2% after US crude stocks build"
+    }
+  },
+  {
+    "title": "Oil dives 7% to lowest in over 3 years on China's tariffs - Reuters",
+    "date": "2025-04-04",
+    "timestamp": 1743750000000,
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVVNNT0lYa0pINjVUSVdoWTQ5RDJ5QXhaSFpzVmhVcXd1cnhLLWo1ZEVybW5mMWF2QVBVUHVpa0tGNzVRYXFyVlZyU29yXzhpQWFrcmQtZFkxZnMwZ2hYOHBDVjNhdEd2WlpEY1FJOUxBM2dIZ29xUEtISHBVd0pMZ0hzamtkTkpNT2E0dTlXamdoUXJCMHJ6NW9RcnozYS02Nlgw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.167,
+      "neu": 0.833,
+      "pos": 0,
+      "compound": -0.3818,
+      "txt_original": "Oil dives 7% to lowest in over 3 years on China's tariffs - Reuters",
+      "txt_translated": "Oil dives 7% to lowest in over 3 years on China's tariffs - Reuters",
+      "txt_final": "Oil dives 7% to lowest in over 3 years on China's tariffs - Reuters"
+    }
+  },
+  {
+    "title": "Oil falls after US crude inventories rise - Reuters",
+    "date": "2025-05-14",
+    "timestamp": 1747206000000,
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbFNIcktWd1QtczNlXzMtbkh6Y0w5UEt3Wi1IQ2loRExrTTZsVzczMGVGRDVJRWc2ZmlyS2dSaFlxSUlzcjRaVi0zODJLdDJudFB5b1hZN0MzYm9GY2ZKZ0tXbFc2Tk9sZU5MX3VXOWVtQ3g1UGlSZzZaaHY0bUlXTUxBVkE1ZnRKNkdVUDNidEt0R1EwSkxhTDVHX3ZnckszcURfdWJ2MmVDZUszZnAyY0dIQWt1Tkp2SW5MQQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.316,
+      "neu": 0.684,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil falls after US crude inventories rise - Reuters",
+      "txt_translated": "Oil falls after US crude inventories rise - Reuters",
+      "txt_final": "Oil falls after US crude inventories rise - Reuters"
+    }
+  },
+  {
+    "title": "Barclays cuts 2025, 2026 Brent crude forecast as OPEC+ accelerates output hikes - Reuters",
+    "date": "2025-05-04",
+    "timestamp": 1746342000000,
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORFRxcDVnQXRJMHdBUkxWUGMzeFhSOW9WdFJlWUtsdl9BTm9pa2hJcGNrVnd3Vk9nUG9peHhiQWJ1VGp3b2tPN2I1V1B0bkthclM1TExIOVFrVU1TYzFJZXJYdm9SOTlWV3NsOUg2WVA5ZUlkdzJWTE12TEhidmIyS2Y5a0E0dHJkOFhETmJ6OWZkZUNrdVpteFlxRE1SdFhSZTlHUEplaXBLQkFsUVlzWEJDVC1ISUdzRW56aXdRTHdWZmdk?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.27,
+      "neu": 0.73,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Barclays cuts 2025, 2026 Brent crude forecast as OPEC+ accelerates output hikes - Reuters",
+      "txt_translated": "Barclays cuts 2025, 2026 Brent crude forecast as OPEC+ accelerates output hikes - Reuters",
+      "txt_final": "2026 Brent crude forecast as OPEC+ accelerates output hikes - Reuters"
+    }
+  },
+  {
+    "title": "Russia's economy ministry cuts 2025 Brent price forecast by nearly 17% - Reuters",
+    "date": "2025-04-21",
+    "timestamp": 1745218800000,
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQlgyVV9zQ0R0RmxXbndVYzlfQk9uY0p2Wk1nWmJjbUR1RkF1MDJnb2FpMmw2NHZGOWVFWlZCSW5iaGdpaTI0S21iOTlMaEptTG5zQTRfSl9YRmJQS1NvT0tEc2YySWg1T3QzcWF5cExrTWplZXNnZ2RLOGFEanlNLVNoXzR2Vm5jaW53QzQ3Q1V4QWVEZElTTzYyQXY2cE9ERXpSNnBjRVFHUUswVDU0TjRuc25pZktWMVJTV0o3cXRwZ19zM3lBXw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.155,
+      "neu": 0.845,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Russia's economy ministry cuts 2025 Brent price forecast by nearly 17% - Reuters",
+      "txt_translated": "Russia's economy ministry cuts 2025 Brent price forecast by nearly 17% - Reuters",
+      "txt_final": "Russia's economy ministry cuts 2025 Brent price forecast by nearly 17% - Reuters"
+    }
+  },
+  {
+    "title": "Oil holds steady; market awaits clarity on OPEC+ next move - Reuters",
+    "date": "2025-05-26",
+    "timestamp": 1748242800000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOek5zUkpRZnozNnZZZXRXMHFfX1NIXzhvQzhkSW9mTnh5WmdyaDlpREJxYzZhMEFqUlI4NUVtTjE2Wmp4MU9RVlFVV01FZkFnZUhQMXJJWEJHZUdvYkVNRHFMTDhDMlo3aVVqclRqa0tOUngzcG9tYU9CeC1fWjhxRllZMDNaaGtwUlJHSU5wMlhObGd3QzJsLW5lSVZMR1JYRUhsbXUteHNIYUIzZUY1cg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil holds steady; market awaits clarity on OPEC+ next move - Reuters",
+      "txt_translated": "Oil holds steady; market awaits clarity on OPEC+ next move - Reuters",
+      "txt_final": "Oil holds steady"
+    }
+  },
+  {
+    "title": "Oil settles down $2, posting weekly loss as Mideast risk premium fades - Reuters",
+    "date": "2025-02-21",
+    "timestamp": 1740124800000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcWNWaXdNNEVwajIxOVJRaTRFZGhWTDBnVVNoOGJZWW1lMDI1Y2xTNXlUSmdHbmZQUlUwU2ZXRE9YM0VNWEF1enJiTnA5WDVmZ3lZZE9KT2xVby1ndWtLQW9mdUx1a1pZRW5lczlDcGFsVHRfRDlnUldrX0NHUDAzbW9PS0VrSnMxWmtXbm95X2VHOTZtaE16OXIyX0ZPOU5ZZmY4MTdTN0Z0eEZ2dWVZakN2bE9kUQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil settles down , posting weekly loss as Mideast risk premium fades - Reuters",
+      "txt_translated": "Oil settles down , posting weekly loss as Mideast risk premium fades - Reuters",
+      "txt_final": "Oil settles down"
+    }
+  },
+  {
+    "title": "Oil prices fall on news that US-Iran will hold nuclear talks - Reuters",
+    "date": "2025-05-21",
+    "timestamp": 1747810800000,
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWkdnOFgyV0Z0dUdjZFFYY21xam9YOWpxczNYRlZveDdFbWVSWDlDWW92X1hxU1ZqSHBod2owUDN5N0R4bGIySVVhRFJLcFQzNVdqTzdzblZzR05FZ2t0anA4eno5aWtYNW1lak9CMVQ1cG56ekxOTzVab284dU1sYnd3dWF3QjdNTUpZSm1XSWJVRnA5bHZya2dlWFVnRWdka0NfWUY2Qll0Vkw1am1OTGg4Y0VFYW5sLTVmeXkxTQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil prices fall on news that US-Iran will hold nuclear talks - Reuters",
+      "txt_translated": "Oil prices fall on news that US-Iran will hold nuclear talks - Reuters",
+      "txt_final": "Oil prices fall on news that US-Iran will hold nuclear talks - Reuters"
+    }
+  },
+  {
+    "title": "Brent crude slips to discount against Dubai - Reuters",
+    "date": "2025-03-19",
+    "timestamp": 1742367600000,
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaG5td2pqc00yclV2bmFNdFBudkl5UUVuMlFwODhmeU11SExqSkJ0UEFWeE42UWwwTzhKU2xSNXBkeWxtTUJTSEFQb3FxOHVrd1J3dEJ4RDByUkZWaUd2bTVUZHlzVi12ZUkyeDFrSTV5VTJPcVRGMEtyWlBUa2tNWEw4VWl4NnF1NElBR1BoeVJrWlBXN2NEdVd4b1JZNGUtVzJoSWpXNkFfdUpLZDYzZHRKUjZTbEdpUVp0Y2ZCY09qV1lid2ZmZg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.316,
+      "neu": 0.684,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Brent crude slips to discount against Dubai - Reuters",
+      "txt_translated": "Brent crude slips to discount against Dubai - Reuters",
+      "txt_final": "Brent crude slips to discount against Dubai - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices settle up nearly 2% on new Iran sanctions, equities rally - Reuters",
+    "date": "2025-04-22",
+    "timestamp": 1745305200000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMExVdG1kNVNqSWhFRlM4VmpWMjhPZ0hqM2FqTkJYemhCYXRVbXRHNUd2UHM2YlF1NGRVekozZ3ZxUTdqWl9DMFNOeVZsUXRCeXl5XzF3RGJqa1hUU0xNVl8xSDNYaUpuY1JXQXpjVElXdmlVenZmeTVpZVNUS3Z4TGRYQkZsU0lYR21FVTJlZmViRmVza3VEbnRHekNtNFVmcWdfbXNTLUEyQmRKWFNv?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil prices settle up nearly 2% on new Iran sanctions, equities rally - Reuters",
+      "txt_translated": "Oil prices settle up nearly 2% on new Iran sanctions, equities rally - Reuters",
+      "txt_final": "Oil prices settle up nearly 2% on new Iran sanctions"
+    }
+  },
+  {
+    "title": "Oil posts biggest weekly loss in a month ahead of OPEC+ meeting - Reuters",
+    "date": "2025-05-02",
+    "timestamp": 1746169200000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVzVBYUFTWV9SZHRhNmN5dTlCSkVjRHFPYklfYlF6Tnltc2NyVHdHeDdjU0szck9fSHJyNFdEbkhBcC1IVFUzUG10bV83WTZ2eXBjWnJOVWp6SWdrVDY5ZE16X1otV1R1OHBTYnlxVHpaRHdfOVpPdzRaSVNGQjVTYXhjTXlvYV9vNEVjNUpvLUk0OExBNjB2STNYODV5MjZfS0I5ZUUwR1NyYlU?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.15,
+      "neu": 0.85,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "Oil posts biggest weekly loss in a month ahead of OPEC+ meeting - Reuters",
+      "txt_translated": "Oil posts biggest weekly loss in a month ahead of OPEC+ meeting - Reuters",
+      "txt_final": "Oil posts biggest weekly loss in a month ahead of OPEC+ meeting - Reuters"
+    }
+  },
+  {
+    "title": "Brent futures, options volumes surpass pandemic record as oil market reels - Reuters",
+    "date": "2025-04-07",
+    "timestamp": 1744009200000,
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbUhlbk5MdXRnZnhadzVaUFFFbkxUN0dyc2hLdGd2REt3aC0ySmJfOU1YWERGaFEtQzFYTVVIdndfa1Q4ZWRwd0Y3WlU0UkFxRDNlWHAtV29tU1pGZER0NktuNEFGSkdNT2dmbm1sTnBnZjBEbm9wTzdrTGRVMHFtS0lJSWhzdDNidnhaV25UY09xV3dES0ptY2hPT2RBRTV2aUlrRWF4TXQ0a3J5Sl9PTUlnc0ZIYzJCeGFaS0tIVFJmYnhW?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Brent futures, options volumes surpass pandemic record as oil market reels - Reuters",
+      "txt_translated": "Brent futures, options volumes surpass pandemic record as oil market reels - Reuters",
+      "txt_final": "Brent futures"
+    }
+  },
+  {
+    "title": "Oil prices settle $1 higher after US issues new Iran-related sanctions - Reuters",
+    "date": "2025-03-20",
+    "timestamp": 1742454000000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUl9oeXA0aTgzbkxQbEVPQ3dVMVJ4TDZLQ3J3RmR0NjRUck9Vd1V0enVaSjlqZm9VdVdMdzE5aTRxeFZUUlZaUlRHRWNrZWQwSS1YUUN5eWpqY3kxRGpaUHF4amNFeUo0SlBsdXlTSDNwUWY0YTZsQUhEYWc3bmFmUkRWbWdkV2hYSE5GM3dDZkRBOWpESGhjQVJ2Yzg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil prices settle  higher after US issues new Iran-related sanctions - Reuters",
+      "txt_translated": "Oil prices settle  higher after US issues new Iran-related sanctions - Reuters",
+      "txt_final": "Oil prices settle  higher after US issues new Iran-related sanctions - Reuters"
+    }
+  },
+  {
+    "title": "Goldman sees downside risks to 2025-2026 Brent forecasts amid OPEC+ output increase - Reuters",
+    "date": "2025-03-04",
+    "timestamp": 1741075200000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdEtmb25OdnNVdFRKM3dMTmJjR0pIYk5YZEZfTDktY1lWMUhDU3hLNWwtdDVDYW1hWDNwMzJCcGQwcVdIam1hMHJHUUYzOTNOdkh0VVF1dWJPOFhPUFN1aVZRaTdUdGlyN2lqNU5JcnJSSHc1TGc2TFNSYzVsZS0tVW5tSmdxVVBrSERwalp4eDRPQmdEc2VyTElDLThmdlBUOFlvbzBMNkdCb1k?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.632,
+      "pos": 0.132,
+      "compound": -0.2023,
+      "txt_original": "Goldman sees downside risks to 2025-2026 Brent forecasts amid OPEC+ output increase - Reuters",
+      "txt_translated": "Goldman sees downside risks to 2025-2026 Brent forecasts amid OPEC+ output increase - Reuters",
+      "txt_final": "Goldman sees downside risks to 2025-2026 Brent forecasts amid OPEC+ output increase - Reuters"
+    }
+  },
+  {
+    "title": "Oil slips on recession fears but posts 3rd weekly gain - Reuters",
+    "date": "2025-03-28",
+    "timestamp": 1743145200000,
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRWtoZU1IdmtXdndNclB3eVlfX3k4Z2ZEVDBhYW04Z2FmN2hVWlhMSEJrWnN1U1l5bkQ5by1Cc0hjZllIemlLeWs5RnJXQjNxUHR5cEJvb0hMREJIT2UxOVhPV1g2ZUl5ZHE4SW9SXzA1WHY5TF9IRDUyNXJoM2RIQnlwV19wc0h6MzcweUgzT21PaFZLbXRuWGtHLWZFeGNscWwtM3JxdC1KUWZTSHZQcnlXNXBqZVVnYXRj?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.218,
+      "neu": 0.517,
+      "pos": 0.264,
+      "compound": 0.4215,
+      "txt_original": "Oil slips on recession fears but posts 3rd weekly gain - Reuters",
+      "txt_translated": "Oil slips on recession fears but posts 3rd weekly gain - Reuters",
+      "txt_final": "Oil slips on recession fears but posts 3rd weekly gain - Reuters"
+    }
+  },
+  {
+    "title": "Oil producers seek to shore up finances amid crude price plunge - Reuters",
+    "date": "2025-04-10",
+    "timestamp": 1744268400000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0RWbURCbXFPbkNBSE9wVHJ0XzY3cnpJamtKTW5SV2lBZFBPNEVkeUlIZW5WdkNTQWxSYkZKSVc5YVhvOEFzcVZMWW1XUVlQT05OblBLak5lR3ZoMDRfcWRsbk1USnV0VGpWN2h0ZmE4eFAyS2VtdXdJYWhvSWpNd3hyYVdQWFVhT1FVcjl1WHVuYWxsLXRYN0dTb1NVQmV2UTBBMnVxamd4UnJJeGVleFYwTW5qSkk?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.764,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil producers seek to shore up finances amid crude price plunge - Reuters",
+      "txt_translated": "Oil producers seek to shore up finances amid crude price plunge - Reuters",
+      "txt_final": "Oil producers seek to shore up finances amid crude price plunge - Reuters"
+    }
+  },
+  {
+    "title": "HSBC lowers Brent price forecasts on trade tensions, sluggish oil demand - Reuters",
+    "date": "2025-04-15",
+    "timestamp": 1744700400000,
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUzhNXzNtMUJFWWxsWjVOVF9iYlBTa0xEN0EtRVItZU1pekUtb1dTZmdFZ1ZUb2Z6TmhIVGRnZXh6dHRTeWZRcERzNUZEVFVDSmo4M2tJVDN6NlhPbmhtN1drRzVaOWlhVi05blBoNjV0cm8tNnZqbjNUZS1OVzM3MGpKVVJJN25aRzZJMVJqc0NaYkIxUkl4LU52c0dIRExPYnR4UkVOemtqQnVEZGdJOG1HeVNsMFFGWUY0VQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.412,
+      "neu": 0.588,
+      "pos": 0,
+      "compound": -0.4939,
+      "txt_original": "HSBC lowers Brent price forecasts on trade tensions, sluggish oil demand - Reuters",
+      "txt_translated": "HSBC lowers Brent price forecasts on trade tensions, sluggish oil demand - Reuters",
+      "txt_final": "HSBC lowers Brent price forecasts on trade tensions"
+    }
+  },
+  {
+    "title": "Oil falls 2% after sources say OPEC+ to mull accelerating output - Reuters",
+    "date": "2025-04-23",
+    "timestamp": 1745391600000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1IwRmk4TGp2ZTFZT21YdllBOUNqcm4tb3ExWXNnbHZfcmRqaDZpcllGWGMwRTBuMlliWTB1Vk1OOUJXalNiM3dsYUdwU1F4dWFmM25HbWF4UmhlaGJ6cThnTlRZTWFjMTE3VDhDZTRfVU1CR2JtbnRLR2J3NmthSy02VzctTGpuZW5nNFMxSEZnSGZvcE56N211bkQ0NEp4?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil falls 2% after sources say OPEC+ to mull accelerating output - Reuters",
+      "txt_translated": "Oil falls 2% after sources say OPEC+ to mull accelerating output - Reuters",
+      "txt_final": "Oil falls 2% after sources say OPEC+ to mull accelerating output - Reuters"
+    }
+  },
+  {
+    "title": "Crude oil climbs more than $1.60 a barrel on tariff cuts, economic outlook - Reuters",
+    "date": "2025-05-13",
+    "timestamp": 1747119600000,
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ3lFaExsMGRFeU5SWk1STG1LRERYcGNZVndzWFJfaFBzQU5NNGt1dHVMZk5kSjFsdHFudHp2T1FaSDQta1dpWVBOZ3o1ZzNqMmlPYXlHak03ZGppb2dyanc2dWdTdlNtdHFvazR2R0RTQTBYeXdwd1oySXNqOV9kYXU4N0E2MmtQSzhqVGc4aHVGZWdZa05jQmtCM3l5bjlhSTVwdEtBbkZTWVFMQmhJZm9NX29SbGlkWTdtMQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.396,
+      "neu": 0.604,
+      "pos": 0,
+      "compound": -0.7096,
+      "txt_original": "Crude oil climbs more than .60 a barrel on tariff cuts, economic outlook - Reuters",
+      "txt_translated": "Crude oil climbs more than .60 a barrel on tariff cuts, economic outlook - Reuters",
+      "txt_final": "Crude oil climbs more than .60 a barrel on tariff cuts"
+    }
+  },
+  {
+    "title": "Oil ends at four-year lows as OPEC+ accelerates output hikes - Reuters",
+    "date": "2025-05-05",
+    "timestamp": 1746428400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeUkxTWk2ZkJYM0hWOGtJRTJuZWw5UGNKeUtnaWZtaWVscjJYdFVISGtpSmFPVTB3SGVnWVRSVDVvS21FTVJISVN0VnJPb0k5MlpzZWpxVTY5dzg5Q196QVdEMEZMdHBFSVd3akhHUmtHWll1SlU5ZUlQY2VQYXZTUmpyVTBWNC1zMHR3NEhsQWdGTzZ3dDBqQ2tVS2dSRUo1V2ZoWlljRmI2X2JnbkpqN3JYWQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.141,
+      "neu": 0.859,
+      "pos": 0,
+      "compound": -0.2023,
+      "txt_original": "Oil ends at four-year lows as OPEC+ accelerates output hikes - Reuters",
+      "txt_translated": "Oil ends at four-year lows as OPEC+ accelerates output hikes - Reuters",
+      "txt_final": "Oil ends at four-year lows as OPEC+ accelerates output hikes - Reuters"
+    }
+  },
+  {
+    "title": "Brent settles down, hit 6-month low on OPEC+ output rise, tariffs, Ukraine news - Reuters",
+    "date": "2025-03-04",
+    "timestamp": 1741075200000,
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLURqTV9wajlYUVZZSmNXa2FtcFRQR08yUmRjeXN2TUFDY19yTzdJVUlWbVQzVmhNSHdIRHY2eGQ5OElxS29zOWp1NWplUlhCREVEcV9TcW1zS3hpXzhtRmJRWmJPTTBJQTNydTRyZDFxZmZOZjc3ajlsbUZZNmxNY1JTbVA1ZjRwZ0YtT1NvZ2JuYmd3SjI2aGtNMFI4VnFzel9TQzZQV3VhOFJ1ajJrOHJBTXR3RzBKMWNr?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Brent settles down, hit 6-month low on OPEC+ output rise, tariffs, Ukraine news - Reuters",
+      "txt_translated": "Brent settles down, hit 6-month low on OPEC+ output rise, tariffs, Ukraine news - Reuters",
+      "txt_final": "Brent settles down"
+    }
+  },
+  {
+    "title": "Oil prices settle up at 2-week high as US, China ease tariffs - Reuters",
+    "date": "2025-05-12",
+    "timestamp": 1747033200000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdlZJTEdWbE1UdnBXNGxvN3FmcW9lMDU2Q0ZTbVA0NXlRTG5yNmNjdUNuNUowZThXWTFaT3Z5WGhuVDlkbk9nOEQzUVQ2OXZ3RGhEMUZuWDBnY0NqX2dZby1KVnlhRUY2TjJSd1lKMVI2elQ0ZTVUSml4M19aLUN5LWhQV2h1ZWpic0p4WXE4dDE0SzUzMlpVVVBpMHJseDVvdGViUWVId1Z6cFNyZ2FsSjBlUWg?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil prices settle up at 2-week high as US, China ease tariffs - Reuters",
+      "txt_translated": "Oil prices settle up at 2-week high as US, China ease tariffs - Reuters",
+      "txt_final": "Oil prices settle up at 2-week high as US"
+    }
+  },
+  {
+    "title": "Oil up 2% on tighter US supplies but tariff concerns loom - Reuters",
+    "date": "2025-03-12",
+    "timestamp": 1741762800000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTZGMWxYb1NuRFk4MkhOaGdnR3k2T0kzMTFqTFpxX2dfRUdpZ1gzWkNGYlZ6dVI4QVBYQzdXMjdvQXRObEpjNGR6RHNwQ1ZQdTNuMm1aSDBoRW9TLU1lWVFQeFM5bWlQVG51ajktLWpLeGtYeU1uM293S2FBRkk5NEQ5Ry1jcE5JTUcxRGM5LURZQ0M3QzY0dXVVRWhtMDVlR2docm5BWVlESEdzNkJ6Q1dRLWF0WkhH?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.164,
+      "neu": 0.836,
+      "pos": 0,
+      "compound": -0.3291,
+      "txt_original": "Oil up 2% on tighter US supplies but tariff concerns loom - Reuters",
+      "txt_translated": "Oil up 2% on tighter US supplies but tariff concerns loom - Reuters",
+      "txt_final": "Oil up 2% on tighter US supplies but tariff concerns loom - Reuters"
+    }
+  },
+  {
+    "title": "Barclays cuts 2025 Brent crude forecast on trade tensions, OPEC+ shifts - Reuters",
+    "date": "2025-04-28",
+    "timestamp": 1745823600000,
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObjRSd1VGWWRKVVQzNFZPS0ZxUE9USGVuVkwwaXF4R0hXTEhWWkNvTC1kT01jNmRtTFVfcTN0NFZOaVBJczhUSWNFWTVpaGZmX2tQZGd2WnYzcFk0Sm5pSmZlamhPSFBQdDZnTVNtQU1kZ3h1RWRJdHZBc1NQMmYydzBhYUtmNVJiVTliWEMwelVoVF9XZ1p4S1VnOWFnWHFQYXE3Q0QzLWh5cHg5UTRzVExieW9OMTNkdFdNTTFsSQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.589,
+      "neu": 0.411,
+      "pos": 0,
+      "compound": -0.8225,
+      "txt_original": "Barclays cuts 2025 Brent crude forecast on trade tensions, OPEC+ shifts - Reuters",
+      "txt_translated": "Barclays cuts 2025 Brent crude forecast on trade tensions, OPEC+ shifts - Reuters",
+      "txt_final": "Barclays cuts 2025 Brent crude forecast on trade tensions"
+    }
+  },
+  {
+    "title": "Oil prices fall 2% to 12-week low with OPEC+ set to increase output - Reuters",
+    "date": "2025-03-03",
+    "timestamp": 1740988800000,
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLThvV2JTcmNXRE9CYl9qckRlVlZLUU1Qby1jUW5QUHo3T1hoQlpvN2piVUVQX1ZoTjR0VlJ4T2Q2TW5ibi1YczV0T1RreHd3eDBQNTBUUmRhQU1xcUpYSE1WV3JrcFh0WS1hSW9hT0ZzMFFqYVRqWExmOUJxT0NFdEhVeXc0UmNkX1NXclpEaHcyMjgwbHlaRFlFcHJUZkFPNUxMaWFQZXRFNFF4RXFRUHhIT1pVQ05FaHJSMU5kZw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.121,
+      "neu": 0.747,
+      "pos": 0.132,
+      "compound": 0.0516,
+      "txt_original": "Oil prices fall 2% to 12-week low with OPEC+ set to increase output - Reuters",
+      "txt_translated": "Oil prices fall 2% to 12-week low with OPEC+ set to increase output - Reuters",
+      "txt_final": "Oil prices fall 2% to 12-week low with OPEC+ set to increase output - Reuters"
+    }
+  },
+  {
+    "title": "Oil sinks 2% after Trump calls Putin, Zelenskiy to discuss end to war in Ukraine - Reuters",
+    "date": "2025-02-12",
+    "timestamp": 1739347200000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcGZxajQyWE9ucHo3M0U5NXZFRWpYbXd2MzN2ZEstTmRPUkIzOHJDWFI0T2dOWUJDNzBtYXFnUGo0RjJQaVc1WmFDVVQyYU4yODJ0V2JZN21kY1VtVUtESWtpckJKcmJvOHNYNC0tcjZ1OUFDTVN3cnE1WGRXcHRLaURaNmZRV0dPeVVWUVdOWUFGTUhMNkd3QnhkTGdzaERqcjJSSXFRRlAtZzA?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil sinks 2% after Trump calls Putin, Zelenskiy to discuss end to war in Ukraine - Reuters",
+      "txt_translated": "Oil sinks 2% after Trump calls Putin, Zelenskiy to discuss end to war in Ukraine - Reuters",
+      "txt_final": "Oil sinks 2% after Trump calls Putin"
+    }
+  },
+  {
+    "title": "HSBC trims Brent crude oil price forecasts for 2025 and 2026 - Reuters",
+    "date": "2025-04-15",
+    "timestamp": 1744700400000,
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU0lQdUxXSm53dXdBOEZfVk5sVFFoLXZSWElDT1ZNZWhzcDJBRWd6a05DYzBxd0VqZjIyOVRNd1lERmRMQm9ndjlYRHNEQVpuN29vblR5VGdaakprUzRnVmwxTlZ6WUVNeEdSQ0dnbTVpRVBkcm1GWllIQUoyWVhHTGFjdDd1eWdKYjlVWGZ0MVA0a1h5Y2NYTzg0QVBERlBRNmtTcnN6OW93dXUz?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.764,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "HSBC trims Brent crude oil price forecasts for 2025 and 2026 - Reuters",
+      "txt_translated": "HSBC trims Brent crude oil price forecasts for 2025 and 2026 - Reuters",
+      "txt_final": "HSBC trims Brent crude oil price forecasts for 2025 and 2026 - Reuters"
+    }
+  },
+  {
+    "title": "Goldman Sachs forecasts Brent, WTI prices under different scenarios - Reuters",
+    "date": "2025-04-07",
+    "timestamp": 1744009200000,
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVUdjYzRIellLTU5lS240aERCcVlvbW1yNmN4ZTNmYlo5d2pmOExCbW4zcGVVWC1oYWxkd3N5Z2ZmZ096cWtPeW9qN0ljd2g4bzVDMWVrZXczSmJMOE9zQkp5TDlXQmM2c0xkMFRoVEZhdmFqTVl6X2JvVVItYVhDTjVMSC1lSEVjN05vTzg3dk1DRXZLSzRpczV6TUVIOTRpSUV0TFB6UmNCd3dZUDdMa0cxZUE4cGRuRWc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Goldman Sachs forecasts Brent, WTI prices under different scenarios - Reuters",
+      "txt_translated": "Goldman Sachs forecasts Brent, WTI prices under different scenarios - Reuters",
+      "txt_final": "Goldman Sachs forecasts Brent"
+    }
+  },
+  {
+    "title": "Russian Urals oil prices fell to the lowest level since 2023 as Brent price collapsed - Reuters",
+    "date": "2025-04-07",
+    "timestamp": 1744009200000,
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdEptOFNWLWc3UW1KUEJCS3pDMW9faVBuelI2S25Jb2VMRTBMbjdteDhpYkZwVTRTVXpYR1JJdmtQNERnWVlkNFktNVJfb091VGZ2QVRCMW9yM2M5dzBhU0NQMGJDWTRpSGg1bDVmTlRQalk2Um91alJTQ2NQOHBJZ09Td3g0SkR2N1hTMXZFaW5LV3EzdEk4dkNnRmdmOUZ1XzMwdlJSUGk4UlQ0R3dCTjJ3S29EemVsY3gyM0R2Ukw3X2pwUkQ3TFd6SQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.239,
+      "neu": 0.761,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Russian Urals oil prices fell to the lowest level since 2023 as Brent price collapsed - Reuters",
+      "txt_translated": "Russian Urals oil prices fell to the lowest level since 2023 as Brent price collapsed - Reuters",
+      "txt_final": "Russian Urals oil prices fell to the lowest level since 2023 as Brent price collapsed - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices post weekly gains on US-China trade talk optimism - Reuters",
+    "date": "2025-05-09",
+    "timestamp": 1746774000000,
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpCbmxaSVdqR29JemU0RFc1Zk1OUWlfR2w2Y0UwMmttN0JPOEJza1VobC1UNVRuUE1wSHhRMW53cDFpQklKS09QUjdEVXhDTkVPakZQUmtPVG5aaUUtc0JJalU4b2FQZkxDNXp2MVdYaGU4Yy1xTG02NlpsUlFSYXZTUlBzUmszNVJKTzdXWXBqN0FXY05hWUE1WVVlRFYxdWpEUUJ0RVE?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.629,
+      "pos": 0.371,
+      "compound": 0.7096,
+      "txt_original": "Oil prices post weekly gains on US-China trade talk optimism - Reuters",
+      "txt_translated": "Oil prices post weekly gains on US-China trade talk optimism - Reuters",
+      "txt_final": "Oil prices post weekly gains on US-China trade talk optimism - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles flat, pares early losses as tariffs delayed - Reuters",
+    "date": "2025-02-13",
+    "timestamp": 1739433600000,
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTXJvOU5iazE4cHFSRXZhRHhMNGJjTFBhb2pTd0lfVGUtOVhGQ1pmWEw5RUlfWUZBNXVTWDU1OHdlRFhTTEp4VzhCU2FIZHJoM0N4RDRZZmtSR2hWSmIwbUpkMkFKYy1rZE5qZ2NkdFpFZV9UanNxWmgtLTZYZzMzMi1odHA4aUFlQ3J6VE1rek00WFlJNzNZdWZQQzNqTnRFaTlyV0RHY1VUREZ5VVFFV3J0cDZwc214SEE?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil settles flat, pares early losses as tariffs delayed - Reuters",
+      "txt_translated": "Oil settles flat, pares early losses as tariffs delayed - Reuters",
+      "txt_final": "Oil settles flat"
+    }
+  },
+  {
+    "title": "Oil prices climb 2% to five-week high on Russia, Iran supply worries - Reuters",
+    "date": "2025-03-31",
+    "timestamp": 1743404400000,
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOEh0ZGZiZkktb0NBZXBlbTdFRlVzM3lNOWxoZjhIdDluTmxOR1F2RXA1NmVvUVZWUzNvWDF5WjgyeUJ6UnhpNl9qYmN0d3J4TlkxOElUTnRBeE95Z3V1d251bE12aURyTHZyTEppTzQ1TDFZVHZ5cEgxelR2M3RCalRuMFNVVHdaNmRnLVdieEZDbExNSlRfRkZvZ0dudGZ5NFliNFd2Rnp6Y0tIazhjZ2VlbENyMWIyU05QNDJ0UVJkMEk?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil prices climb 2% to five-week high on Russia, Iran supply worries - Reuters",
+      "txt_translated": "Oil prices climb 2% to five-week high on Russia, Iran supply worries - Reuters",
+      "txt_final": "Oil prices climb 2% to five-week high on Russia"
+    }
+  },
+  {
+    "title": "Oil heads for weekly gains on colder weather, Chinese policy support - Reuters",
+    "date": "2025-01-03",
+    "timestamp": 1735891200000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU2tfSzIwbjFyUG96UkFSR2J6Qm9Ea1MxVjk2bWlVQk1NVk1DZTNGb3lGQnBFTkNobDA1bTJnZTVKRzBzaGN0TlZ0eFdLdlNDUi1IcHpWQWJMR3ZMWksybElOSU8tdVZQVXBrNjJYMkVfMmEybGFuTWR0Yk5mZExwMzJUbGVhaXhzV2Y0UkdrTHlpMkN1VVhCZmZBRnl3Ujhyc0o2V2VXbmFjYkg0R1NwYWd6dw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.745,
+      "pos": 0.255,
+      "compound": 0.34,
+      "txt_original": "Oil heads for weekly gains on colder weather, Chinese policy support - Reuters",
+      "txt_translated": "Oil heads for weekly gains on colder weather, Chinese policy support - Reuters",
+      "txt_final": "Oil heads for weekly gains on colder weather"
+    }
+  },
+  {
+    "title": "Oil prices ease as Ukraine peace talks offset Mideast instability worries - Reuters",
+    "date": "2025-03-18",
+    "timestamp": 1742281200000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOE9sOXV1WEw0dWNrR0ExTlpHMDl2VkZCQTVNYldYb0FOUzU2MmQ5RU02QTNMMlVVUzRWREMwdFRfcDJQWk1ud2JKTVowajRGXzh3bW51eGc0Q3pwRWtNei0waDVvUkJFSzBzd0VFOEpkWFMtWl9QZE5RV3c0RGM3dFR3YzhvbGJiYU1VWVRSNHJGdzNPS0gzNVF0STNkbERYbW1LZ0VKc0dJaWpkVDl5b1RFNUJNbW9u?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.149,
+      "neu": 0.532,
+      "pos": 0.319,
+      "compound": 0.4939,
+      "txt_original": "Oil prices ease as Ukraine peace talks offset Mideast instability worries - Reuters",
+      "txt_translated": "Oil prices ease as Ukraine peace talks offset Mideast instability worries - Reuters",
+      "txt_final": "Oil prices ease as Ukraine peace talks offset Mideast instability worries - Reuters"
+    }
+  },
+  {
+    "title": "South Africa wants $100 a barrel oil before selling more crude stocks - Reuters",
+    "date": "2025-05-21",
+    "timestamp": 1747810800000,
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcTM0bkVRMXZ5bmFqdVNaSFZpMmp2RG9rXzZGSktGQTNqczFaR1luTWhvN05hdFF0Wm9TcS14MG1kYU5qWDB5SmpFbWtZQ0NoREVfLTNxYUdEdUE1MTJVS003SnNSMjRTY2dHRkdaNHhlaHpTcTVabG1UdmV0bnlFamMwZnFfU0NERzFsRElFcDRacGZjNUR5M3UzUGtLNFVQYWdTMXlxRnJtUnhWcThRTUNweHFLa1JJNEE?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.235,
+      "neu": 0.765,
+      "pos": 0,
+      "compound": -0.6115,
+      "txt_original": "South Africa wants 00 a barrel oil before selling more crude stocks - Reuters",
+      "txt_translated": "South Africa wants 00 a barrel oil before selling more crude stocks - Reuters",
+      "txt_final": "South Africa wants 00 a barrel oil before selling more crude stocks - Reuters"
+    }
+  },
+  {
+    "title": "Oil rebounds 1% to end week steady amid prospect of Ukraine ceasefire - Reuters",
+    "date": "2025-03-14",
+    "timestamp": 1741935600000,
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWk5adklJTklINFBhME41OWNPZXFCWlJNdjVaODdTaHlEeENsM3AtMXc0X3RmS0hHU1hTd0QyXzM4bkx3OHRXT25FTTZLR3M0TU9Rd09jbmdMUFpwTnhTOGNHOC1HejRGZGNNS014UlduOGVIN242X0VyZ2M1c3RiTmRDZldJanZLUVR5bTktMmt2T1ZJUWhoV1dVQk9UQ0ZwLXNuTzh4VHBHZw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.855,
+      "pos": 0.145,
+      "compound": 0.296,
+      "txt_original": "Oil rebounds 1% to end week steady amid prospect of Ukraine ceasefire - Reuters",
+      "txt_translated": "Oil rebounds 1% to end week steady amid prospect of Ukraine ceasefire - Reuters",
+      "txt_final": "Oil rebounds 1% to end week steady amid prospect of Ukraine ceasefire - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles up 1% as cold weather in US, Europe drives winter fuel demand - Reuters",
+    "date": "2025-01-09",
+    "timestamp": 1736409600000,
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ0FOdGxyaTRQQWVrSVphX2dhb0oza3NoMDFReUdNakFMdmFhUHZOS1RJbkhPLXBmdWtTdXlkYnVkZzVucXAtT05wZ3BFSXNaekQ5ZEJab1VGVTlBNUZBRUxMNHVYQ2pkN1V2cW9Lamd5U1NwVW8xQ1A5QTMzcjZlWXcxOEhoUVRzNFRnSDdMVWpteXl6TEJuUEJXNnRQR2s3MnFKeG93?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil settles up 1% as cold weather in US, Europe drives winter fuel demand - Reuters",
+      "txt_translated": "Oil settles up 1% as cold weather in US, Europe drives winter fuel demand - Reuters",
+      "txt_final": "Oil settles up 1% as cold weather in US"
+    }
+  },
+  {
+    "title": "Oil prices set for 3rd straight weekly fall on tariff concerns - Reuters",
+    "date": "2025-02-07",
+    "timestamp": 1738915200000,
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOek1XR1oxeHBkWjN2dUV2UUw5Zy1kbklETHB3MUx2TGZnYjM3OGtDMzM2TUFUbXZ2RkltTEhacDVyMWZqS1hXM3FnSkZxYnJiNjk2Q2VrOWJXT1NpWnd1WnpEWkxFZS1mSFZvNnhOSUg0NU12Z0dsbWhhc2F6YVd0ZVNKM0poS3p4UmdORXpKWmZJcVBkUm1TNVpSNVdDWTRUZTR4MXNR?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.863,
+      "pos": 0.137,
+      "compound": 0.2263,
+      "txt_original": "Oil prices set for 3rd straight weekly fall on tariff concerns - Reuters",
+      "txt_translated": "Oil prices set for 3rd straight weekly fall on tariff concerns - Reuters",
+      "txt_final": "Oil prices set for 3rd straight weekly fall on tariff concerns - Reuters"
+    }
+  },
+  {
+    "title": "Oil posts weekly gain on trade deal hopes, new Iran sanctions - Reuters",
+    "date": "2025-04-17",
+    "timestamp": 1744873200000,
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT2lXY3RpdlU2S0ZZRHRVZWk0bWlhTE03NTdwdW1zT2V0M3hPUDZQcG9rdzBYNmNxM0w3YS1pb2RKS3k5Q1dWcjY3cEtRRVNmVzRTNklPekVIdGhXOFZtbU9BNEhRZ3g1TFNzOXdxRzUwbHprRzBCMjN3RkQ5UnpZeGRJeXphaHFVUkpoeVZLMkFPT1JmUWx4bzUxNUw0M0lnSGlEVGswRTVxUQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.492,
+      "pos": 0.508,
+      "compound": 0.7351,
+      "txt_original": "Oil posts weekly gain on trade deal hopes, new Iran sanctions - Reuters",
+      "txt_translated": "Oil posts weekly gain on trade deal hopes, new Iran sanctions - Reuters",
+      "txt_final": "Oil posts weekly gain on trade deal hopes"
+    }
+  },
+  {
+    "title": "Oil prices ease on surplus concerns, dollar strength - Reuters",
+    "date": "2024-12-23",
+    "timestamp": 1734940800000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOGg5TldIbjlKai1MR2EtVGxydEN5aDRyNjBCdUV3WWFNckI2VTZ1T3BuZWwtazdQQnM1ODdXcTNCNzRJRkVBTmVfTWozRDNad1VXWndneFpUVHYtbTk3R21fVjh3aThFdUdUb1ZKd3pNVDhnc0RRT3NiWGRpdnd2V0RFSmNzT3hrTFRuSk1KRUN1T1JjRUZxcS1IVmx1MXlUUlNCbG4zMFJVdEU?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.667,
+      "pos": 0.333,
+      "compound": 0.3612,
+      "txt_original": "Oil prices ease on surplus concerns, dollar strength - Reuters",
+      "txt_translated": "Oil prices ease on surplus concerns, dollar strength - Reuters",
+      "txt_final": "Oil prices ease on surplus concerns"
+    }
+  },
+  {
+    "title": "Oil prices settle up on possible supply disruption, hopes for China demand - Reuters",
+    "date": "2025-01-07",
+    "timestamp": 1736236800000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRkJVTGhRRkFTRHBIWUl6MG96eEtLOWREY1BmMjNNU2xmaEE0TU41eDY3TGY2bE9hcFZQRjd5MXBZY0RrVE1wVVdXejk3VmgxRFg4eG5MSXlidk4wVW10RkVEYXVReTUzU0lEZlg5WnVYQVZQV29UYWw5OXN4cnNETTIxbUdCdHpNTXZDRjRBQnM5NGVFY2ZBN290RGF3bWRaRlRaQXVQclM0UFB3eEdpLQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.263,
+      "neu": 0.737,
+      "pos": 0,
+      "compound": -0.3612,
+      "txt_original": "Oil prices settle up on possible supply disruption, hopes for China demand - Reuters",
+      "txt_translated": "Oil prices settle up on possible supply disruption, hopes for China demand - Reuters",
+      "txt_final": "Oil prices settle up on possible supply disruption"
+    }
+  },
+  {
+    "title": "Oil up 2% to a 2-week high as new US sanctions target Iran's exports - Reuters",
+    "date": "2025-04-16",
+    "timestamp": 1744786800000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWF9kRC1RSkJnZXJDbVdyNlJZRS1RSW9USEIwTzk5Q2dENnp2OTVRYVhtRHlreVVuNDhJX1lEODNBZENRTnVfU1ptbGFrS0taUTFIRTBBODZKUm01THRONEtGSXd1VTJOV2F5M0VyN1dfRDlhRlhJcEdMNi1fbmVlTXNJa3RfQ2UybnljQjRUUm41TWZkMnRmeXUteW8?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil up 2% to a 2-week high as new US sanctions target Iran's exports - Reuters",
+      "txt_translated": "Oil up 2% to a 2-week high as new US sanctions target Iran's exports - Reuters",
+      "txt_final": "Oil up 2% to a 2-week high as new US sanctions target Iran's exports - Reuters"
+    }
+  },
+  {
+    "title": "Citi lowers 0-3 month Brent forecast to $60/barrel on tariff shock - Reuters",
+    "date": "2025-04-07",
+    "timestamp": 1744009200000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYW1IRXlVNmZFdnlHSXJQNDR2N2RoaGlqYmVZbmNWb2M3Nk9GS3NMNFc2d1FkY3NXNERzamx2MzRDeWFjR0tpZGNub0dpWWE4WUdsN3daNE9ybTNjNVB3WWlwd0xtWmM0U2dfYzVXLU9BdEV5QzBTc25lTUxRYlJ6SFZ5ejU5VmtkSUJZWkd4XzVlMnZZRkJ1UWZxR2Rnd2ItcDlSN2RYWDBWS0VMLWJ3SmVFRFU?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.272,
+      "neu": 0.728,
+      "pos": 0,
+      "compound": -0.4767,
+      "txt_original": "Citi lowers 0-3 month Brent forecast to 0/barrel on tariff shock - Reuters",
+      "txt_translated": "Citi lowers 0-3 month Brent forecast to 0/barrel on tariff shock - Reuters",
+      "txt_final": "Citi lowers 0-3 month Brent forecast to 0/barrel on tariff shock - Reuters"
+    }
+  },
+  {
+    "title": "Oil gains nearly 2% despite trade war concerns - Reuters",
+    "date": "2025-02-10",
+    "timestamp": 1739174400000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWTVRVFZDWkc0amRRQjZrX3g5VVdXMGJoZzItczR4VGtyZXNyS19YS3JqTXB2RlN6MW9oazk1aXQxb1lnUUxtS1AzUnNzV3pLZm1vSm1xZ043eVVzaGY0R3NpQmRjRmJOUldrdzlNRXBQMlBNNlJJMEQyN0NKZllLWHVEd3l4aUNqc0h5QVI2ZzJsOFk1QkRPSW5LeGpOLS1u?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.591,
+      "pos": 0.409,
+      "compound": 0.6753,
+      "txt_original": "Oil gains nearly 2% despite trade war concerns - Reuters",
+      "txt_translated": "Oil gains nearly 2% despite trade war concerns - Reuters",
+      "txt_final": "Oil gains nearly 2% despite trade war concerns - Reuters"
+    }
+  },
+  {
+    "title": "Goldman Sachs expects non-OPEC+ production growth to slow with decline in Brent prices - Reuters",
+    "date": "2025-03-24",
+    "timestamp": 1742799600000,
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTkRYeHZhM05qTHU5eUN4eXVTeU0tQkg2ZzNBZDRwUlBKQW5YUFBFaFlBQTJjblk5b25RNmtiaTlNOUJtZ282QlhLSk5rSjBRVDRSdlR1YWg4ZGdjZE1DODd5YXdyYzNrZXVGVEVJYXNRVHdZWExmMDl5Y3A2OWo5Nk1xV0xnN25pTU5zQzhJbUdnVlA4RFRkTjBHTndjcWI5R2lxZ056eXdJblMwTHg0WVlienB4MGlkRmhLNjR3LVFjN0Q3alBURlNTWQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.843,
+      "pos": 0.157,
+      "compound": 0.3818,
+      "txt_original": "Goldman Sachs expects non-OPEC+ production growth to slow with decline in Brent prices - Reuters",
+      "txt_translated": "Goldman Sachs expects non-OPEC+ production growth to slow with decline in Brent prices - Reuters",
+      "txt_final": "Goldman Sachs expects non-OPEC+ production growth to slow with decline in Brent prices - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices rally 3% as US hits Russian oil with tougher sanctions - Reuters",
+    "date": "2025-01-10",
+    "timestamp": 1736496000000,
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLTduVGhsRXNVcFNSZnZkTF9yc3I1TkExcTJFSG1jY3JjejZ3RXhCSWpvZWhGUGkzZjE4SGIxYlI5MVVQbFFBQ0pmSjFpYmR1T19HRXd0ZXdpSzNMV3ltaUZVVGZWekZOd2cwdzBvYy1uVWZmUEhjXzk4SHF2RVUwZWZHclhRTmJrSDZqa18ycElxWk1OcUpCSnNtdlFYTjdlMEdaemh4YnQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.884,
+      "pos": 0.116,
+      "compound": 0.1779,
+      "txt_original": "Oil prices rally 3% as US hits Russian oil with tougher sanctions - Reuters",
+      "txt_translated": "Oil prices rally 3% as US hits Russian oil with tougher sanctions - Reuters",
+      "txt_final": "Oil prices rally 3% as US hits Russian oil with tougher sanctions - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices dip but post 4th straight weekly gain on US sanctions - Reuters",
+    "date": "2025-01-17",
+    "timestamp": 1737100800000,
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMjAxTUJqaGQzZVJSeE1GMXQxQWJFX0QzOE56SGI3UElocmxCN0R0UTFtOHFxMnE5WFAzY1FOLUp1anFkSl9rbDRva1A5M0EwQ05seTZBM3NRTlluSXFUckhtaVRNSzVFUmV1YUVzcnRXR2lOZ3ZpSFNSQ1EzWE0xRm9GYzhLRFJhTlNaYlEya2MtV1ktcFVlUWRkNDZKa0R1ZDJwQk1tRQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.633,
+      "pos": 0.367,
+      "compound": 0.7876,
+      "txt_original": "Oil prices dip but post 4th straight weekly gain on US sanctions - Reuters",
+      "txt_translated": "Oil prices dip but post 4th straight weekly gain on US sanctions - Reuters",
+      "txt_final": "Oil prices dip but post 4th straight weekly gain on US sanctions - Reuters"
+    }
+  },
+  {
+    "title": "Citi cuts short term Brent crude price forecast to $55 on potential US-Iran nuclear deal - Reuters",
+    "date": "2025-05-08",
+    "timestamp": 1746687600000,
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdHN2WmFESi03X3ZOQVpvQ0hXQVpqNlVLb1hpd3RicVp0eGZMaG9TU25hTEpPVXhKNDNTbkZfa21sLXJPa0c3M3ozWGxacXlBeXgxQ0kxSUhpdDNiNEVieG9OQURKb1VpU2gyT2d2OEpseDJMSFdmUmMxU2pISWxpY1Q2Y095TVpRcEhYOVFUOEYxblRmNGZEdWd0dVAxX2lhSWdnMURPWEctYjBqWXowcThJZkFrdXJKbGxCNXJqS29Mck1Gcm5z?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.282,
+      "neu": 0.718,
+      "pos": 0,
+      "compound": -0.7096,
+      "txt_original": "Citi cuts short term Brent crude price forecast to 5 on potential US-Iran nuclear deal - Reuters",
+      "txt_translated": "Citi cuts short term Brent crude price forecast to 5 on potential US-Iran nuclear deal - Reuters",
+      "txt_final": "Citi cuts short term Brent crude price forecast to 5 on potential US-Iran nuclear deal - Reuters"
+    }
+  },
+  {
+    "title": "Oil falls on White House spat, tariffs, Iraq exports - Reuters",
+    "date": "2025-02-28",
+    "timestamp": 1740729600000,
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORVZSMVozcFIwRXdLdWVvZWRBblRKYldOOVdvYVEtQ3gzVElFSUlvcUFCSnNmNW5iOVcyTFlOUUsyUWt1NmFEWU81OFlXYWx5aHRiUG5uNVYtdnY5NzRMRlJRZWJ2TUhzQUZaTGhhVnprWUFsa21JVjFodkdlMHA0SG54dl8wbDhpRGE4LXU0ZWJrLVpBcFV2RkUyRmVaSF9seVdHb2hhQkgzTGdRc1lJWEF4Qk5nMGVpVWwxU1RzX3o?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil falls on White House spat, tariffs, Iraq exports - Reuters",
+      "txt_translated": "Oil falls on White House spat, tariffs, Iraq exports - Reuters",
+      "txt_final": "Oil falls on White House spat"
+    }
+  },
+  {
+    "title": "Oil falls over 2% on signs of progress in US-Iran talks, demand fears - Reuters",
+    "date": "2025-04-21",
+    "timestamp": 1745218800000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSWhONUFicFgzcmRrNlhuVXQ5RVhmN1BGQzZRb2pYT2R1eTBaM0xxZzA2NmRBblZseVAtTTBfbi1JRDEtQXRyandlNmVQbkJ0RmJpaGFZZUI1dDlwWnpqRHliTXd1Qi1Jd2ZoLXdPZkhBNTBpb1E2SUFzMUNqVzdON1RTOG5vZWh3dkdnaUJVQmdWQy14YV84QUJPUU5LZGM?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.781,
+      "pos": 0.219,
+      "compound": 0.4215,
+      "txt_original": "Oil falls over 2% on signs of progress in US-Iran talks, demand fears - Reuters",
+      "txt_translated": "Oil falls over 2% on signs of progress in US-Iran talks, demand fears - Reuters",
+      "txt_final": "Oil falls over 2% on signs of progress in US-Iran talks"
+    }
+  },
+  {
+    "title": "Oil settles down over 3% as investors reassess Trump's tariff flip - Reuters",
+    "date": "2025-04-10",
+    "timestamp": 1744268400000,
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUlJROE1oeHUyMldmT0lTM0x3US1RMWZNbXhOU3U2dmt0eGl1M1lFZGVlZkp5b0pCN1lWeGY5ckpSQjVNQmFZc1IzMmgxRGY1WXh0QTBKd1pwREVRUG9hdHFmQWZmbmhMR3dWZEFkSlR2MDl3cHRyTmlKYzM2eVFQQ0Jhbjd6cDVqaTdTMV94TGk0MWhFLTJpYklJZUdSNmI5QS1TRE94Yw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil settles down over 3% as investors reassess Trump's tariff flip - Reuters",
+      "txt_translated": "Oil settles down over 3% as investors reassess Trump's tariff flip - Reuters",
+      "txt_final": "Oil settles down over 3% as investors reassess Trump's tariff flip - Reuters"
+    }
+  },
+  {
+    "title": "Oil prices mixed as Russia-Ukraine truce offsets Venezuela supply worries - Reuters",
+    "date": "2025-03-25",
+    "timestamp": 1742886000000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSXpXQk1LbEJOVnRMOS0tbm5zdlRaXzVNOF9HQkhZNndLa2p5VHBPZlotdTloUDdfUTJYMEZsSjBWUjNhdG1CdkVaODY2SkM1TVota3BzUE9lNUpQbjBPNG9kMXVnaFZEdnYyNGdfMlI3ZWtqc05jaGprNkNsbU1vTUJ1ckIzbG8tMkd0ajc3Y3N1V2EtU1dRRUVyWUpMS2dUaDJCSnA5anNXbmd3TUkzYkRXTTM?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.203,
+      "neu": 0.797,
+      "pos": 0,
+      "compound": -0.4215,
+      "txt_original": "Oil prices mixed as Russia-Ukraine truce offsets Venezuela supply worries - Reuters",
+      "txt_translated": "Oil prices mixed as Russia-Ukraine truce offsets Venezuela supply worries - Reuters",
+      "txt_final": "Oil prices mixed as Russia-Ukraine truce offsets Venezuela supply worries - Reuters"
+    }
+  },
+  {
+    "title": "Oil rallies, settles at multi-month high on US crude draw, Russia sanctions - Reuters",
+    "date": "2025-01-15",
+    "timestamp": 1736928000000,
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc2FMQnRsWk1adGl2b3NDTmlIeVA3TWZwX3ZNWEdtSTFOamtXWkM2OUplbV9FODRadldPS1BNQnlaamFwSm1QLTV5NEZCTHNHSHppQ25iblQ4bi1vd0RzdUkyaXRrZm4wd1ExUURMbURnR2ZkdDY2SGIzVFg0bFIzaDJiSlNPUEJnOTNNMmZpQUVlMTJ5X3E2eVpKWEdVOXROQkRsR1l1YVkwWHNEX0RvZjdDX1R3MjZ1dTg3ZU5R?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil rallies, settles at multi-month high on US crude draw, Russia sanctions - Reuters",
+      "txt_translated": "Oil rallies, settles at multi-month high on US crude draw, Russia sanctions - Reuters",
+      "txt_final": "Oil rallies"
+    }
+  },
+  {
+    "title": "Oil prices fall into negative territory as Trump announces new tariffs - Reuters",
+    "date": "2025-04-02",
+    "timestamp": 1743577200000,
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQnlHaHd1WTJQTzJlSXpLcXd5cDI1MmJoc2VDS01yYnNicUFoNjE2UEZRcGUwcGpZT3dfS3FfR3Y5MUZrUVdMRXBvWWUzUVY3RV8tR0ZzZHdPYS1PUVZBbDBBUE5zUlF0T05iVnZnckNjRzZ1ekdQVUxBSnV5NXZoakRkTWNRSzFydkJXMHZtTG83cktlSWs4czNZN25YdHNCQ2c?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.764,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil prices fall into negative territory as Trump announces new tariffs - Reuters",
+      "txt_translated": "Oil prices fall into negative territory as Trump announces new tariffs - Reuters",
+      "txt_final": "Oil prices fall into negative territory as Trump announces new tariffs - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles up over 1% on large draw from US crude stocks - Reuters",
+    "date": "2024-12-27",
+    "timestamp": 1735286400000,
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOFBLREZZVmc4azF3MXpPTEpVWGllOVRRV0JIMlMtallZSnVQQkF6VzdJVThOaTJXUnVqMVNsa3BRVldmRDNGakRsVnNtRm53WEpDcWNaaWV4NVVhQnJqWWFGZ1ZBWlpHWHZhdEhyMk16RU01SlZXNUxiQ2c5cG13c3dCcmIteFhGZWhBTUhKb3FiV3pnNHQzcm5YQlY3NURVcEtMR3dzZ05sZw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.222,
+      "neu": 0.778,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil settles up over 1% on large draw from US crude stocks - Reuters",
+      "txt_translated": "Oil settles up over 1% on large draw from US crude stocks - Reuters",
+      "txt_final": "Oil settles up over 1% on large draw from US crude stocks - Reuters"
+    }
+  },
+  {
+    "title": "Morgan Stanley, HSBC cut oil supply forecast, predict $70 Brent after OPEC decision - Reuters",
+    "date": "2024-12-06",
+    "timestamp": 1733472000000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1Z3QnczZ0FUUmYzZnpnYnh5WllDcFNjN01TaENibkdGZWN6eWRxVVlyYTRVZzlRN0hEOVNXSXpDc3BMTy1FZm4xLVl6NkVpWGp6VFFGNlVXa1RnUUxKM051XzNvbUNNQ24zVTY2R05MMFlKSHl0R3BvZnFwWUNxZXRLQkwzaUlFQ0tnYXYxb0JtaFVkT0hRYVRBVDgtSF9HTS1ONXlRYUptdkpfSWt5N1ZQclY0Skk?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.344,
+      "neu": 0.656,
+      "pos": 0,
+      "compound": -0.2732,
+      "txt_original": "Morgan Stanley, HSBC cut oil supply forecast, predict 0 Brent after OPEC decision - Reuters",
+      "txt_translated": "Morgan Stanley, HSBC cut oil supply forecast, predict 0 Brent after OPEC decision - Reuters",
+      "txt_final": "HSBC cut oil supply forecast"
+    }
+  },
+  {
+    "title": "Oil rises on US fuel demand, Fed rate decision caps gains - Reuters",
+    "date": "2025-03-19",
+    "timestamp": 1742367600000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcTJiZzhOZmVkQ3dyeWF0STFzclRWYnZpYkt4eS1mYlN0ZUpFSWd2VVMxOW5scUx1RnpoN2FqOFRhVnF2T0RCa1lqT1ROLXBwNGtHTjFDX0g2ZzdGT2o3c21UMThjOGFIcnlkdE5FaC1oQXB1M0NOYjI5cDloXzdwWWtSUnNhSGVldnZBbWdMWmhyRmRpVkxkSG9URFdkWUUyTGNRMnRXM0NlbEtfd2h3RVFPSUN4WG9z?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.231,
+      "neu": 0.769,
+      "pos": 0,
+      "compound": -0.128,
+      "txt_original": "Oil rises on US fuel demand, Fed rate decision caps gains - Reuters",
+      "txt_translated": "Oil rises on US fuel demand, Fed rate decision caps gains - Reuters",
+      "txt_final": "Oil rises on US fuel demand"
+    }
+  },
+  {
+    "title": "Oil prices rise for second consecutive week on expected tighter supply - Reuters",
+    "date": "2025-03-21",
+    "timestamp": 1742540400000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWVpBb0pzS1E2TGIyVExwQUVYcVVuYzc0UEV0dVNmSTRFQ0w4YTV4QlU2aElCeHNtTHh2ZmVOSDMwREhLQXVMSUY0d09aanZtNGh6ajBqX09TYW1QTlJHTjk2Tlh2RzNINGdHYlF1aFdvN2kxU0tmR3otOW50TWZvemNkZTR3SlVpbnV2VG01aDNPRlJ4Q3pSSU10WVpER1JuUThScnhtZlUyNUo4RjZyeEtGZnNhQ2M?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil prices rise for second consecutive week on expected tighter supply - Reuters",
+      "txt_translated": "Oil prices rise for second consecutive week on expected tighter supply - Reuters",
+      "txt_final": "Oil prices rise for second consecutive week on expected tighter supply - Reuters"
+    }
+  },
+  {
+    "title": "Oil rises for third day on US fuel stocks draw, worries about Russia disruptions - Reuters",
+    "date": "2025-02-20",
+    "timestamp": 1740038400000,
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR00xSmVqMXk1WHBKcVY0WXB0Rk9MNl9tMHNmcGJBR3RHcTFPRXNrcnNVTkMtdUZmeVpfdVhUcnB4azZCblk5RFJYWDFWQjZQNlRXZEpDWENDLWtZQzUydmkzTXRBcTluT0R0MHo1MU1OMkZ1MHJ0dUZnOEl6UmNwQVg5bGdBYjVock9WR2tDMmpYQXBTTm5mcUFMVFJ1elk3MThKWEgtNC1YUQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil rises for third day on US fuel stocks draw, worries about Russia disruptions - Reuters",
+      "txt_translated": "Oil rises for third day on US fuel stocks draw, worries about Russia disruptions - Reuters",
+      "txt_final": "Oil rises for third day on US fuel stocks draw"
+    }
+  },
+  {
+    "title": "Oil up 2%, settles at 3-week high as more sanctions loom on Russia, Iran - Reuters",
+    "date": "2024-12-13",
+    "timestamp": 1734076800000,
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNODNlMmRMUlEwejIwTDYwX292RHJ0Z3pCSzZDUEdkM3lfN25tcFZrb3pQLVQzX0JDb3pmbmhTT0pRRFMwMDZvc2NDWFVpd2w3d2QxR1RITE1kcUtRRjNyelNEcnRmR0MzaUFHMThfYTRseElLZkZ0VTZXNnFFVVI5dkJMZ05RS19FWFBuZ0U0N1k1bWJfQ283WFJCaEtDTUJHTENvQlkxSWNpWVZveUpEdldiR293eXZKMUVjbVJyYw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil up 2%, settles at 3-week high as more sanctions loom on Russia, Iran - Reuters",
+      "txt_translated": "Oil up 2%, settles at 3-week high as more sanctions loom on Russia, Iran - Reuters",
+      "txt_final": "Oil up 2%"
+    }
+  },
+  {
+    "title": "Oil prices extend gains, lifting Brent crude towards $80 on fears of wider Middle East conflict - Reuters",
+    "date": "2024-10-07",
+    "timestamp": 1728284400000,
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcmFIQVpxWkZ6YmhpQTZrdnBpaFh3cWZBaXFaTTF2NEtSNUxjX2N6LXFpMUp6U1BZeGhQdERZRnBOeHZyMGM2U0MyYmtfNURNbEFJRUV6TnlON3liZGMtTXZOdEI3WEdPWGpBQndBWXc3LV8xMVhkci1qRTZ3RGFlaWpuU1pxQkxibkVZTmtHMk8tZGpxSXdPbTZhbWRXTzh5V1NkZ05fbGw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.328,
+      "pos": 0.672,
+      "compound": 0.4767,
+      "txt_original": "Oil prices extend gains, lifting Brent crude towards 0 on fears of wider Middle East conflict - Reuters",
+      "txt_translated": "Oil prices extend gains, lifting Brent crude towards 0 on fears of wider Middle East conflict - Reuters",
+      "txt_final": "Oil prices extend gains"
+    }
+  },
+  {
+    "title": "Oil prices rebound from multi-week lows as investors brace for Trump tariffs - Reuters",
+    "date": "2025-01-28",
+    "timestamp": 1738051200000,
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR2tYZk1zb3RCMUJNRTRfRjJncnVXZk9XM0R0cmd0WUtxSndyZXNpYW11S0xXTHlzLUtlelFtay1WSW9lblJtMUx3RTRWblBJeTJUSGpKMVNvS2d1eUc1ZnJWS0NZNnE3VTU5LWZHaUR6SmdUNmlrSXpUTFJzTGN4S3E2djItbEFNRnNZN2hmdWdXa01Mam16UWFYdlBNRXh0akk2RFZOeS1qa3dTNFRUWXU0dll3cnRDSklwQUxTaUNQeDVs?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.122,
+      "neu": 0.878,
+      "pos": 0,
+      "compound": -0.2023,
+      "txt_original": "Oil prices rebound from multi-week lows as investors brace for Trump tariffs - Reuters",
+      "txt_translated": "Oil prices rebound from multi-week lows as investors brace for Trump tariffs - Reuters",
+      "txt_final": "Oil prices rebound from multi-week lows as investors brace for Trump tariffs - Reuters"
+    }
+  },
+  {
+    "title": "Oil eases to one-week low amid Trump tariff uncertainty - Reuters",
+    "date": "2025-01-22",
+    "timestamp": 1737532800000,
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV19pNWctU0VRR25tR1VuV3psSmt3YjVEZHVOT0M2aGVtTWpudC0wX2gySnRwYUk4VDJsTzdla0JCbXhHcFV1YXpqWl9zUC1PeEtnWlB6bE5xQ215UVJKdUJmT2VLNXAtMDVyYllFSF9HbWk4UTBXLVdFT2F1WFloczBJS0tUd3UwTUhmN1FMQlFTX3BPaDNPZHRqRGZSNDBTV0Q3TVpkU1E2Mk9v?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.304,
+      "neu": 0.541,
+      "pos": 0.155,
+      "compound": -0.296,
+      "txt_original": "Oil eases to one-week low amid Trump tariff uncertainty - Reuters",
+      "txt_translated": "Oil eases to one-week low amid Trump tariff uncertainty - Reuters",
+      "txt_final": "Oil eases to one-week low amid Trump tariff uncertainty - Reuters"
+    }
+  },
+  {
+    "title": "Oil up 2% as Trump threatens new sanctions on Iran - Reuters",
+    "date": "2025-05-01",
+    "timestamp": 1746082800000,
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPd2lFeTZtdjNueElRbXlMWjdxTDVfSDNwb3MzR0k0MjBPbmV3M2NOd0dBWkVETkdielJsZlVxSk9CLXRoU0p3VERFbUViclg5YmxLaDRTOUwtQUdRalJOVGpXRU8yUzRLVFd3c1YtU3JmYXFTWUlqclpMZjlPN3FfbmZqUjV0VG5uLVVOVEZNTHY2bHgtWUlPMG05X2FmNmRFQkJwRjFONkpvam5Gcnc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.191,
+      "neu": 0.809,
+      "pos": 0,
+      "compound": -0.3818,
+      "txt_original": "Oil up 2% as Trump threatens new sanctions on Iran - Reuters",
+      "txt_translated": "Oil up 2% as Trump threatens new sanctions on Iran - Reuters",
+      "txt_final": "Oil up 2% as Trump threatens new sanctions on Iran - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles lower, supply worries ease on hopes for Ukraine peace deal - Reuters",
+    "date": "2025-02-14",
+    "timestamp": 1739520000000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjlzREZxekxjd2FCX2ctM2Y2LUNycFZ3YmxsNHU3TVZvNVpIa1NOZVRnY3h1bUlNZC14d1NVMjJiNUh4cUJDTUVmdXc2T1pKTnpncWdHTGttWjQySW9mNWR6VWJiYTdoR1RycmtYOGRWS0ViWXlRTkw2SFl3SXAybmJSOFRlTmpDeHVMNXpDWEFVR2dxcjlTZ0p4YmtsNmZIOVJxdHJnNE9hRUloMnY0V0x1RQ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.524,
+      "neu": 0.476,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Oil settles lower, supply worries ease on hopes for Ukraine peace deal - Reuters",
+      "txt_translated": "Oil settles lower, supply worries ease on hopes for Ukraine peace deal - Reuters",
+      "txt_final": "Oil settles lower"
+    }
+  },
+  {
+    "title": "Oil sags on soft Chinese spending, investor pause before US Fed rate move - Reuters",
+    "date": "2024-12-16",
+    "timestamp": 1734336000000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY3RyeGR0Ymp3ZW1GcElsNVMyeW1OUDVocjZ1b3VsZ1JlV29tLXhYTUlzNmlaTFhBQTc0T1FyNk05dHUwRW9ya2J5a0ZjM2lKOVR2WG4zTjdIX042MC1Dd3dNRVRQZ3NtelNoSDhjcWgtMUxCSkxoY2swUW1EMEllMlhoNjZPZVFVeVFGckZDS0JNVGxuZ1h2cXhaMHRqd3ppNEVSZ01FbzJ0Qnc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil sags on soft Chinese spending, investor pause before US Fed rate move - Reuters",
+      "txt_translated": "Oil sags on soft Chinese spending, investor pause before US Fed rate move - Reuters",
+      "txt_final": "Oil sags on soft Chinese spending"
+    }
+  },
+  {
+    "title": "Oil rises on diesel demand boost in sparse holiday trade - Reuters",
+    "date": "2024-12-30",
+    "timestamp": 1735545600000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2k3b2FnM2NVQ2hWTG5HWmwwUEdLbEZNZGNNR1lfVUNtTUR2blZPUjNfSDdURE9PejNvcjlsLUJmTDdLRTVfTTNNbmpWS0pkM09sYmU0VklpZm5UWFFaUzRMbTFuQlBzTTNmRHFZR0lyQ1M2eEVLVkNFV0ZfcGV2Zy1VZkRvWHJ4VjFsZC02T1NjX1NHS0NzQUplOGhGMjlmSzJ1dG80ZGpqSzA?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.094,
+      "neu": 0.566,
+      "pos": 0.34,
+      "compound": 0.5994,
+      "txt_original": "Oil rises on diesel demand boost in sparse holiday trade - Reuters",
+      "txt_translated": "Oil rises on diesel demand boost in sparse holiday trade - Reuters",
+      "txt_final": "Oil rises on diesel demand boost in sparse holiday trade - Reuters"
+    }
+  },
+  {
+    "title": "Oil settles higher on fresh Iran sanctions, Iraq commitment to OPEC+ - Reuters",
+    "date": "2025-02-24",
+    "timestamp": 1740384000000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNFJJbGpKczF0RFFoOHRIbzdKRlRhLWQtR1VHMTl6QW5iWVpPTjJJWlgwTkh2Z2pfUWhmX2RqeDI2VUd0c0lCb0VWZ1RDUTM0OFJCMnNFeXhmUWl5Sks2T19EdXJOUmJuLUNpQzhmbnVLQ0hjdzJqbHNGMjlZUFh5U2hUanV2TjhIR3d0M2FLQ1pibzVyQlhZeV9rY1U?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.723,
+      "pos": 0.277,
+      "compound": 0.3182,
+      "txt_original": "Oil settles higher on fresh Iran sanctions, Iraq commitment to OPEC+ - Reuters",
+      "txt_translated": "Oil settles higher on fresh Iran sanctions, Iraq commitment to OPEC+ - Reuters",
+      "txt_final": "Oil settles higher on fresh Iran sanctions"
+    }
+  },
+  {
+    "title": "Oil settles lower on expected halt to Houthi shipping attacks - Reuters",
+    "date": "2025-01-16",
+    "timestamp": 1737014400000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSXpZMzNScFE0aUx4bGZPMUZETDBHaGZPN2prRkRjM2sxQTFtbUhpNXZSeV8wWGFGSTdLTy1hUlN5bkF5WDhrTFpkSi1qV281X0YybWdCQUdWc29QU21ZTGExV2I4dWpwQm1fNVRSa1RPZXZTZDhYdDE3TGg4R0dWLTExc3d3NjdfTU8wWkp0dkR0a3FMXzdCT3BtSnNCb3ZWbk9XelY3R2M5cGtNUFZ3V3Bn?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.338,
+      "neu": 0.662,
+      "pos": 0,
+      "compound": -0.6249,
+      "txt_original": "Oil settles lower on expected halt to Houthi shipping attacks - Reuters",
+      "txt_translated": "Oil settles lower on expected halt to Houthi shipping attacks - Reuters",
+      "txt_final": "Oil settles lower on expected halt to Houthi shipping attacks - Reuters"
+    }
+  },
+  {
+    "title": "Oil approaches one-month highs as investors assess supply, trade war risks - Reuters",
+    "date": "2025-03-27",
+    "timestamp": 1743058800000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzg5ejN1WWFMeTZkbTJlYzRQX1AxcnpPaEgwTGJIaVhsZTNlcXBPc1U1ZXpsMjlNc3hodDRHcy0tQkhyV3FPUmpYZjBZWlZHVERpS1Q3ckJPLWZmU2tqX3BNVXVPNmRTWU5PVEwxUWQya2c4VHZqYjVnWWJuLTRLQ1VnQU9yNnd6Y2xQdUwyRGZIQk50MGFBNHRvRXo4d2JLQVlsa3ppQXdINHZaMThTaTBQWmRQM3Uw?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil approaches one-month highs as investors assess supply, trade war risks - Reuters",
+      "txt_translated": "Oil approaches one-month highs as investors assess supply, trade war risks - Reuters",
+      "txt_final": "Oil approaches one-month highs as investors assess supply"
+    }
+  },
+  {
+    "title": "Oil prices ease 1% to one-week low on weak Chinese, German economic data - Reuters",
+    "date": "2024-12-17",
+    "timestamp": 1734422400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS1hvT3ZoaUlHNks4Z2xlaFd2cjhOUnNrX3VDVWZHeG03UmMtV25SMzcwbkcySFFieGVUeG03azhpbnpJel9OY1IzVHp1YmV4Y0htZzF1QmFEdW5PRUVoQ0Q0am4tUkUwaDVVbFgwMm9aSFF1c0pIUU5NNWk5ZkVBR2V0SXd0VjJ1WkpNZ29wVi1acnM5V05jNm9hRnVBb0liaGJiTHNRYzNXQUJVTFp1ZUx1NA?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.345,
+      "neu": 0.483,
+      "pos": 0.172,
+      "compound": -0.3612,
+      "txt_original": "Oil prices ease 1% to one-week low on weak Chinese, German economic data - Reuters",
+      "txt_translated": "Oil prices ease 1% to one-week low on weak Chinese, German economic data - Reuters",
+      "txt_final": "Oil prices ease 1% to one-week low on weak Chinese"
+    }
+  },
+  {
+    "title": "Oil holds near one-week high on supply concerns, sanctions on Russia eyed - Reuters",
+    "date": "2025-02-19",
+    "timestamp": 1739952000000,
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVGpSMEJFVkMyMHJBNHI3SzRtUXo5ZVNocnotQm01R3pvLXlYSmowS1RLUHlZQlNPYXpNYnhLWUhRNGFJV3JUd0p5aHlGLTBmLWpOd09QMUlkbkJadGVySkZ5MUk4MkhMZHlmOW1KbWg2LVQzbUw0RnQzT3JXNnhRUEJ5NlJlN0s2UjFPOVo3MkU0X093d1JIQ2p1VkRSd3F6c0pmdG04UXpXcWJzLTdqdWVxNy1pUi1pNUlONFVXLTN2TGlK?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil holds near one-week high on supply concerns, sanctions on Russia eyed - Reuters",
+      "txt_translated": "Oil holds near one-week high on supply concerns, sanctions on Russia eyed - Reuters",
+      "txt_final": "Oil holds near one-week high on supply concerns"
+    }
+  },
+  {
+    "title": "Oil drops as dour economic outlook adds to oversupply concerns - Reuters",
+    "date": "2024-12-19",
+    "timestamp": 1734595200000,
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQanJlZDhCX0FkVTVyNFM1ZlMybEdyMXhkTjhSZkhRQ2xFdHRWZXVyNi1Lc2UzT3R2b2xNZXY3WVYtM3ROd2F6NHN4eEJ3TXZJMjBDSDNnek92Q3Z5bWRoaW40Y1RzYWdkWUFZMm1JdVJrNmVJcVVkc1pYRkhzcXR1YVNydkwtVzM5bnRTZFlCOVVOZU9ZV1J2OFNCNERxTEN3WVBFdTV0WkFZQXlJXzVueG90cmxzZG5ib1JZ?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil drops as dour economic outlook adds to oversupply concerns - Reuters",
+      "txt_translated": "Oil drops as dour economic outlook adds to oversupply concerns - Reuters",
+      "txt_final": "Oil drops as dour economic outlook adds to oversupply concerns - Reuters"
+    }
+  },
+  {
+    "title": "J.P. Morgan sees Brent oil price averaging $73 a barrel in 2025 - Reuters",
+    "date": "2024-11-22",
+    "timestamp": 1732262400000,
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY0tvZVZLbVFkRWl3R3A0SUFIel90RzlzblJyS0QzZWdkYUZGQ3BGLXRSVF9VbGQ2VFFiWUJGemFDa3RydFQ1bkY5OFlZR1pVVVh2N1ZnRGFlNFFTMVc1WE9ZNVFHQ3VUOG8xYkxBTnhyNG9JNmJEUzJvcWNtS0ppRGwtUDVXZFdrMnJUV2FYT09fbGp6T3F2X3R2c05NSl9hSWlGVGNsTGFQcWM?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "J.P. Morgan sees Brent oil price averaging 3 a barrel in 2025 - Reuters",
+      "txt_translated": "J.P. Morgan sees Brent oil price averaging 3 a barrel in 2025 - Reuters",
+      "txt_final": "J.P. Morgan sees Brent oil price averaging 3 a barrel in 2025 - Reuters"
+    }
+  },
+  {
+    "title": "Oil falls more than $2 a barrel on possible Middle East peace deal - Reuters",
+    "date": "2024-11-25",
+    "timestamp": 1732521600000,
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX25ESHNuZXJpUkh5QVlCUGlfUGdXNXpqWnRJT0VLUTB6YVI1b2tXbXp2eFJXa2FMVmFEa3lmaGRPMXZnWDJpeDBXaGlhQ0xLcWRKSmk0dnpSZEc3Z2IwOEhDVTFOTWRlNzFWeERibEhCb1VQeGhkMDdCaHoxTG5Cdk5wYTEwTkZvZ2RrdW5XMWN3RVZvalFSSnRvTmJCWXk3LXJJSlJxWE9EUGhiNmc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.788,
+      "pos": 0.212,
+      "compound": 0.5423,
+      "txt_original": "Oil falls more than  a barrel on possible Middle East peace deal - Reuters",
+      "txt_translated": "Oil falls more than  a barrel on possible Middle East peace deal - Reuters",
+      "txt_final": "Oil falls more than  a barrel on possible Middle East peace deal - Reuters"
+    }
+  },
+  {
+    "title": "Oil trims gains on dollar strength, tight supplies provide support - Reuters",
+    "date": "2025-01-08",
+    "timestamp": 1736323200000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT0dCUFJ3TkVOVExsSjY3THRfYUllZDlBLWNmLUFnSEdpbUFUbUFBcUtBa0IweGRhamNoVGF6QUdOTnVGYURrbEs1YUFDcVZ2SkRwWURVMEVzR2pDTXFld19ha1ZWS1JGdG1CMmFtVE80ZGlqTTF2SmRXZkJyWlVPMWJhd2pnUnV2TzJNRmR1NlV0UnQ5MkpJUHhkaFg2MGc?oc=5",
+    "source": "Reuters – Commodities / Energy",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.417,
+      "pos": 0.583,
+      "compound": 0.6808,
+      "txt_original": "Oil trims gains on dollar strength, tight supplies provide support - Reuters",
+      "txt_translated": "Oil trims gains on dollar strength, tight supplies provide support - Reuters",
+      "txt_final": "Oil trims gains on dollar strength"
+    }
+  },
+  {
+    "title": "New Zealand’s Willis Criticizes RBNZ Handling of Orr Resignation - Bloomberg",
+    "date": "2025-06-12",
+    "timestamp": 1749688920000,
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcUhMQkFzUjNXZFBPcjgyZUIwUFdVVUY3WlYtNVhNNUszMXhzaFBWcUNGampTczhydl9IZF9wQWpNaGFBOVFHc1htOS1hM2pRVjRkSHRsYi1LNFhhc1ZnZWlRczlqdlMyRlUyaU5SdmtBWl82QzVLcklValJJRmZjNk9zSUhtQ3RqTlN6MWxJZHM2NFpiNDlfbTlLVm1oRzhQZ0xmRlk0VkVnZEp4MVhTVGNMdzZOdkdNaGZXSTBtMDNnc2ZFTWg2dmdQNA?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.338,
+      "neu": 0.662,
+      "pos": 0,
+      "compound": -0.5574,
+      "txt_original": "New Zealand’s Willis Criticizes RBNZ Handling of Orr Resignation - Bloomberg",
+      "txt_translated": "New Zealand’s Willis Criticizes RBNZ Handling of Orr Resignation - Bloomberg",
+      "txt_final": "New Zealand’s Willis Criticizes RBNZ Handling of Orr Resignation - Bloomberg"
+    }
+  },
+  {
+    "title": "Cambodia’s Exports to the US Soar as Trump Tariff Hikes Linger - Bloomberg",
+    "date": "2025-06-11",
+    "timestamp": 1749626553000,
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd0pmRTVzTTBDNElJMEd6cjB6LWVXQUlZNjhYWUxIX2I4ZzEwZDkyR3lpZXlqMmpkem8wSEF3Q3FkZmxISWd3WFVjV3J5TDMzaTJ4TnlNbE9IS0l6cGV4RDluMlFjRjZwZGlZUWw0VnRQUTFxMnhQd1p0ajFON3VIOTBwaFhuam82R2hlNnNZUzBJR1VYdm5jX203S2lDZUJaNnpaTXpwU1Nzb2ppVnpXdHhOZTdtSEEtUnJLTkUzSTUwSkFYaUMxUVM2UjdWVlZSX0E?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Cambodia’s Exports to the US Soar as Trump Tariff Hikes Linger - Bloomberg",
+      "txt_translated": "Cambodia’s Exports to the US Soar as Trump Tariff Hikes Linger - Bloomberg",
+      "txt_final": "Cambodia’s Exports to the US Soar as Trump Tariff Hikes Linger - Bloomberg"
+    }
+  },
+  {
+    "title": "New Zealand’s Willis Wants RBNZ to Add Summer Rate Decision - Bloomberg",
+    "date": "2025-06-10",
+    "timestamp": 1749519720000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFBYWjNTeGZZSlBTbG13TFVkWU01Si0zMlBwRkZ2eDFWLVJ0M1hDUFNqcEZ5NTRPZlRxNTN1cjNVOTBJWTRJRFpoTGg2YzBZUzUyUl9GZjlTcEE0NG9pUDBObzJOTUVoS3VsT2pVMnhaSnZfc2t0SUZrdXBSaXFiM2dkSVpadjFsOW5MRXpRa0YwOERVTEtidFlMbzJ5Yk13anR1MDdJc0lmQXRfTXJF?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "New Zealand’s Willis Wants RBNZ to Add Summer Rate Decision - Bloomberg",
+      "txt_translated": "New Zealand’s Willis Wants RBNZ to Add Summer Rate Decision - Bloomberg",
+      "txt_final": "New Zealand’s Willis Wants RBNZ to Add Summer Rate Decision - Bloomberg"
+    }
+  },
+  {
+    "title": "Qantas to Close Jetstar Asia, Freeing Up Capital for New Fleet - Bloomberg",
+    "date": "2025-06-10",
+    "timestamp": 1749599436000,
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLTZiZFFnb0hkQnpERzhzYmxhbkFYdGpzYWZ5cF8tcDA3bHIxZHYtRmxEMS1iQ25LZDhQR1FHTjEwejdmbS0tZ2lxcU1nemdJSGN2OFFoRUFuMVAxX25lSUJnOUR5Wm8xRzEwM3ZoZHU3bUEzMlVQdDhYd2lpWm1QbGJGN0xjS3JPRXEyeFBxaFhHQWdqTzN1X19NNHFMTVVqb2hPUGFJR3B6bnpPVDVaTmFJb3hPRjBGMWQ2Yl9LbWV4YWwycmtoZDJvTQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.795,
+      "pos": 0.205,
+      "compound": 0.4767,
+      "txt_original": "Qantas to Close Jetstar Asia, Freeing Up Capital for New Fleet - Bloomberg",
+      "txt_translated": "Qantas to Close Jetstar Asia, Freeing Up Capital for New Fleet - Bloomberg",
+      "txt_final": "Qantas to Close Jetstar Asia, Freeing Up Capital for New Fleet - Bloomberg"
+    }
+  },
+  {
+    "title": "Morgan Stanley Sees Three More OPEC+ Hikes Driving Brent Lower - Bloomberg",
+    "date": "2025-06-01",
+    "timestamp": 1748761200000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOTlvTEhUbEl2clduaWxFQVhzWi11RnhUYlJ0T2JRRHlfMk5HWC1IYVZVQXFBR01QaHNqR1NjZU9Ob2RyM21ZMTBvS2h1T19UV1JHc2U4SjhwZ0NNWE1fdE9FRzc2dERyLS1XeXRHOFM0Vk1KYTV6eHdkNGdPeko3UENDU3lobjQycDlQa055VkhXOUhhNG0ybG1zLXZMN0ZTdzlOdGVsaTdQWGtlZ1NWZkxn?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.167,
+      "neu": 0.833,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Morgan Stanley Sees Three More OPEC+ Hikes Driving Brent Lower - Bloomberg",
+      "txt_translated": "Morgan Stanley Sees Three More OPEC+ Hikes Driving Brent Lower - Bloomberg",
+      "txt_final": "Morgan Stanley Sees Three More OPEC+ Hikes Driving Brent Lower - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Traders Double Down on Bets for 45% Rally in Coming Months - Bloomberg",
+    "date": "2025-05-13",
+    "timestamp": 1747119600000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ0hBc1VfZHY0eEZwSlJSZXhzWnRRTWdzSHU2TmlYbExnSE1ld2JydkpSVTlVR0RfeV9GTHJVdjA1dkFTdG9zbFNncjFaYXRtem94NnRkdWRqbXVCWk55WlphRWV3VlR4MVFBOHJCYVdpNXZZX0pJcEZmYWtBRE1fUDRZMnFleUxCbW5SamtCVjdCc0hCakxKMDdGNHpWTU9UM2k2RUhOOXZSbm94bWVZQUVZY2F1ZWhy?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Oil Traders Double Down on Bets for 45% Rally in Coming Months - Bloomberg",
+      "txt_translated": "Oil Traders Double Down on Bets for 45% Rally in Coming Months - Bloomberg",
+      "txt_final": "Oil Traders Double Down on Bets for 45% Rally in Coming Months - Bloomberg"
+    }
+  },
+  {
+    "title": "Crown Close to $52 Million Sale of Sydney Penthouse, AFR Says - Bloomberg",
+    "date": "2025-06-09",
+    "timestamp": 1749443340000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXlpLXEzSUhhM0xjZkJWZElkbWxjdkJQclBlNGVmNHVVM2ZMOFNaUkdXZHotSU84RkZQMnE1eEplY1dQTFVNaTZzLUtEOFNTc2xhQVY2akJubXVPVTNsU3NBaVQ5M2ZsYkI0VzY2ZmpIcHByTzAybE9vQ2ppSkgtWUFHRkNjR0p3TUNIQUMwRWF0TDYzQmtZbTFNUExOa09qblgwWTdUVWtNY2pwRVlz?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Crown Close to 2 Million Sale of Sydney Penthouse, AFR Says - Bloomberg",
+      "txt_translated": "Crown Close to 2 Million Sale of Sydney Penthouse, AFR Says - Bloomberg",
+      "txt_final": "Crown Close to 2 Million Sale of Sydney Penthouse, AFR Says - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Drop as Trade War and Rising Stockpiles Cloud Outlook - Bloomberg",
+    "date": "2025-04-30",
+    "timestamp": 1745996400000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTAxQVJwdHh5S0FhU0o2X1RnUWNsS2FQUEp6d09TakpMeTRTdzA1ZGFBM3VKNjlGdkdWTHBhdEZsczRJYlJnbE5SMDJ4ZDlHMmtaRkRfTGlSVHdzZ29QSzVYdFRsVXJlbUVLVHhSa25DRzB1VVVZcnU4dk9NUXpuNVZUUnFzN1UzSm5BLXk5MWhhMnVKS1M2alRYZEpQUDlf?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.353,
+      "neu": 0.647,
+      "pos": 0,
+      "compound": -0.7184,
+      "txt_original": "Oil Holds Drop as Trade War and Rising Stockpiles Cloud Outlook - Bloomberg",
+      "txt_translated": "Oil Holds Drop as Trade War and Rising Stockpiles Cloud Outlook - Bloomberg",
+      "txt_final": "Oil Holds Drop as Trade War and Rising Stockpiles Cloud Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Slips as US Stockpile Gain Overshadows Iran Strike Report - Bloomberg",
+    "date": "2025-05-21",
+    "timestamp": 1747810800000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX2o2TVV2TF9NMm12NFZCLVJCM18xekw0RmtCY2pkWE1iemNQdDl4RFFrczMtRkpiUFlXWlViM0ZFZ250b19XN0d3aUN1ZEVjb1BFYl9NNHJfeXlpT2FkcXloN2NpdGxoNjZhc2h3ajd2dkVieEVYR29pZnh5RG5MMFc3MHJlLXkxTlJvYllWWU9rb29XY1YyM2ozWm9CZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.101,
+      "neu": 0.671,
+      "pos": 0.228,
+      "compound": 0.4404,
+      "txt_original": "Oil Slips as US Stockpile Gain Overshadows Iran Strike Report - Bloomberg",
+      "txt_translated": "Oil Slips as US Stockpile Gain Overshadows Iran Strike Report - Bloomberg",
+      "txt_final": "Oil Slips as US Stockpile Gain Overshadows Iran Strike Report - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steadies After Early Surge as Traders Mull Moody’s Downgrade - Bloomberg",
+    "date": "2025-05-19",
+    "timestamp": 1747638000000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSlp0bjUxeDBmbm1JcURaVGhScGdnTW9UVGpPY3RvdUt3WWtGSUlTM2ZpREhUcXNvb1JheW1SeWJxN1lqeFVzZ29Fc1REUzVMS2JSdEZjbnlld1FXOHFMUUlqU1ZveDhTUDhZcnFPWkQ4ZUxwOUpRNTE0ZnBiZ2FoZVhuSFpwU0liWllRSWg1NE1KckE5Um5hOGlLSkEta0Fq?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil Steadies After Early Surge as Traders Mull Moody’s Downgrade - Bloomberg",
+      "txt_translated": "Oil Steadies After Early Surge as Traders Mull Moody’s Downgrade - Bloomberg",
+      "txt_final": "Oil Steadies After Early Surge as Traders Mull Moody’s Downgrade - Bloomberg"
+    }
+  },
+  {
+    "title": "Fund Bets Brent Oil Will Rise Toward $100 as Risk Premium Grows - Bloomberg",
+    "date": "2025-03-17",
+    "timestamp": 1742194800000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMFM1WEp0akRQNktld3hMRXB1a0s4cnR0bXJaN3kzNUw3bGg3ZVE3MDEyaDhYbHcxMnFHMGp3aTZONFVveWxfOC1naUhpMW1ncUJ6bGFMWW1FdGo2eXlia0NIdVVFNlg5ak9Demt4RzhRLWxabnNocTByQTUzNmlQQVh4dDVhc19ZZHJfY2drMUlPMTlFZElfQTg4QVdvN0NUQkFnRzBoUm5oT2RtTUhLdmdUbw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.139,
+      "neu": 0.861,
+      "pos": 0,
+      "compound": -0.2732,
+      "txt_original": "Fund Bets Brent Oil Will Rise Toward 00 as Risk Premium Grows - Bloomberg",
+      "txt_translated": "Fund Bets Brent Oil Will Rise Toward 00 as Risk Premium Grows - Bloomberg",
+      "txt_final": "Fund Bets Brent Oil Will Rise Toward 00 as Risk Premium Grows - Bloomberg"
+    }
+  },
+  {
+    "title": "OPEC+ Supply Hike Forces Wall Street to Redo Sums, Yet Again - Bloomberg",
+    "date": "2025-05-05",
+    "timestamp": 1746428400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVlp6cEw0bFV1ZHFUTDU5VTh4ZktSWFlRQjQ2SWt2UFBpQVdwQ0g3anVPeVYzczRPUU5BOUllZDREaEVsMXJ2WnZnNjVqdF9pR081RlhHd0dQZHdFVmFZTjFycVhYaXpOZFk2aWdsYXZKc1Nqa1NTOE83N3ZDTlpMdUdFNlQ4LXdwRU5jTkM5dldMWk4xU3NOajZJTEdPRmpGZDVOTUd4bnRHekZ1dk12X1R6Yw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "OPEC+ Supply Hike Forces Wall Street to Redo Sums, Yet Again - Bloomberg",
+      "txt_translated": "OPEC+ Supply Hike Forces Wall Street to Redo Sums, Yet Again - Bloomberg",
+      "txt_final": "OPEC+ Supply Hike Forces Wall Street to Redo Sums, Yet Again - Bloomberg"
+    }
+  },
+  {
+    "title": "Hedge Funds Boost Bullish Bets on Brent on US-China Trade Truce - Bloomberg",
+    "date": "2025-05-16",
+    "timestamp": 1747378800000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTA0azZxS1VlUG1ISy1NdTlMaXV1YlUxQ29lNzRnS3BXNGtTTjNzaGxra0dSYlVueE1sYkNCQXBzaHFCYmUwQWZMRnYxR3JMUjVOWTh0R3QzU0t4RlVLb2JEaW1RaVhlV3RGdmV2VGhZS0k4Y0VkYXhJYkw5MWx5enNWaXZuVXFSb1JpWldjLUJ6ZWt2RXdtSklORnllel90NFhUbU5NaUJhWEJFcHVoTzVpc1E?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.816,
+      "pos": 0.184,
+      "compound": 0.4019,
+      "txt_original": "Hedge Funds Boost Bullish Bets on Brent on US-China Trade Truce - Bloomberg",
+      "txt_translated": "Hedge Funds Boost Bullish Bets on Brent on US-China Trade Truce - Bloomberg",
+      "txt_final": "Hedge Funds Boost Bullish Bets on Brent on US-China Trade Truce - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Futures’ Rare ‘Smile’ Fascinates Morgan Stanley as Glut Seen - Bloomberg",
+    "date": "2025-04-29",
+    "timestamp": 1745910000000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa1NFazFxcGUyOGdFazN2dHB6bFM4cVNndTZ6dWNxVFVWRmYtNjJKQk4wRFNFSlQtX2tGT0gwNzBRN1lTUmRVVEhvS2p1ZHFWUFV3Q1RSTm0yZGd2ODlBck40YnJuNG01cTlKTjJYcXQzU3dQRnRTY3NCZ1dld19CbHhmZFlYeXhkOEpjaUF5WEV5UGMxcXRKM3pQS2prNHB6VkhHZjFIWlB6Vk02TzJ6cUxn?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.786,
+      "pos": 0.214,
+      "compound": 0.4588,
+      "txt_original": "Oil Futures’ Rare ‘Smile’ Fascinates Morgan Stanley as Glut Seen - Bloomberg",
+      "txt_translated": "Oil Futures’ Rare ‘Smile’ Fascinates Morgan Stanley as Glut Seen - Bloomberg",
+      "txt_final": "Oil Futures’ Rare ‘Smile’ Fascinates Morgan Stanley as Glut Seen - Bloomberg"
+    }
+  },
+  {
+    "title": "Hedge Funds Turn More Bullish on Brent Oil as Iran Talks Stall - Bloomberg",
+    "date": "2025-05-23",
+    "timestamp": 1747983600000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZU5tVWY0UjFtLWJOWG4xMVJqaWlQeXZoTWVTaTdBb2lJLXAwaTgxc0dUNzZwTDduMXplbGUzR3lfYTBHRkx4SHl0dTNtQ3lkRXBOMWh0ZlFlZnVaWlNuTnB6X3dBNERCWXFuNXlxQWdWR3RKVnNVT2xwbkF0QTJJTW1GU3VKV04tazJGZGVsbUhQYWp5ZjJpazJTbUFLSjdpMzlYMmdhMWU3bkJ1MFQ0NjJSTQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.122,
+      "neu": 0.878,
+      "pos": 0,
+      "compound": -0.2023,
+      "txt_original": "Hedge Funds Turn More Bullish on Brent Oil as Iran Talks Stall - Bloomberg",
+      "txt_translated": "Hedge Funds Turn More Bullish on Brent Oil as Iran Talks Stall - Bloomberg",
+      "txt_final": "Hedge Funds Turn More Bullish on Brent Oil as Iran Talks Stall - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steadies With Focus on Russia-Ukraine and US-Iran Talks - Bloomberg",
+    "date": "2025-05-20",
+    "timestamp": 1747724400000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQlFOVVhEQXVKbVE1UEhweG5lU2lxMlJ0d2l6bDJLdllhN1lnbFozN2E3ZEk0bkxJaEt1bWtsTjVfVWRSMVpIRENSRGEwa19GNnpuc0dDeVhaX3VObURfY0lVZEJ6Z0VaZ2g2ZW5iSGVuZHlTMzFpNm5DSWpOYW5rQ2lhS3VlYmpRY3BBd0VtaE9xMk01VjFCWTF1TXNlZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Steadies With Focus on Russia-Ukraine and US-Iran Talks - Bloomberg",
+      "txt_translated": "Oil Steadies With Focus on Russia-Ukraine and US-Iran Talks - Bloomberg",
+      "txt_final": "Oil Steadies With Focus on Russia-Ukraine and US-Iran Talks - Bloomberg"
+    }
+  },
+  {
+    "title": "OPEC+ Agrees on Third Oil Supply Surge Despite Russia’s Qualms - Bloomberg",
+    "date": "2025-05-31",
+    "timestamp": 1748674800000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVTZSanRFblQyMzZkdjJKRGxQa3BSR3hGS1VIemtod3UyNlpfdGN6dFllVTVUVFVfR2xna1pPcnh6aVUzc093b1pSUktGM3ZSaElnVm8tUXhIT0N1X0NmR3phdzZ5RTc3bjhfYWlkZzdrZ1FFcHYxM0pFcmJJTXFzdlJ3R3lwYWpHM1RYTEd5bDZoY09oNEhIN0VxSnZaMlg1eC10YWVwNkpFektoYjgw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.859,
+      "pos": 0.141,
+      "compound": 0.2023,
+      "txt_original": "OPEC+ Agrees on Third Oil Supply Surge Despite Russia’s Qualms - Bloomberg",
+      "txt_translated": "OPEC+ Agrees on Third Oil Supply Surge Despite Russia’s Qualms - Bloomberg",
+      "txt_final": "OPEC+ Agrees on Third Oil Supply Surge Despite Russia’s Qualms - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Decline With Higher OPEC+ Supply Weighing on Outlook - Bloomberg",
+    "date": "2025-05-06",
+    "timestamp": 1746514800000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNejJfRE5PSkJ2bzIzQmJFTEZjSWpnVUh1ajBuTmlWazZUdnctVEZDRkUyTEd6TEJRb24xLWFGN2NWeGE0VXhEbzc3RVhScUF1VmFvZ1AwNG5nSVFrNktxd3BoWFJnalNCbTd6TU9OSzB3UC1VeGNiVjB0RW05RlIwUExQVkM0b01tOGI2UVpiRXBIc1pSRC1FMUdDcC0?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Holds Decline With Higher OPEC+ Supply Weighing on Outlook - Bloomberg",
+      "txt_translated": "Oil Holds Decline With Higher OPEC+ Supply Weighing on Outlook - Bloomberg",
+      "txt_final": "Oil Holds Decline With Higher OPEC+ Supply Weighing on Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Indicator Flashes Weakness in Key Western Crude Markets - Bloomberg",
+    "date": "2025-03-20",
+    "timestamp": 1742454000000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZXdLRHFxWUdRWW9FNTQtdWp1OThQZ2NPRWlvUlJXVmREdjR1WHRlbUNDZUxsVVh4ekc1M2R1V2xHeVFld1MyLVd1OHNWd01WNktNVGowdzF1Q3pVaElralI2aGwzT1kxV05QUUkzSEdvYThBV2pybnhQU3ZsNTd2T3NtdUVfTEFtN1ZiZnhtVFIzT0xFY1VnMDlLYnpieVVEM2VnSjE5TURtZ3ZLX0pB?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.419,
+      "neu": 0.581,
+      "pos": 0,
+      "compound": -0.7579,
+      "txt_original": "Oil Indicator Flashes Weakness in Key Western Crude Markets - Bloomberg",
+      "txt_translated": "Oil Indicator Flashes Weakness in Key Western Crude Markets - Bloomberg",
+      "txt_final": "Oil Indicator Flashes Weakness in Key Western Crude Markets - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Extends Steep Selloff as Fresh Tariff Wave Imperils Demand - Bloomberg",
+    "date": "2025-04-09",
+    "timestamp": 1744182000000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbFFCM2VxR1Q3QU8tUFRDNXllSnBiNllRM1ljRUFkLWNDNFp5LVcwdHlOeTVWWWpQWVItT1Z6NGZ1X0tsODQwMThFUnc4Z3VTZTJJZmM3WTJKVTFKbjlnbWRfT0gzOGE5Yl9nSi1UNDFCTGdPZEJqcTNxdVc4Q0Rtckg3WWViQzlPTUxZU05JRFJwQWRfZjdCdGFmNDNMVFU?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.105,
+      "neu": 0.629,
+      "pos": 0.266,
+      "compound": 0.3182,
+      "txt_original": "Oil Extends Steep Selloff as Fresh Tariff Wave Imperils Demand - Bloomberg",
+      "txt_translated": "Oil Extends Steep Selloff as Fresh Tariff Wave Imperils Demand - Bloomberg",
+      "txt_final": "Oil Extends Steep Selloff as Fresh Tariff Wave Imperils Demand - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Contango Creeps Back as Traders Move to Price Recession - Bloomberg",
+    "date": "2025-04-09",
+    "timestamp": 1744182000000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRy04dGhTdWJYOVc2Nmt2eE1HSzEzU0NTRUtCY19TeWloMXRCWnJ4SDUzUmpha056S0V1NWxvTlV0SmRUUy1vSG0tYXRfLTUzMERpSGphemQ4bVVseWVDc3Vtdm1LbXU2Y0RGVHJ3OU9ERnptWHFXUk1RNDktU0lSaVZHQy1jM0ZVbkhNaGZQcHZNNklPSkg2ai1fal96X05MQnhyaFd2Vjh5b2ctMHdZ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.203,
+      "neu": 0.797,
+      "pos": 0,
+      "compound": -0.4215,
+      "txt_original": "Oil Contango Creeps Back as Traders Move to Price Recession - Bloomberg",
+      "txt_translated": "Oil Contango Creeps Back as Traders Move to Price Recession - Bloomberg",
+      "txt_final": "Oil Contango Creeps Back as Traders Move to Price Recession - Bloomberg"
+    }
+  },
+  {
+    "title": "Hedge Funds Rush Into Oil Short Bets as OPEC Supply Risk Looms - Bloomberg",
+    "date": "2025-05-30",
+    "timestamp": 1748588400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY2J0dXl3SkdmLUFrZjdNSE9LNUNRcERhcF9iOGhEaWxSczZrWmhmMEdZbGdlQ214SzBadDhjbU50S2Z5WG1TREh4Y0pnTDRuZ0doNTYtMkhwemVnSGxkU1NiQWxKMjlTM1g2XzUwZk1QYVVNT2V4S21FNTVMRVdCeUdBU0VKZEVQZmlqZFdhMVVFQzZqMXJjdVB4UWF0Mng1T3ZBcTdUc1c0Wk1JWW1ZY1FmQQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.764,
+      "pos": 0,
+      "compound": -0.4019,
+      "txt_original": "Hedge Funds Rush Into Oil Short Bets as OPEC Supply Risk Looms - Bloomberg",
+      "txt_translated": "Hedge Funds Rush Into Oil Short Bets as OPEC Supply Risk Looms - Bloomberg",
+      "txt_final": "Hedge Funds Rush Into Oil Short Bets as OPEC Supply Risk Looms - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Decline as Potential Iran Deal Raises Supply Concerns - Bloomberg",
+    "date": "2025-05-16",
+    "timestamp": 1747378800000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWmtJV3JmTTgwWkFKWnUwNW53UUlOeWpTU2JCQW9RbV8tVUtDbVB3dHk3aDN2aTJONm5QRDVDeDdkdTJmd1Rwc0d4YlZQS0piWGJiZmo1Q0lsdkduaU5jZE1yLWNLbWVJUmVXMjV4dk1ESk92MVRSckZzcTVJSm42RnRFemdaVV90NkQtOWROYWVqRk82cjluOXF0QUxoUQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Holds Decline as Potential Iran Deal Raises Supply Concerns - Bloomberg",
+      "txt_translated": "Oil Holds Decline as Potential Iran Deal Raises Supply Concerns - Bloomberg",
+      "txt_final": "Oil Holds Decline as Potential Iran Deal Raises Supply Concerns - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Traders Lurch From Praying for Volatility to Drowning in It - Bloomberg",
+    "date": "2025-04-19",
+    "timestamp": 1745046000000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY0tYdzE3X0kzaFE2aVFuQVB0WHB0UEZ6aUloMFRrOUFyd2YzQlJZTW9TY2t3NDgtMExZM1VkLWNrZldDVS1KZ2VKTzFLZWVESWVVRWZMLXVyV3lTdzAtdnZudnN4bllzREFOR2ZScjByNXNlLUFURm5zZmdNRVJjdHV6aXA4b2ZFdkp5UTdzQU1rSzltYWJRUFR5cHNTTmlsV19scXpjdHJXc1d6MkFINFFmemw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.828,
+      "pos": 0.172,
+      "compound": 0.3612,
+      "txt_original": "Oil Traders Lurch From Praying for Volatility to Drowning in It - Bloomberg",
+      "txt_translated": "Oil Traders Lurch From Praying for Volatility to Drowning in It - Bloomberg",
+      "txt_final": "Oil Traders Lurch From Praying for Volatility to Drowning in It - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Biggest Loss in Two Weeks With Focus on OPEC+ Supply - Bloomberg",
+    "date": "2025-04-24",
+    "timestamp": 1745478000000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcWl2ekxjMlFlek1fdHhsckVsVk5hZEJvZTdEOElSSWFuenJoTU93WkQ0SVBuaVFnS1lETDB6aGJ1OUt4Z1BLcVpUU2JTMzJPMDFBUmZYN1U0RGpsZkJ5Qy1NeU9MZHEtbXJub3NqeTd1WGNkMmVOaFhjdkU0VTNkVVg2LU5uTDUxVW8wOHA0T2F0ejJQTFdOUG5JYTgxcUlH?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.15,
+      "neu": 0.85,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "Oil Holds Biggest Loss in Two Weeks With Focus on OPEC+ Supply - Bloomberg",
+      "txt_translated": "Oil Holds Biggest Loss in Two Weeks With Focus on OPEC+ Supply - Bloomberg",
+      "txt_final": "Oil Holds Biggest Loss in Two Weeks With Focus on OPEC+ Supply - Bloomberg"
+    }
+  },
+  {
+    "title": "How Trump’s Tariffs and OPEC+ Are Driving Down Oil Prices: QuickTake - Bloomberg",
+    "date": "2025-05-06",
+    "timestamp": 1746514800000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRFBUWl8wXzNPaUFhVE9yd0w5aVJfRHlwWVE1UnBMT0lvdWg3UHd1VkJ2LVAxejFqOTNLajVyZUZ6Um9mUWs4amZvb1dYMTlKakxfZzJqYzJzRUpTNDdkbURuSHZzOXBIOHNYX1F6SjdiNUI5dXk1QW1PNzRCRE1fcjJuakRVOFhnSmU0WEZ4cnpfS3MtVFlvSlhXdjE0QmJnNkhGZ25UOFNzeUpJUnNLQTRJbmhtQnk3?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "How Trump’s Tariffs and OPEC+ Are Driving Down Oil Prices: QuickTake - Bloomberg",
+      "txt_translated": "How Trump’s Tariffs and OPEC+ Are Driving Down Oil Prices: QuickTake - Bloomberg",
+      "txt_final": "How Trump’s Tariffs and OPEC+ Are Driving Down Oil Prices"
+    }
+  },
+  {
+    "title": "Oil Advances as US Joins Chorus Slashing Global Glut Forecasts - Bloomberg",
+    "date": "2025-03-12",
+    "timestamp": 1741762800000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPS0ZGWHJyWlNpN244dnNxclRPYkN6ZFFWWjVrTkNwRnY0LTVHLUVvT1o3M2F1YU1xQmlkMVFBcFc5Q2Y1LVNlX2pCaDN1OXNvXy1WT1NaeFFGdk1FaW1MaUx5VG1XZFp2THpnT0VqWENvZjlIVzhSRGRadXhydnhhZ2VDNEl6WU5kZEtBTTZCM1hSVUotTlFsVGFFQWJJVFpX?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.16,
+      "neu": 0.84,
+      "pos": 0,
+      "compound": -0.2732,
+      "txt_original": "Oil Advances as US Joins Chorus Slashing Global Glut Forecasts - Bloomberg",
+      "txt_translated": "Oil Advances as US Joins Chorus Slashing Global Glut Forecasts - Bloomberg",
+      "txt_final": "Oil Advances as US Joins Chorus Slashing Global Glut Forecasts - Bloomberg"
+    }
+  },
+  {
+    "title": "Goldman Cuts Oil Price Forecasts on Slow US Growth, OPEC+ Policy - Bloomberg",
+    "date": "2025-03-16",
+    "timestamp": 1742108400000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLW5vZDVydHl3X21hWnZFUGZ6VUZIcWxId05jMTRrdmhNYlNhbkV1QnBZN0JwZGxtX3BJd3F6b0lBaTdLQUtFdlFwWmdSalkzNVRLNXhJSEFRbXlBUmtaNE1CSFQzYUxRRWc1TFYzbEFRa2htTWlzeTFGcmo3OFFqd0oxaHNGOVU2dGIyemI2MVNENGRCdndQWWNZajFfMjduQmhsUGxUUkpGWFZfMTc2M2MzNA?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.186,
+      "neu": 0.593,
+      "pos": 0.22,
+      "compound": 0.1027,
+      "txt_original": "Goldman Cuts Oil Price Forecasts on Slow US Growth, OPEC+ Policy - Bloomberg",
+      "txt_translated": "Goldman Cuts Oil Price Forecasts on Slow US Growth, OPEC+ Policy - Bloomberg",
+      "txt_final": "Goldman Cuts Oil Price Forecasts on Slow US Growth"
+    }
+  },
+  {
+    "title": "North Sea Oil Swaps Hit Record Volume as Prices Spiked - Bloomberg",
+    "date": "2025-03-31",
+    "timestamp": 1743404400000,
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPb0Rrd3A5c2dWRGgtQW83b1dEOExnRnNxa1RuSkpBV3RwaWE3MXFKMmRwUUhHejVXSVYzM1pnMDNWUmVaWjlWSmR2UjZEaU5sSlZGUzlUNjRSblFHenpTMWp5MDJlZHlzUXFOTEsycHV5Si0xdGhldlZETHk0UWh0Y0ZKaS1DQlYtY2NFeHhZVEFDR1pSSG5VelVKSGV0MS1wNFZycXZTUms?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "North Sea Oil Swaps Hit Record Volume as Prices Spiked - Bloomberg",
+      "txt_translated": "North Sea Oil Swaps Hit Record Volume as Prices Spiked - Bloomberg",
+      "txt_final": "North Sea Oil Swaps Hit Record Volume as Prices Spiked - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Decline With US Economic Outlook, Iran Talks in Focus - Bloomberg",
+    "date": "2025-04-29",
+    "timestamp": 1745910000000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON2FaeWY1QUdRRzF4Nk95N2hTRGlYd3hPTkk5VzRvZjlGLTlaeG1tbnpnRWdxUG1ScFdUWk9ZMm9BTXBkWlc1eEUzQ3JuNE5sWVZoaEFQTWxua3V1VGM1VzJ4UlJUbElIREN3U1d3SDNmVFg2UHVPaXd0YXhOeHhxMjBsRG1GN2hfOG1rUjlsbGRoZlhTa1dzMVNTcmNIMFI4?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Holds Decline With US Economic Outlook, Iran Talks in Focus - Bloomberg",
+      "txt_translated": "Oil Holds Decline With US Economic Outlook, Iran Talks in Focus - Bloomberg",
+      "txt_final": "Oil Holds Decline With US Economic Outlook"
+    }
+  },
+  {
+    "title": "Oil Plummets as Trade Risks Increase and Saudis Slash Prices - Bloomberg",
+    "date": "2025-04-07",
+    "timestamp": 1744009200000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaG96TktsOUxkdmVGLVZpZkh3SXYyX1ZsSWRodTJzZ2c2RTFHTm9TRVFqU0xDNGh3d1BIWWVBUG4yekVsYW9scmZ4b1VjNzQxanJlYnRhNnNHRlExYnI1M01relFvdWEyMF90REs3dWtGa0FhR1dlemFsUXNQNEdSLW9sNFF1UmlCSW9UYUhXNGhfU0g3enoxSHhDTjFKQU0?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.271,
+      "neu": 0.581,
+      "pos": 0.148,
+      "compound": -0.2263,
+      "txt_original": "Oil Plummets as Trade Risks Increase and Saudis Slash Prices - Bloomberg",
+      "txt_translated": "Oil Plummets as Trade Risks Increase and Saudis Slash Prices - Bloomberg",
+      "txt_final": "Oil Plummets as Trade Risks Increase and Saudis Slash Prices - Bloomberg"
+    }
+  },
+  {
+    "title": "Watch JPMorgan’s Kaneva Sees $75 as Fair Value for Brent Crude - Bloomberg",
+    "date": "2025-01-23",
+    "timestamp": 1737619200000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbk5Ec29fak95dlV1TTgtUmlRN3BvMzhhMVREamZJbnNUQjNpamxkVldYNy1Zcm9PX1h4c3Y5QzlrX2MzT1R3ZFd1RzBKZk53OXB3enZ0TXRPNFJFNDI4bkk3UzdLZGk3em9tMUdWTWNTSm0wYWxjRDQyQ1lZM0FZQ2lMUWs3ZzQ1Y19hZWhLZEktUVJSQWZtSkxsOS0wQkF2MnZPdFJkT28xN3NTYkhJ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0.201,
+      "neu": 0.543,
+      "pos": 0.255,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Watch JPMorgan’s Kaneva Sees 5 as Fair Value for Brent Crude - Bloomberg",
+      "txt_translated": "Watch JPMorgan’s Kaneva Sees 5 as Fair Value for Brent Crude - Bloomberg",
+      "txt_final": "Watch JPMorgan’s Kaneva Sees 5 as Fair Value for Brent Crude - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steadies In Year’s First Session With US Stockpiles in Focus - Bloomberg",
+    "date": "2025-01-02",
+    "timestamp": 1735804800000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVGZfbXQwRGdESjJWdDBpbFRTREF3eDRWbFN4dFdMSjcwSGlTclNTQk5JTFU0LVc1NkJNdW1raGpiNjZ2bzRoaENqODUxdHlkbUVlRUgxd1pLR1BMUk1QUDJxczFLSkdHcGdOQzNIVy1SMU15X0p5VGVHbzVYTUtHc0FvQ1NUN3dTcFZLdHBGak5UcWJyYUlqQnJ1bVE?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Steadies In Year’s First Session With US Stockpiles in Focus - Bloomberg",
+      "txt_translated": "Oil Steadies In Year’s First Session With US Stockpiles in Focus - Bloomberg",
+      "txt_final": "Oil Steadies In Year’s First Session With US Stockpiles in Focus - Bloomberg"
+    }
+  },
+  {
+    "title": "Brent Oil Price Tumbles Below $70 as Oversupply Fears Deepen Rout - Bloomberg",
+    "date": "2024-09-10",
+    "timestamp": 1725951600000,
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbHdORXI4ejFOckRJZTNxWnNyNUV1b1ZJaHg0ZDRiM2VSSXN6UzlVWlA5YzFOOWpuUVMyekJTSDlpODlUaUpDbGZMQ29FSzZLM0N3ellDS091dVF4ZHFGWkJweWdQQ2paSndsbmRZMTE1c0lsRGtIbmtBV00xMHFtaGxEeHBsaUtUMFdmLWJGbWpNVFQ1WW9Nbk5TM2paa3R2dms2VkFuMFQzczNVUXc?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.189,
+      "neu": 0.811,
+      "pos": 0,
+      "compound": -0.4215,
+      "txt_original": "Brent Oil Price Tumbles Below 0 as Oversupply Fears Deepen Rout - Bloomberg",
+      "txt_translated": "Brent Oil Price Tumbles Below 0 as Oversupply Fears Deepen Rout - Bloomberg",
+      "txt_final": "Brent Oil Price Tumbles Below 0 as Oversupply Fears Deepen Rout - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Hefty Advance on OPEC+ Deal Progress, Iran Sanctions - Bloomberg",
+    "date": "2024-12-04",
+    "timestamp": 1733299200000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMjVfdnFWU0hZX2xobV9RRTRLNHl1OVMyVWF3QnBpcmM2OEVaeVFUNDg5ZDdfN1pwd3g4T1c3V3dPNWo0cklDMG1vV3VsbDNxanlFTmg2dzVNWlViRzNjUHRFbWc2Z0ptcFpoaXR6bkw5cW9uOHl2UUZ6alc5VUNJd0JZNFEybFFvcFdfYS1hTmxfaXIxZktJZnI0X1A?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.714,
+      "pos": 0.286,
+      "compound": 0.4215,
+      "txt_original": "Oil Holds Hefty Advance on OPEC+ Deal Progress, Iran Sanctions - Bloomberg",
+      "txt_translated": "Oil Holds Hefty Advance on OPEC+ Deal Progress, Iran Sanctions - Bloomberg",
+      "txt_final": "Oil Holds Hefty Advance on OPEC+ Deal Progress"
+    }
+  },
+  {
+    "title": "Oil Steady after Trump’s Tariff Reprieve and US-Iran Talks - Bloomberg",
+    "date": "2025-04-14",
+    "timestamp": 1744614000000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUi1EcWFwVVpPbnhVeE5OVEhSQlZ6eEFLOHJSUGpHZllkdFk5ZUY4V0NOUmRwdTRDT1hHVzhjV3FXREhxMElCMW9Bbm5lMUttbUpHaV9vazNHRzRvWEFKT1lGd2JJNk1DNXFTUS1PS25xYlB2RmdrY3VqWVR3MjVIa0VINWxEWF90b291MVpqVlI5aHJpQUVxV25VT19Bam13?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Steady after Trump’s Tariff Reprieve and US-Iran Talks - Bloomberg",
+      "txt_translated": "Oil Steady after Trump’s Tariff Reprieve and US-Iran Talks - Bloomberg",
+      "txt_final": "Oil Steady after Trump’s Tariff Reprieve and US-Iran Talks - Bloomberg"
+    }
+  },
+  {
+    "title": "Russia Expects Fewer Exports and Lower Oil Prices This Year - Bloomberg",
+    "date": "2025-04-21",
+    "timestamp": 1745218800000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeTI3SEJONUl6cWMzUUVhbVJEeGJ4LUhvOWFzaWp0b1daSlNlRk1xRmFZbEJycm9mUTJubzlTN2NZc1hIOEtzYXFRSlh0MnZoS2czMWhWZW05bmluQzNjWFlRQzNFbjk2eFBidlA0cTZxeGNxTkZ5alFtdXBIV2MwXy1PU2lEM1JTcXM2SHlzYUFpXzdNcGVSeGlCSE9fd016TmZHTlY1SWswQVp4MnBr?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.167,
+      "neu": 0.833,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Russia Expects Fewer Exports and Lower Oil Prices This Year - Bloomberg",
+      "txt_translated": "Russia Expects Fewer Exports and Lower Oil Prices This Year - Bloomberg",
+      "txt_final": "Russia Expects Fewer Exports and Lower Oil Prices This Year - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Speculators Turn Sour as Bullish Wagers Get Trimmed Back - Bloomberg",
+    "date": "2025-02-23",
+    "timestamp": 1740297600000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQU5QN1FwanZTMVM0YzJQay0xX0ZGTGM1cXdHRjF6YUp2M1UwMGZERHJnSVJ1SUJwaXotMGVnNlp2ZjRrU0NXcGxsdzhNamdfRUZ3TDBCNnQ1Z29zbnFjZ3dMbDZHYm5BQ0VSLWFGVi1xMV9QYTZaNmM5NlVacHQtNG5pckxkcmYxRVFTU2pIZXY2NV9EZzRNTS1LUklEWlpubUs5SU1MYUd0a1F3cFFGTw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Speculators Turn Sour as Bullish Wagers Get Trimmed Back - Bloomberg",
+      "txt_translated": "Oil Speculators Turn Sour as Bullish Wagers Get Trimmed Back - Bloomberg",
+      "txt_final": "Oil Speculators Turn Sour as Bullish Wagers Get Trimmed Back - Bloomberg"
+    }
+  },
+  {
+    "title": "Brent Crude Oil Averaging $65 in ‘25 to Keep OPEC+ Under Pressure, BofA Says - Bloomberg",
+    "date": "2025-01-06",
+    "timestamp": 1736150400000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHJVWHpHbzhuMzg2Ti1CMHRMUTc4eEhnWDctQ2Vxb3o0bWZTM2s2ZHczY3FaNHdSdHlad1ZEbGY0ZjhCNERNajlUNTVKWkprVDhhcnRaLVotSDdVTzNZVGJQZjY3bmJrbzlnYWpHckhRVjl0R0NtQ3NoUEU1bzVFQTBYSDIzY2hMSTIxWHB3QmZ5Z1VtcHdCSHBDelBQRlFQT2pYU3RWbEZRVVQyRElIaw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.371,
+      "neu": 0.629,
+      "pos": 0,
+      "compound": -0.7096,
+      "txt_original": "Brent Crude Oil Averaging 5 in ‘25 to Keep OPEC+ Under Pressure, BofA Says - Bloomberg",
+      "txt_translated": "Brent Crude Oil Averaging 5 in ‘25 to Keep OPEC+ Under Pressure, BofA Says - Bloomberg",
+      "txt_final": "Brent Crude Oil Averaging 5 in ‘25 to Keep OPEC+ Under Pressure"
+    }
+  },
+  {
+    "title": "WiseTech Agrees to Buy E2open in $2.1 Billion Debt-Funded Deal - Bloomberg",
+    "date": "2025-05-25",
+    "timestamp": 1748156400000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVkZ4NllfWmUzWXgyd2dWT2lpQ3VhaFFic2ZVWndQSy1TcUt3b2pBZTZfaUJ4M1ZvYUZ1VHJrNGRLMTJ4NVl3VEZsRk96RmEwTEIybmFzODBORnpBVUVUZ2RlbHowazY0aFlMeTVfSV9pY3FUdUpKYWtFcUFaeFdsXzlidWNBemFDdjhoSWNEaXBDaFlTbGVBdGd2S0txRnFzS1NwN1ZWUzJfQWljMU1XZzdR?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.859,
+      "pos": 0.141,
+      "compound": 0.2023,
+      "txt_original": "WiseTech Agrees to Buy E2open in .1 Billion Debt-Funded Deal - Bloomberg",
+      "txt_translated": "WiseTech Agrees to Buy E2open in .1 Billion Debt-Funded Deal - Bloomberg",
+      "txt_final": "WiseTech Agrees to Buy E2open in .1 Billion Debt-Funded Deal - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Decline With Market Focused on US-China Trade Talks - Bloomberg",
+    "date": "2025-05-08",
+    "timestamp": 1746687600000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcy1fdEZYcUtDWTZobHpfdWJkVUx4WDF1cTVURWRkaHQ4Zk52bko1TXNWdnBhc3FhVE45SUNMQ1F4d0lsSGdaN3h2YXQ1LU5ZQUxOUWpNR0Q4MUpzUWlJT240aW9hamZqNDc4RFdFOVlzT2FQYlB2RW5DeS1HZmlwQmhFeUItWkxLR3dad2R3NGRNZW9rNG10Vm9wYzU?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.809,
+      "pos": 0.191,
+      "compound": 0.3818,
+      "txt_original": "Oil Holds Decline With Market Focused on US-China Trade Talks - Bloomberg",
+      "txt_translated": "Oil Holds Decline With Market Focused on US-China Trade Talks - Bloomberg",
+      "txt_final": "Oil Holds Decline With Market Focused on US-China Trade Talks - Bloomberg"
+    }
+  },
+  {
+    "title": "Virgin Australia to Relist in Biggest Asia Airline IPO for a Decade - Bloomberg",
+    "date": "2025-06-04",
+    "timestamp": 1749020400000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcWpOQkpDSmdEQWJ0cjB6NUJMOTRFbmRXTVQzMVhmLTBFOHJMYkQzOXhmUHJqazJWQ0UyclhKdlhJNktxSmJqWFdwdnBpLThKZllOVHVSajdfd0VUYkFrWkN6SHBHSER0b3VobkNac1RMY3dSWTk1SEZJTUpEMkpCYzNXQ28tVUhGSWozUk5hYmtlcko1QnJYUC1XU1FfMEJXT0pEd2J4LV9GRl9Mbm1VQ2FjenFfSlU?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Virgin Australia to Relist in Biggest Asia Airline IPO for a Decade - Bloomberg",
+      "txt_translated": "Virgin Australia to Relist in Biggest Asia Airline IPO for a Decade - Bloomberg",
+      "txt_final": "Virgin Australia to Relist in Biggest Asia Airline IPO for a Decade - Bloomberg"
+    }
+  },
+  {
+    "title": "Indonesia Mulls China’s Offer of Battle-Tested J-10 Fighter Jets - Bloomberg",
+    "date": "2025-06-05",
+    "timestamp": 1749107161000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNanpCNzhRUzBuTUg5RWl6R1V2b3dsVlZCMzRaMXVaZnVPVVRWSjZJYWdaLTVHODZNdm9rWThtenRUY2VsWnVFaGdPaVNXb0VnVk1EQmVYSTNRZ3hYRUFXa092dnVJTnVMbVBqOW1Oak5zekJCcW56aFF3QWFTdWFKOUJpdlh2aHBKaDk4cVBPeHFqUDZOdWxiWUdzc1dpaVlQN2RiLXEwNzQwdFFzU2oxZ0ZiSC1kdw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.862,
+      "pos": 0.138,
+      "compound": 0.1531,
+      "txt_original": "Indonesia Mulls China’s Offer of Battle-Tested J-10 Fighter Jets - Bloomberg",
+      "txt_translated": "Indonesia Mulls China’s Offer of Battle-Tested J-10 Fighter Jets - Bloomberg",
+      "txt_final": "Indonesia Mulls China’s Offer of Battle-Tested J-10 Fighter Jets - Bloomberg"
+    }
+  },
+  {
+    "title": "Brent Crude Oil Hits $80 a Barrel for First Time Since October - Bloomberg",
+    "date": "2025-01-10",
+    "timestamp": 1736496000000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUmQ1c05NLUFjamhPX0RacEFLVFBVdGpVRlo0eWN1VmEyMnJHSmREVVdNVWpXeHgzOHktNWtKU1A2aG1CU3hrZkQ1SFVXSm5LYzFOUUFHejdFUG5IVjZTWTRkWWlIMUdQQnRzaU5GQnN5YkxTVVVzMXVsd2ZxWDJaTWdPM2tIZFBJUlhzV2dEaGlzcUZXTFp6c3hVRWQ2QkYteTF6cTJVenN5YkVZVkRPVVVB?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.222,
+      "neu": 0.778,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Brent Crude Oil Hits 0 a Barrel for First Time Since October - Bloomberg",
+      "txt_translated": "Brent Crude Oil Hits 0 a Barrel for First Time Since October - Bloomberg",
+      "txt_final": "Brent Crude Oil Hits 0 a Barrel for First Time Since October - Bloomberg"
+    }
+  },
+  {
+    "title": "OPEC+ to Begin Long-Delayed Supply Hike Amid Trump Pressure - Bloomberg",
+    "date": "2025-03-03",
+    "timestamp": 1740988800000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNnRHSnMzeTRybjZPdzNNMzVFeXdqc0o1UlZfNzVPUGx5VlpJUG5RQ0d2STR5M19Va3BRZV9rb2xKLVRSa0VEemVzU2Y4OGR3VC15QU05NWluVjFjRkVrR3dneU5RSmdZWlJ6Nlk5bEhKMnFtTmJBZzQ4djNWbE8ybzdEX2xmX283YkhSRXU0ZklBbFlaWUtuWXQwZmdaSkxYZjhIbV85aUxmcTRCcjZBSkln?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.18,
+      "neu": 0.82,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "OPEC+ to Begin Long-Delayed Supply Hike Amid Trump Pressure - Bloomberg",
+      "txt_translated": "OPEC+ to Begin Long-Delayed Supply Hike Amid Trump Pressure - Bloomberg",
+      "txt_final": "OPEC+ to Begin Long-Delayed Supply Hike Amid Trump Pressure - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Edges Higher as Market Braces for Second Trump Presidency - Bloomberg",
+    "date": "2025-01-20",
+    "timestamp": 1737360000000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNHlySVlXTHJXeXFEMVdiWUFPMUZHMGpyUTZadlc4RTZldnJUdC05cnBlUzFvTEtMUmZnRVRuQjFPMXp5My14RUMtalRWUzA3QUpLYWpZQUdwNERueEZTdUxCRHJROFAya0hhQU9NRTNvcTNNbjZqT3J4Z1ZqaGRSTzRwaDB2MzBLQVVhelJfX0JmSjR6TExEb3hsa0tHQQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Edges Higher as Market Braces for Second Trump Presidency - Bloomberg",
+      "txt_translated": "Oil Edges Higher as Market Braces for Second Trump Presidency - Bloomberg",
+      "txt_final": "Oil Edges Higher as Market Braces for Second Trump Presidency - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Gains as Traders Focus on US-China Trade Talks After UK Deal - Bloomberg",
+    "date": "2025-05-09",
+    "timestamp": 1746774000000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMURvc01ZMEVVOW8wUXpBeFJ2eXlINnk5aVlmdEtCV09xNFR4Zm0tTF8zNEg0WUVRQUtaWE9mUmFCZUs1Yk5PcGMwRHpBTzJzblg4TnZMazRvN1JqZ1FCanB6Z2FEQzFhZUhpbS1KOVhqOWh6M3MxR3UwOFhhLXBjQlgzRHROOE1zYUdSWlZpZmRENlVxUXNOc0JoZkk?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.844,
+      "pos": 0.156,
+      "compound": 0.34,
+      "txt_original": "Oil Gains as Traders Focus on US-China Trade Talks After UK Deal - Bloomberg",
+      "txt_translated": "Oil Gains as Traders Focus on US-China Trade Talks After UK Deal - Bloomberg",
+      "txt_final": "Oil Gains as Traders Focus on US-China Trade Talks After UK Deal - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Traders Flock to Options Like Never Before on Mideast Risk - Bloomberg",
+    "date": "2024-10-23",
+    "timestamp": 1729666800000,
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmF4T1A2LS16NGEzMWVQSFpyc3RGTTZDVWlzcjhLZlBBc0pHTnptQXdXY0pIMzFHV2pPUHdfRjh3VVRYajE4bjh5M2hxRVMyRzNFZzI0VkU1MXNnN0cyd05zNW5VWkJXWVMtQ3J1clZvdm5JQXQxXzlKOXFjdmtMMlcxOUlGaldQRXk3bjBNbU5kbmlNLVFTOXUzblk2bDNoWlJYbVNWVmQ2X2pXNU4ySWlXeDJEZzRH?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.135,
+      "neu": 0.705,
+      "pos": 0.16,
+      "compound": 0.1027,
+      "txt_original": "Oil Traders Flock to Options Like Never Before on Mideast Risk - Bloomberg",
+      "txt_translated": "Oil Traders Flock to Options Like Never Before on Mideast Risk - Bloomberg",
+      "txt_final": "Oil Traders Flock to Options Like Never Before on Mideast Risk - Bloomberg"
+    }
+  },
+  {
+    "title": "Historic Preservation Is Having a Renaissance. Meet the Man Driving It - Bloomberg",
+    "date": "2024-10-17",
+    "timestamp": 1729148400000,
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcW5yMUFzNl9SUXZPdGxSODZadWtMQlAta3Q4cUZTV1hGQ1BpMHpKVHdmYzd2eldGbmNBNVFPQzhhTzZRQUgyOVYxMlVrRXAydkk1c2Y5dDljQUNNS1BCSUE3VkJOZ1BHX05qWFlnNElBYWJYcHBHdU1Qa2FxTHJzbE92eG4teHk3cUZuSXpDb3dBcGVhalRQVHpSemgwb2QwLXJ5ZUlwdGYwS2gzdk5hZGV3dHNQM243bklpQ0N0cmVTazB4Rk0wZm1n?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Historic Preservation Is Having a Renaissance. Meet the Man Driving It - Bloomberg",
+      "txt_translated": "Historic Preservation Is Having a Renaissance. Meet the Man Driving It - Bloomberg",
+      "txt_final": "Historic Preservation Is Having a Renaissance. Meet the Man Driving It - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Heads for Modest Annual Loss as Market Looks Ahead to 2025 - Bloomberg",
+    "date": "2024-12-31",
+    "timestamp": 1735632000000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0xORnI1cFlMYXBFWHU1Y0J1VnJpMmIxbURPcGwwcjZScmZWWWVkRVRJVDdJTV9UYWg2R1N2RHgtZG9sbWVhOTdzOVotc0dOekp1ajMxejkyV2ZJUHI2MnNaQXVaU3ZpMVZwZmx3dmpab1N4X1otSndfWUFSNzNGMlIyUkNCOTJ2WUdVTHZnaGpNUW5vcTVDazRIRnczZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.15,
+      "neu": 0.85,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "Oil Heads for Modest Annual Loss as Market Looks Ahead to 2025 - Bloomberg",
+      "txt_translated": "Oil Heads for Modest Annual Loss as Market Looks Ahead to 2025 - Bloomberg",
+      "txt_final": "Oil Heads for Modest Annual Loss as Market Looks Ahead to 2025 - Bloomberg"
+    }
+  },
+  {
+    "title": "Plunge in 2026 Oil Prices Offers Hope to Beleaguered Bulls - Bloomberg",
+    "date": "2025-03-06",
+    "timestamp": 1741248000000,
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdVBCYl9JSUEta2hCdk1VMDBHT0QtaWtaVU42c1dSVjcxQk9zeVN3VGpEdC1TWnU0RFprQTRFdktMbFY0UF83dHlZOHh2TnVNVEJSaTNMVnFBVFJHQVhnZWg3Z1VTMlNEVlBqaHhxREVONURoRFBJQWVpMExwVVRHYlN1ZjlJV2hwN21NZ2N3TG4wX1VHTXJUTU5PejZRdldOR3IwZ1FYZ0gyUWt4aXc?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.791,
+      "pos": 0.209,
+      "compound": 0.4404,
+      "txt_original": "Plunge in 2026 Oil Prices Offers Hope to Beleaguered Bulls - Bloomberg",
+      "txt_translated": "Plunge in 2026 Oil Prices Offers Hope to Beleaguered Bulls - Bloomberg",
+      "txt_final": "Plunge in 2026 Oil Prices Offers Hope to Beleaguered Bulls - Bloomberg"
+    }
+  },
+  {
+    "title": "RBA’s Hunter Sees US Tariffs Dragging on Australian Growth, Jobs - Bloomberg",
+    "date": "2025-06-02",
+    "timestamp": 1748847600000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTFpQbkYwbnVQaXVuYTZHdkVsdTRFRm43N1RDM0p6MlY5OHhxV3VIY0l4SHl0TUxUQ0tuejZHdUVyam9nTE5XY2s2LV8tdXd3NElTdnF0cDRpR1FGUjhPZTdkVUtSdGdfNUVUOFQyMlRTRXNNSHRHR1l2N1FUbzdBUTRvUFlGX3BYVVA0SmlpWS1ick9zaWptMWlyaThJNEtKaGlpeWFyWXhWTGZ2bERuS3F2RDc?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.809,
+      "pos": 0.191,
+      "compound": 0.3818,
+      "txt_original": "RBA’s Hunter Sees US Tariffs Dragging on Australian Growth, Jobs - Bloomberg",
+      "txt_translated": "RBA’s Hunter Sees US Tariffs Dragging on Australian Growth, Jobs - Bloomberg",
+      "txt_final": "RBA’s Hunter Sees US Tariffs Dragging on Australian Growth, Jobs - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Weekly Loss as Saudi Price Cuts Signal Weak Outlook - Bloomberg",
+    "date": "2024-12-09",
+    "timestamp": 1733731200000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZDUzNGRkb2lLbms2Nk15QmRWN043Q1I1Szh0aEJWcF94Q2szcVN3a0h6WGoxRGpWRjJmUXVSR3RVLTRrRmVnZHJTRVlHdkpQcEkwRHJFeGRKZm9hM1lJWEE4N0NxNi1SSFhtaHZQYk1kWkQ0bkRZN1NUVFpEUG54YjhzbTJxNHBZdnF0LWE0NHlwakotY1FoZEZkY2E?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.425,
+      "neu": 0.575,
+      "pos": 0,
+      "compound": -0.7506,
+      "txt_original": "Oil Holds Weekly Loss as Saudi Price Cuts Signal Weak Outlook - Bloomberg",
+      "txt_translated": "Oil Holds Weekly Loss as Saudi Price Cuts Signal Weak Outlook - Bloomberg",
+      "txt_final": "Oil Holds Weekly Loss as Saudi Price Cuts Signal Weak Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "China Offered Cheaper Russian Oil as Sanctions Fallout Persists - Bloomberg",
+    "date": "2025-02-11",
+    "timestamp": 1739260800000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRS1NSlJXUnE3Vkg3cUZrUVRaYnBDTm1XTmVaaFJ5YXlTRXNNb1BSZDdqZUl6VWZjdVlfeDQxVVB5S3ZCRVV5ekg0R29yOXFITE4wRXdxMHVob3JwaHpoczNvcm1neThoRjJRUXR4eE1SQUJ2X0RIdXRXVm1zXzdaUVpFOFRCMjg3c3djUzV2VkZVYkxtWnZ6c0pvU18tV2xfLU5Va2JKRU9UM2l2MENmOE1zODM?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "China Offered Cheaper Russian Oil as Sanctions Fallout Persists - Bloomberg",
+      "txt_translated": "China Offered Cheaper Russian Oil as Sanctions Fallout Persists - Bloomberg",
+      "txt_final": "China Offered Cheaper Russian Oil as Sanctions Fallout Persists - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Edges Higher After Three-Day Rout With Trade War in Focus - Bloomberg",
+    "date": "2025-04-08",
+    "timestamp": 1744095600000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQREV2QVRkdG9qUnpPNzJPbXVZaXNTNDhabHNGUjJNbHpxaUF1SUNUWXN0OXlRRF9lVEJPbm5uX3gyRENfVUc3MV80OVVrRTRhQ0pRdXlyNlMzTURwWDVFTGZkVlUtMmtuMldGTjlFaXRRR05FWU9XWF9QNEEwZG13RG4yYnhiXzRQMWo4OGRZVFdraFI1UENZajYycDJFN00?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.245,
+      "neu": 0.755,
+      "pos": 0,
+      "compound": -0.5994,
+      "txt_original": "Oil Edges Higher After Three-Day Rout With Trade War in Focus - Bloomberg",
+      "txt_translated": "Oil Edges Higher After Three-Day Rout With Trade War in Focus - Bloomberg",
+      "txt_final": "Oil Edges Higher After Three-Day Rout With Trade War in Focus - Bloomberg"
+    }
+  },
+  {
+    "title": "Bullish Brent Bets at May High Even Before Sanctions on Russia - Bloomberg",
+    "date": "2025-01-12",
+    "timestamp": 1736668800000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU3liNGtkUzRlZjhraTMzWU5UR1ZsOWJHVFppSEY3STYyMHBxb2ZKeGE4OVpDNFJPX2RTMGtVa19QUG04amdOREowTktVNFFrWTFKSW8zamxqRVl3OGl6MVZoXy1aZkRmQUJDTEFlRzFpTDF5cFdzOG5vSnhlZ2tNSHBzOGNaRkdFZ3VOeGtnZUs5cUhnTE1LMWxVUm9jM2hZU1lYRjVPT1JhSU1DX0xxeDRPbw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Bullish Brent Bets at May High Even Before Sanctions on Russia - Bloomberg",
+      "txt_translated": "Bullish Brent Bets at May High Even Before Sanctions on Russia - Bloomberg",
+      "txt_final": "Bullish Brent Bets at May High Even Before Sanctions on Russia - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Sanctions Jolt Market as Bear Case Faces a Challenge - Bloomberg",
+    "date": "2025-01-12",
+    "timestamp": 1736668800000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbEUtZlVzMEFvZHEzZEh1NjdOWGZPTW5ncDRCdWxZZUdHZjRlb0Q3aGlKd2RvS1dGVHZjeG9MQVk0QlZDdlpsOFkzVHVDb056MU5oQ0s0MTdrSjg4NFJNaldXS3dXMDV6amlERE80YXBlV185WW96UkZxMnFSWWdNZ01Gd2V4dmwwOEp1NDBydlI2WkNWOURHelNxOTJDU095WjFSd0RaUmwzeGtpSWVFOXkzdUZxZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.894,
+      "pos": 0.106,
+      "compound": 0.0772,
+      "txt_original": "Oil Sanctions Jolt Market as Bear Case Faces a Challenge - Bloomberg",
+      "txt_translated": "Oil Sanctions Jolt Market as Bear Case Faces a Challenge - Bloomberg",
+      "txt_final": "Oil Sanctions Jolt Market as Bear Case Faces a Challenge - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Turns Higher as Traders Await Israel Response to Iran Strike - Bloomberg",
+    "date": "2024-10-07",
+    "timestamp": 1728284400000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLS00TTYycG85cHFHM0pENjd6cjVaSXM0cFFZVXlGM1ZZZkt1OWQ3Ty1CeVFxS1lrMEpvZUU1dTQzbXRhV3VUZ0tQbDNRcmZzN2xLWmYwa0hhQVVRbWtQbGk4ZENEUkZTRlZQV3VyOFlYN09vcUduODNPaFo4RU9MRlVlOUdLQWZBVVROcS1sdEFnSGNGc1NlYms5akI?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.108,
+      "neu": 0.791,
+      "pos": 0.101,
+      "compound": -0.0258,
+      "txt_original": "Oil Turns Higher as Traders Await Israel Response to Iran Strike - Bloomberg",
+      "txt_translated": "Oil Turns Higher as Traders Await Israel Response to Iran Strike - Bloomberg",
+      "txt_final": "Oil Turns Higher as Traders Await Israel Response to Iran Strike - Bloomberg"
+    }
+  },
+  {
+    "title": "Russian Oil Sanctions Mean Mideast Crude Is Strongest in Years - Bloomberg",
+    "date": "2025-01-27",
+    "timestamp": 1737964800000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJzenNPR0Q1dmp3SWZ1eWRrUUlYYXdJT0FfYUxKeEM0Sm5RRXp6X3ZlTy1GTzREREdTd0tUdXlzeWh2eWZYZ0NXQi1hOWZzN0ZkUXVVTWRaRUtrbTctUF9NbUJRaFF0MVRpODFkbnZxc0RuMUFDVlNMWFlRRWFRUUc2eG9OckRRQ2llbDdzN2pSMUxKY2JOcTREdWVBVlFVRXo5N1pKYzJuNTk4Mk01THZPQQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.223,
+      "neu": 0.602,
+      "pos": 0.175,
+      "compound": -0.2023,
+      "txt_original": "Russian Oil Sanctions Mean Mideast Crude Is Strongest in Years - Bloomberg",
+      "txt_translated": "Russian Oil Sanctions Mean Mideast Crude Is Strongest in Years - Bloomberg",
+      "txt_final": "Russian Oil Sanctions Mean Mideast Crude Is Strongest in Years - Bloomberg"
+    }
+  },
+  {
+    "title": "Hedge Funds Ramped Up Bullish Oil Bets Ahead of Tariff Day Drop - Bloomberg",
+    "date": "2025-04-04",
+    "timestamp": 1743750000000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTW5yd0MtRUllMjd5WXMyQkFXNmdHTEdPeF9DdUp0NzUtYjcwNzljaFhqX2s2VGFjb0xHZE42a2pZVmF3bC1pdm9xR0tCVzV3X2l3QjRpLW1FSDRSQlZ2Yk9pUUxWVGRSVmU5TVMzSHNVWlJ5M0NqWXBLN3hJQVpEYkFHYkQ5Q1dZNy1yc2ZaTnB0NENnYTV4a1dZQ20xN0Y5STR5NUFlU3plSEJjVnJSbDhRZzg?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.139,
+      "neu": 0.861,
+      "pos": 0,
+      "compound": -0.2732,
+      "txt_original": "Hedge Funds Ramped Up Bullish Oil Bets Ahead of Tariff Day Drop - Bloomberg",
+      "txt_translated": "Hedge Funds Ramped Up Bullish Oil Bets Ahead of Tariff Day Drop - Bloomberg",
+      "txt_final": "Hedge Funds Ramped Up Bullish Oil Bets Ahead of Tariff Day Drop - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Sharp Decline on Signs Libya May Resume Production - Bloomberg",
+    "date": "2024-09-26",
+    "timestamp": 1727334000000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFdQQTBUNHM1dG1YZk9DTnk4d3hsQlJXZDFHR1dqaGxEMUUwaklDSHM1SjBrLWdWMjVBakI4RWFOMWNTZEczS3BNblJSbk91bElkazZXbVpxeEwtOGxRRUFjczJjem1TanVncG9MSlhUQUR6eFE3aHI1Z3RKcW5hSlU5VHJIWEJ2NXo2dDd1cVMwTGk1N0UwTjVpc2N3b0E?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Holds Sharp Decline on Signs Libya May Resume Production - Bloomberg",
+      "txt_translated": "Oil Holds Sharp Decline on Signs Libya May Resume Production - Bloomberg",
+      "txt_final": "Oil Holds Sharp Decline on Signs Libya May Resume Production - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Pares Weekly Loss as US Sanctions Offset Bleak IEA Outlook - Bloomberg",
+    "date": "2025-03-14",
+    "timestamp": 1741935600000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMjVjNlFUSTQ3dk9hYXFTUHpkcGhLYmkwRXFmdjJiRHMycXJfS3lBU3hlRzFrZnR3clNPSWpkLTBnR1k3N09yOXpTbHAwdmgxYzBJUGVnWWc2Nk1XRFlUY0tVemN2eDhQSmNzYlhWeVJiX3dRUUNhd3NtT0JrRVhtZm9YU1lRWHRHNlhHT1JZa1NxVVhJVl9SZ3pzUHhINHhz?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.161,
+      "neu": 0.839,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "Oil Pares Weekly Loss as US Sanctions Offset Bleak IEA Outlook - Bloomberg",
+      "txt_translated": "Oil Pares Weekly Loss as US Sanctions Offset Bleak IEA Outlook - Bloomberg",
+      "txt_final": "Oil Pares Weekly Loss as US Sanctions Offset Bleak IEA Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil’s Bearish Lurch Has Speculators Betting Worse Is Yet to Come - Bloomberg",
+    "date": "2025-03-08",
+    "timestamp": 1741420800000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQWlLanQwNk1lZ2FhT19Kb3RodHoxRWpuT0RsZkYyQ0cyOXI3elBqaXFhTHdVS2hzZ3RnV1BBbVpsbEMxN3Axa19pclhTSk1jU2dxU1o2V3lmYTRCTVYtNWVLdVZOMlBRQkM5UWhXbTFURkZUalhRN0ZocF9rVXFrWlBxcWNHZ29nRUYyVXpjRnFUTy1YN3dvOXA0VG4yRGR3TFd3Vk9fbXFkcGpJS0ptYU1tV2s5QQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.205,
+      "neu": 0.795,
+      "pos": 0,
+      "compound": -0.4767,
+      "txt_original": "Oil’s Bearish Lurch Has Speculators Betting Worse Is Yet to Come - Bloomberg",
+      "txt_translated": "Oil’s Bearish Lurch Has Speculators Betting Worse Is Yet to Come - Bloomberg",
+      "txt_final": "Oil’s Bearish Lurch Has Speculators Betting Worse Is Yet to Come - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Hits Four-Month High as US Sanctions on Russia Sow Confusion - Bloomberg",
+    "date": "2025-01-13",
+    "timestamp": 1736755200000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaFc2bE40NFJvaXFNZDF4bGxITFduWThWdW1MR0hkbWlwY08wcHFydmQ5YWdDVG0ySWUtUW9odEhaT0ZkOHJhQmJ3eXpkR2o4Sk1uY3FXOW9NaTZzZ2ZFdWwyclhVVzhmbWtQdENFV3ZWZS1DeDZmWTZkWXg2SzhSY2ZFcWpuX1JJdFJsVkUtRWFhOW1QVkp2Sm1FSkxZdw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.155,
+      "neu": 0.845,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Oil Hits Four-Month High as US Sanctions on Russia Sow Confusion - Bloomberg",
+      "txt_translated": "Oil Hits Four-Month High as US Sanctions on Russia Sow Confusion - Bloomberg",
+      "txt_final": "Oil Hits Four-Month High as US Sanctions on Russia Sow Confusion - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Dips in Thin Trading as Traders Focus on 2025 Outlook - Bloomberg",
+    "date": "2024-12-30",
+    "timestamp": 1735545600000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb2hid1dFMTdQWTJCM0t0VXZ1dlJkdHkzWnp3cy1GZ3kwWXkwSEY5anNwZzJLNnR0aE5PNldoNGdvRGtScWsySl9mblhrNjdzQTdUMlZUb09IQmFsV3gxVFpNRUZfallWTUZETjIwWXlUcC1hUFNLOEgtQ0ZaelNJUnVZc0E4ckhia3BYY2k3REh2aFBYeWE1Z0kyY3FUZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Dips in Thin Trading as Traders Focus on 2025 Outlook - Bloomberg",
+      "txt_translated": "Oil Dips in Thin Trading as Traders Focus on 2025 Outlook - Bloomberg",
+      "txt_final": "Oil Dips in Thin Trading as Traders Focus on 2025 Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "Gunvor Snapped Up North Sea Oil During Futures-Market Tumble - Bloomberg",
+    "date": "2025-04-08",
+    "timestamp": 1744095600000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd1FCMEVpODV6SGhWQUdjY2YyeVBITUQ4YnFXTmdncklPRDZEWUlDYjNrbUF4cnpjTzZwTDhCc3JHRC1CY1p3V21za29FUFI1RS1hUHRCbWlCUjV1TDRLUnpoWmw5WUV2Q3RldzNmZTJHUVQ4dkdjR0Ftajg1NUgwTFZxdUNpb2Npd3Jlek9IUHZqZmpKSklsZVlOdnY3Y0RMYUN4bUNyZXkyUHJvSGw1MQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "mixed",
+      "txt_original": "Gunvor Snapped Up North Sea Oil During Futures-Market Tumble - Bloomberg",
+      "txt_translated": "Gunvor Snapped Up North Sea Oil During Futures-Market Tumble - Bloomberg",
+      "txt_final": "Gunvor Snapped Up North Sea Oil During Futures-Market Tumble - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Weekly Advance as US Signals Tighter Russia Sanctions - Bloomberg",
+    "date": "2024-12-16",
+    "timestamp": 1734336000000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSjZvdlFrdXlmazE5a1RqS1lsUTJJUVZXRlJqakpwbHVsVktOUHc3SFV0U0l4Z3hfX2gwR0RUdDhwXzJWN0hxQjlTSGlJdkp6bmMtS0doOHp2SU9TSm8xWlhabkM2R3ZNQm5QZnA5S29ER05FQ3NGakowY0FhX2RPVjRxMjRGaXRqS0JWOWpZekVjWl9VSHBpY3RzM3JiZw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Holds Weekly Advance as US Signals Tighter Russia Sanctions - Bloomberg",
+      "txt_translated": "Oil Holds Weekly Advance as US Signals Tighter Russia Sanctions - Bloomberg",
+      "txt_final": "Oil Holds Weekly Advance as US Signals Tighter Russia Sanctions - Bloomberg"
+    }
+  },
+  {
+    "title": "North Sea Oil Market Sees Biggest Trading Frenzy in 16 Years - Bloomberg",
+    "date": "2024-12-03",
+    "timestamp": 1733212800000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX3pCel9sV093UUR6U2VRcDRnVHVYaG05LXFWaEJQRG9ZVGFuUXQwWV8tQzVJOWRndUtWcW5kemdUYnI5LUFDRkU0QmRZeEhHQkxGYUFNR20xemlfc01DZWhNdFc1WXR3TjRvZFNQOFpOMEd1eExVLVJmYUI5QlltbThoRUtfbUh6NVpnTnpHeFFKbGFnY3ZYT1JXMkhKazE1NUFHWVJ5OU04M1JQMDAzcQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.161,
+      "neu": 0.839,
+      "pos": 0,
+      "compound": -0.3182,
+      "txt_original": "North Sea Oil Market Sees Biggest Trading Frenzy in 16 Years - Bloomberg",
+      "txt_translated": "North Sea Oil Market Sees Biggest Trading Frenzy in 16 Years - Bloomberg",
+      "txt_final": "North Sea Oil Market Sees Biggest Trading Frenzy in 16 Years - Bloomberg"
+    }
+  },
+  {
+    "title": "US Oil Outpaces Global Price Gains as Tariffs Menace Supply - Bloomberg",
+    "date": "2025-02-03",
+    "timestamp": 1738569600000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLTl1UUNROWJyUnJJTzBGRU1BeEFMZ3ZyeDNCVl9ERHRDMkVSVnoxMkNfd2NlelF0dHpYM293RWV0SXZ0U2NhOUxGdzdUVVdGUTFqRnNpdUs3N0lyTWZJSy1yUVFiNWJoYVdFMXJlNUtMUDdhWEx4aHRqMGR0UEJKSGladjFKV21CdE8wNWF1cXhPeFFsN1Y1VmxQb1NLYThwSmNFb3lwdjVSREp0bk9HS1JB?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.205,
+      "neu": 0.641,
+      "pos": 0.154,
+      "compound": -0.2023,
+      "txt_original": "US Oil Outpaces Global Price Gains as Tariffs Menace Supply - Bloomberg",
+      "txt_translated": "US Oil Outpaces Global Price Gains as Tariffs Menace Supply - Bloomberg",
+      "txt_final": "US Oil Outpaces Global Price Gains as Tariffs Menace Supply - Bloomberg"
+    }
+  },
+  {
+    "title": "BP Asks Shareholders to Pay for Its Mistakes - Bloomberg",
+    "date": "2025-02-26",
+    "timestamp": 1740556800000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGFVV1ZlWTFZTjR6OUY1N1dkb2ZVMV9mNU9LM0VJMVhveS1qeUJqOGluckN0Q3VIcXo1Tm9PTXBSalo0NVEwdW1ZS2c1RUFWLUtOc3I0bHRvYmJhMkpYM0lQR3ZtMHhzZlBIdGZ3YmRueDlTWDhmbWdTeTdkYUQ4aFM4VGo3dGpWZWZaZjhaRkRMbWVIZlg3VE1vNDV1Vmc?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.328,
+      "neu": 0.672,
+      "pos": 0,
+      "compound": -0.4404,
+      "txt_original": "BP Asks Shareholders to Pay for Its Mistakes - Bloomberg",
+      "txt_translated": "BP Asks Shareholders to Pay for Its Mistakes - Bloomberg",
+      "txt_final": "BP Asks Shareholders to Pay for Its Mistakes - Bloomberg"
+    }
+  },
+  {
+    "title": "Hedge Fund Bets on WTI, Brent Diverge as Trade War Roils Markets - Bloomberg",
+    "date": "2025-03-14",
+    "timestamp": 1741935600000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcGVxc2lpLXlKLTRlWXZFTDhCaF9WS0Vwak40TkpTM2c5V1Y1ZFZRSkMxOXlhUDBsdUttZXBReW10VEIxRVhlbWFUQUhFRUZHQWJmbl82VkJmdU1SSFlkWksxTGNaNk1nLVQxVXowdmV1VTR2SndCOUFhX2JSakZsS1NpU2lmNDEwVkdGOUJ5RXpqVllxTE44ZHAzNXhZQ1ZZaGJBbEQwLWQ2aFZfTjNrMFNFYzc?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Hedge Fund Bets on WTI, Brent Diverge as Trade War Roils Markets - Bloomberg",
+      "txt_translated": "Hedge Fund Bets on WTI, Brent Diverge as Trade War Roils Markets - Bloomberg",
+      "txt_final": "Hedge Fund Bets on WTI"
+    }
+  },
+  {
+    "title": "Oil Steadies After Two-Day Decline on Fading Middle East Risk - Bloomberg",
+    "date": "2024-10-30",
+    "timestamp": 1730271600000,
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ01uWFdpdE42ZWp0c1BSQjJ4T2FfeUYyZGtJSVM2Rlc3U0d4N2Y0UW1obUdBT0RvR0Y1MHJKSXNaLXZ3aHYyZjhIZVlxOU81ZzBKd1Ewb0EwcWhPN3VBY1RSS2VWSERtNUpmWTNRWDBZekI0LUE4VWJfb1ZBY2JOeFZBd19tcnYtTDZ4UkdQLVpvLWJmcVh1aTZOU1o0b3JxZzhz?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.16,
+      "neu": 0.84,
+      "pos": 0,
+      "compound": -0.2732,
+      "txt_original": "Oil Steadies After Two-Day Decline on Fading Middle East Risk - Bloomberg",
+      "txt_translated": "Oil Steadies After Two-Day Decline on Fading Middle East Risk - Bloomberg",
+      "txt_final": "Oil Steadies After Two-Day Decline on Fading Middle East Risk - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Rises as OPEC+ Delays Output Hike and Iran Steps Up Rhetoric - Bloomberg",
+    "date": "2024-11-04",
+    "timestamp": 1730707200000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSW85YkNQT3doMWtzVld6c1d1NnVlWi0yWjd4MHJvdTJEb0VRUGVya2RGZlhQVC0tcU02dTBydzFMQ2dCVGVOaEVlR0ZnQjJWZDR0ZVVvTXUwazFKbmJad2tOSmpBLXhfX0x5RktpNjktM0tyTEVOencteVM3QUxRU3gtQmNxTTh1ZTRzTUs1Mk85LTZqUnhqSmlmVDE?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Oil Rises as OPEC+ Delays Output Hike and Iran Steps Up Rhetoric - Bloomberg",
+      "txt_translated": "Oil Rises as OPEC+ Delays Output Hike and Iran Steps Up Rhetoric - Bloomberg",
+      "txt_final": "Oil Rises as OPEC+ Delays Output Hike and Iran Steps Up Rhetoric - Bloomberg"
+    }
+  },
+  {
+    "title": "Oxford Properties to Buy CPPIB Stake in $1.1 Billion of Offices - Bloomberg",
+    "date": "2025-05-07",
+    "timestamp": 1746601200000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGdEUFQ3UkJkZHpGakFsemowUU9RbVRUQ0ZLclhicklTV0M3cFpFMGNkZ3QycVl3ZVZ4OTBlWXd2YVlVenhmN3o3VjRrVFFPZWpzdDNOSmY1SGNRbDMxY0xqQ2E0NVhQNHVQdEhhN1BKZUY3Z2UyYkhuSzBsaG1nNEY4R0RFZ3RZUkNrVTRFZDBoOURXc0NsX0hHZ0VaUlF5VHdacWc5LUlJenNYdkRfeWR4TQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oxford Properties to Buy CPPIB Stake in .1 Billion of Offices - Bloomberg",
+      "txt_translated": "Oxford Properties to Buy CPPIB Stake in .1 Billion of Offices - Bloomberg",
+      "txt_final": "Oxford Properties to Buy CPPIB Stake in .1 Billion of Offices - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Holds Drop as Trade War Concerns Vie With Pressure on Iran - Bloomberg",
+    "date": "2025-02-05",
+    "timestamp": 1738742400000,
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV3N3eHdoQzJMMTA0eTl1a1BTaTZXWUt1MXhUVDF5OThMdVB5SnZhNnp0TTZoT3lyVWFabzRrMkhfbWRRUDZqZEI4S0ptVkFoZDZNUFJPVTlldVdHa1hCQ0g1ZUN1Q3ZfNGM3ODVNbVAwWUxBUnV5UzZNRW5tV0xlRGFBSkpkaHhGQmlPYU5YQ0czNkR3ZHhiTVlWMkdyRTcxXzQ0?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.427,
+      "neu": 0.573,
+      "pos": 0,
+      "compound": -0.802,
+      "txt_original": "Oil Holds Drop as Trade War Concerns Vie With Pressure on Iran - Bloomberg",
+      "txt_translated": "Oil Holds Drop as Trade War Concerns Vie With Pressure on Iran - Bloomberg",
+      "txt_final": "Oil Holds Drop as Trade War Concerns Vie With Pressure on Iran - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steady as China Demand Concerns Offset Libyan Disruptions - Bloomberg",
+    "date": "2024-09-03",
+    "timestamp": 1725346800000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOFVqOEt0SXA4YUZkMGpJMThISXF6bVNzQUNUeHl2aThPVzhRcENsaTJCa1RYTk9tckRqdVJwbW1LZGNKMmlEQjdVSlhaTEU1Q0MyOUhWTVVOdHZCMVozLUloeVVSRXhlVmtYT3hlNjEtaVdHa0FsNFpySGRaNm0wTmZ6TmVlSkRkRWhQY2o4WGM0N1dpeU5QOURoZzE?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.302,
+      "neu": 0.698,
+      "pos": 0,
+      "compound": -0.4404,
+      "txt_original": "Oil Steady as China Demand Concerns Offset Libyan Disruptions - Bloomberg",
+      "txt_translated": "Oil Steady as China Demand Concerns Offset Libyan Disruptions - Bloomberg",
+      "txt_final": "Oil Steady as China Demand Concerns Offset Libyan Disruptions - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Set for Second Weekly Advance as US Crude Stockpiles Shrink - Bloomberg",
+    "date": "2025-01-03",
+    "timestamp": 1735891200000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFNLNVF2OXhYSVQwRVJnRUVBd2tJcXdVbDVNVlcxZUw2dmRXRU52YzR1Qkt5ZnZKREQwSGN2VjhxWUJsVGpoV0IxcnJiaVVmMVR5NU5FQ2lOVDhEdHN3bEJWWmpmNGozVVlTUXVuRkdIMjBwZnpaVFFrc3NFR2ExZHlvMU1oSEdpZFpQZ2NaVVNJNV81VHpyc0FLaV8?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.236,
+      "neu": 0.764,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil Set for Second Weekly Advance as US Crude Stockpiles Shrink - Bloomberg",
+      "txt_translated": "Oil Set for Second Weekly Advance as US Crude Stockpiles Shrink - Bloomberg",
+      "txt_final": "Oil Set for Second Weekly Advance as US Crude Stockpiles Shrink - Bloomberg"
+    }
+  },
+  {
+    "title": "Trafigura Says Oil Set for $60s, But Don’t Be Too Bearish - Bloomberg",
+    "date": "2024-09-09",
+    "timestamp": 1725865200000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZFVpUXEyS2VFUXgyZDhtbHlqUDNBSUpXT1lpWVBSN0xuNUxuSUZmY1dHejU4TW53eUF2alpOZG9ZOWhQTGREQ1NTRk9WTHVFR1JQbERQVEtjeHJoak16OWZyY29iOEttY2NqcXNFNUpkUnROMFdHTk8xQkhrbktkWVdtYVpXQ2FZZVVrS3U5WU84Ny15My1xdDRYT01HMG5PQXc3UXJhOGJDSTNpWjA4RUNlR2E?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Trafigura Says Oil Set for 0s, But Don’t Be Too Bearish - Bloomberg",
+      "txt_translated": "Trafigura Says Oil Set for 0s, But Don’t Be Too Bearish - Bloomberg",
+      "txt_final": "Trafigura Says Oil Set for 0s"
+    }
+  },
+  {
+    "title": "Australian PM’s Next Campaign Is to Secure COP31 Climate Talks - Bloomberg - Bloomberg",
+    "date": "2025-05-05",
+    "timestamp": 1746428400000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZHBrT0lES3FiMjJqbktOc2JkYlQ5by1OeG4zNkZoamtibVV3anBVbFdjbnVqOHlCTTFNcnhma3JyeXFoNFNtblhYRFowUmQ2YVg2U0h5TU12T1I5T0RxaWdwYlhsUDdZa05xVmN6MHhvTzg0VzUwcDRIOEp1M1gzV1ZmQ3lFMkdSUGlTemlUNFBIN3VpT3RrS3RkTlNXSXM1Z3RYczd5MkRLc21sLUVtdDhteGsxbDQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 0.844,
+      "pos": 0.156,
+      "compound": 0.34,
+      "txt_original": "Australian PM’s Next Campaign Is to Secure COP31 Climate Talks - Bloomberg - Bloomberg",
+      "txt_translated": "Australian PM’s Next Campaign Is to Secure COP31 Climate Talks - Bloomberg - Bloomberg",
+      "txt_final": "Australian PM’s Next Campaign Is to Secure COP31 Climate Talks - Bloomberg - Bloomberg"
+    }
+  },
+  {
+    "title": "Petroineos Buys Most Benchmark North Sea Oil Since at Least 2008 - Bloomberg",
+    "date": "2024-11-13",
+    "timestamp": 1731484800000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYU9pUmgwMTA2ZV9LUEpOUWFZQmpNMFBtTnJ5YTNzdXJDcnUwUmxkMHFGNGFURUdZTjg0blRpckZ1RWNrWDU1dFQwOV94OEtjWlNkNkhhSkJEWTVHV0NHQ1NiLUEyWDEtMnM0MU9DeU9XZ1ZhaGJ1NEFjTHV6dzRPRnB4WGV1TVpJbV9rQ1E2d3ZqcTN0R2R6T0I0cmo2VFVJQlJwSnp4Mlo0cUVyZldGdExmVFpNdw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Petroineos Buys Most Benchmark North Sea Oil Since at Least 2008 - Bloomberg",
+      "txt_translated": "Petroineos Buys Most Benchmark North Sea Oil Since at Least 2008 - Bloomberg",
+      "txt_final": "Petroineos Buys Most Benchmark North Sea Oil Since at Least 2008 - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steadies After Weekly Decline as Market Weighs Trump Tariffs - Bloomberg",
+    "date": "2025-02-10",
+    "timestamp": 1739174400000,
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMml4Q3A3X29CclRNYkRTVy1VWmlpbVlEZ2JZTTFwR21XM2oyd0lTdm1oVDBESUNpbFJYeXBvOXVsd3FtNWRkcVRmOFlGUTYzaDZRS1VCQWhQNF80S01CX2RWZEhrcy1qSG1rV1BFTWp3QWJTTmRwOEt1V00ybmtHLWdFVUJWa0Ezd21sNDF6Z0tUWk1tQWQxYTVIbTZOQQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Steadies After Weekly Decline as Market Weighs Trump Tariffs - Bloomberg",
+      "txt_translated": "Oil Steadies After Weekly Decline as Market Weighs Trump Tariffs - Bloomberg",
+      "txt_final": "Oil Steadies After Weekly Decline as Market Weighs Trump Tariffs - Bloomberg"
+    }
+  },
+  {
+    "title": "Goldman Warns Oil Crash Could Push Saudi Arabia’s Budget Deficit to $67 Billion - Bloomberg",
+    "date": "2025-04-10",
+    "timestamp": 1744268400000,
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWEE2MDZ1OHI5WHpZM1dmZFdCZU1oSUFqWGtKZ0ZpMFFSQ0syajZEVW91M3Q3QW1ITVNYNGlNN0FHdXgya2JKeHJXLTZNVVVDa3c1ZmFVdF85ZWYxdkVnWU1wdTVQQkViN05EWGgxYkhFYkhHbmtJSi1VRFlxT2J0b3pUVnlnY0dyR3pkX25DMDk4R3kxYnhmYTZZRUg4Qy1DTnhoS0NpRmMxcGc2bU1pSGlTbS1Ka2RDbXJzYVMwNXpXRGpwWEVB?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.362,
+      "neu": 0.638,
+      "pos": 0,
+      "compound": -0.7003,
+      "txt_original": "Goldman Warns Oil Crash Could Push Saudi Arabia’s Budget Deficit to 7 Billion - Bloomberg",
+      "txt_translated": "Goldman Warns Oil Crash Could Push Saudi Arabia’s Budget Deficit to 7 Billion - Bloomberg",
+      "txt_final": "Goldman Warns Oil Crash Could Push Saudi Arabia’s Budget Deficit to 7 Billion - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Traders Hedge Against Recession With Record Options Wagers - Bloomberg",
+    "date": "2025-04-08",
+    "timestamp": 1744095600000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa3FJSkNsekwzM25PQkFJS0RVcUVOWHZzbi1JTmE1N09vNXRINHQxZ2E4Z2ZHLVlPNko0aTdYeVZkNGJKcGZuQVVPeGhBT0hmSk9wM09TeVB5TDZNLUJoNTlhN2Z3c25wNEZNLXhGUldIaENhakw5VzJrNUJ1Ym9iQVFUclUzeExxQ3hGVFBtTEFyMzVqTmQ0NDRFbkN5QmlkU01ObjNEUkpSTFpTQ1FobHU3NA?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.219,
+      "neu": 0.781,
+      "pos": 0,
+      "compound": -0.4215,
+      "txt_original": "Oil Traders Hedge Against Recession With Record Options Wagers - Bloomberg",
+      "txt_translated": "Oil Traders Hedge Against Recession With Record Options Wagers - Bloomberg",
+      "txt_final": "Oil Traders Hedge Against Recession With Record Options Wagers - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Set for Weekly Advance as Supply Uncertainty Clouds Outlook - Bloomberg",
+    "date": "2025-02-21",
+    "timestamp": 1740124800000,
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYzNkNEJlUmhBUnVHVHMxeF93OVptdmhHUTFUV3JPQk9Qd29RLTQtUGxzbWR3cUxyWnBKLWRhVFZ3aTFCV2U0NmJkeHlKaHhPV29DWmZNVWgxYmFrOUFwTTh3VjRCcUs3MXF5Wk5qZHNGMkpqY09TblJoWUZNM3YyZTJ4SEtRbmlZdUh5YmNBNllqaUVuRzRrdHpseDJCY2ZuX3hvMQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.179,
+      "neu": 0.821,
+      "pos": 0,
+      "compound": -0.34,
+      "txt_original": "Oil Set for Weekly Advance as Supply Uncertainty Clouds Outlook - Bloomberg",
+      "txt_translated": "Oil Set for Weekly Advance as Supply Uncertainty Clouds Outlook - Bloomberg",
+      "txt_final": "Oil Set for Weekly Advance as Supply Uncertainty Clouds Outlook - Bloomberg"
+    }
+  },
+  {
+    "title": "Morgan Stanley Cuts Oil Forecast Again as Concerns Deepen - Bloomberg",
+    "date": "2024-09-09",
+    "timestamp": 1725865200000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUlkMDZlUW9ja3pmU19CUDVucndiWFlqb19hSXBla05QNi1oU1dvaEl0WVhoQkJjQTBGNFBacDRFaVhVSDRIN3B1V1hyZncxV0tPbWhubDJxN251TU9BRkdRM1A4QWd0eXpySEZCZHpweXNvRkNYNU1MeGdHaU1wWnJ3eV9TczhEQzFVTGhtWXFhaE5FcmIwUVU2RTlhN281c2hPVHhkR3g1RFN0c29hcnRsYURSdw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.18,
+      "neu": 0.82,
+      "pos": 0,
+      "compound": -0.296,
+      "txt_original": "Morgan Stanley Cuts Oil Forecast Again as Concerns Deepen - Bloomberg",
+      "txt_translated": "Morgan Stanley Cuts Oil Forecast Again as Concerns Deepen - Bloomberg",
+      "txt_final": "Morgan Stanley Cuts Oil Forecast Again as Concerns Deepen - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Prices: OPEC+ Will Buckle Under Trump's Pressure - Bloomberg",
+    "date": "2025-01-28",
+    "timestamp": 1738051200000,
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR2Jad2xINjZCNVh3NEtodFdJZUowci1ONENSM09aWTBac3R4SHlKVVV3UXlPWDkxY2V2Qi11dEpNcnZIcFBiTGNmb2tPWGxWUXdpbXFqSjB5MVZDVU9zS1ZSZm9ZTWUwNk52TjlBaFJuakZpRWI5a056MUp0OENrTlZFUHRTNnBUSlNic3ByVWVEZ0M4aTd6UTI5YUpvaVFqSUZ4a2NJWQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Prices: OPEC+ Will Buckle Under Trump's Pressure - Bloomberg",
+      "txt_translated": "Oil Prices: OPEC+ Will Buckle Under Trump's Pressure - Bloomberg",
+      "txt_final": "Oil Prices"
+    }
+  },
+  {
+    "title": "Commodities Slide as Trump Win Boosts Dollar, Threatens Trade - Bloomberg",
+    "date": "2024-11-06",
+    "timestamp": 1730880000000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWkpGOENjNVR1SDBxNWZaM0FPRzRmdHd0ajZwejFvOVJuNmlZaFZGdTNiNm13NXZWLW1wTFJka3haWnFoSzRGdmxjV0tKT21OMFA0UkFZMEVFd1hkOXQ4eEg3S21lOEFZaENLc3N0YjdXa0kwdFlFT3JocXNLQkZsNjJjRzFWZGE4a3ZWeGFnbko2X3paZUVjbGx2d3g?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0.156,
+      "neu": 0.479,
+      "pos": 0.365,
+      "compound": 0.5423,
+      "txt_original": "Commodities Slide as Trump Win Boosts Dollar, Threatens Trade - Bloomberg",
+      "txt_translated": "Commodities Slide as Trump Win Boosts Dollar, Threatens Trade - Bloomberg",
+      "txt_final": "Commodities Slide as Trump Win Boosts Dollar, Threatens Trade - Bloomberg"
+    }
+  },
+  {
+    "title": "Bybit Hack Prompts EU Scrutiny of OKX Platform Used by Thieves - Bloomberg",
+    "date": "2025-03-11",
+    "timestamp": 1741676400000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX1ZXT2RscDFDTWlvYllJNC1Bdi04Rjd2el9zR0p0Sjh5UTVpN3FoVHNINXZhcEpvSDNBVGZDbEhyYUdwZ1Y1V2V4MEZaTm5qSHRhZzRFa1hhMUdBRm1GYnYtSkZmZmljZzZxWE9mQnNZN0tnaVdKOHBsSF9lcFY3UzJLOXFRN0NxQXJXYjdZM2hRT1h2VWlRcTdLTHpzV0lrMHFPTDhwWXBVY3prbGJDUm5KNWVlTU0?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.216,
+      "neu": 0.784,
+      "pos": 0,
+      "compound": -0.5106,
+      "txt_original": "Bybit Hack Prompts EU Scrutiny of OKX Platform Used by Thieves - Bloomberg",
+      "txt_translated": "Bybit Hack Prompts EU Scrutiny of OKX Platform Used by Thieves - Bloomberg",
+      "txt_final": "Bybit Hack Prompts EU Scrutiny of OKX Platform Used by Thieves - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Edges Higher as Traders Weigh Fallout From Trump's Incoming Tariffs - Bloomberg",
+    "date": "2025-03-03",
+    "timestamp": 1740988800000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOY2hDOUVSdVg0Si1aUDIzUWFlclRuamJTcHZTVW1pUEpBMWlHckw0alNZOXRsMXN2WU5RZmN5bnNINUNmalBBLXlVOWk1b1BuX2d6QktmS2d3X0JMM1JxVWZoZ2tOZkxHT05QMVFnV1l4Z2VDNjZLNzY2SHRwUVBQdk9mZWpOTkNBME9ZVlJCaUNvMFhJZlRjRmYxT19XMW8?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Edges Higher as Traders Weigh Fallout From Trump's Incoming Tariffs - Bloomberg",
+      "txt_translated": "Oil Edges Higher as Traders Weigh Fallout From Trump's Incoming Tariffs - Bloomberg",
+      "txt_final": "Oil Edges Higher as Traders Weigh Fallout From Trump's Incoming Tariffs - Bloomberg"
+    }
+  },
+  {
+    "title": "Qatar Gas Sales Hit Hurdle as China and India Seek Cheaper Deals - Bloomberg",
+    "date": "2025-02-24",
+    "timestamp": 1740384000000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekNzYlFOeGpkZDRkYkpDeVZvbkNfTVZBNTFpUy1pUzdSTDVDNVBXdXFqYlBJT2g5SlN4VjFOdzJnNFZLcGhmTVJGSkV6dTRQdTF0QVg3MGE2YzNTSktEZE5UcEVON1lyUjNva3FOYTg0RlhUOHlpM0ExbUNaOVJkb1V4RXV2Skl3UGUxNmJLX3JFSUN3Y2lwRkxVeTBQekJ3M2ZDOWl2Q2VQYXhXZWlIWXUzYTVDQQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Qatar Gas Sales Hit Hurdle as China and India Seek Cheaper Deals - Bloomberg",
+      "txt_translated": "Qatar Gas Sales Hit Hurdle as China and India Seek Cheaper Deals - Bloomberg",
+      "txt_final": "Qatar Gas Sales Hit Hurdle as China and India Seek Cheaper Deals - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Edges Higher on Weaker Dollar With Focus on OPEC+ Meeting - Bloomberg",
+    "date": "2024-12-02",
+    "timestamp": 1733126400000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVW1TZ1ZJeko1LUE2clhxZkpxSWdnQ2ZtWkg2WDNRVWpXRHFiZ1BfRTd3cWl1R2pwdGZOZ1JtVUtORGhNdGVfbHRHZlVnVmJXT0txcWFvZ1kxb3k5eW5NQlpYQmROM09qRzY1VVVYMHN0UE9BNlNIUGUzeWhVNExSRDNjQ0pSeUdsTTJrbG5Fc1ZmbXk2SncxaklicmI?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.195,
+      "neu": 0.805,
+      "pos": 0,
+      "compound": -0.4404,
+      "txt_original": "Oil Edges Higher on Weaker Dollar With Focus on OPEC+ Meeting - Bloomberg",
+      "txt_translated": "Oil Edges Higher on Weaker Dollar With Focus on OPEC+ Meeting - Bloomberg",
+      "txt_final": "Oil Edges Higher on Weaker Dollar With Focus on OPEC+ Meeting - Bloomberg"
+    }
+  },
+  {
+    "title": "Bloomberg Businessweek Daily: A \"Rip Your Face Off Rally\" - Bloomberg",
+    "date": "2025-04-09",
+    "timestamp": 1744182000000,
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVkVNNndpdHY3NXIyQkh3c0NSRnVkd0VfazRBNThhaEtQZC03b0FaQkZxWWUzMW5xcmhCNXRzd1V1SXVpb2I1d1JuXzk2QWV6NXIzMWZTZ1JxZGh4alBCQ0JYeXpVVGROWmF1Y3g5N3ItaFNpZHVRdkJxcXBQV3JNWUhKNWtfMzVuX1hEZG9pWGdpUTNETkxrLXhnLXNQSlVYVVU3R3VFWQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Bloomberg Businessweek Daily: A Rip",
+      "txt_translated": "Bloomberg Businessweek Daily: A Rip",
+      "txt_final": "Bloomberg Businessweek Daily: A Rip"
+    }
+  },
+  {
+    "title": "Traders Bet ‘Insane’ Currency Volatility Is Here to Stay - Bloomberg",
+    "date": "2025-04-08",
+    "timestamp": 1744095600000,
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUkF3SW9jU25mT1RpbFB2dHRYVFVLNVF6a0NfcUtYUUxmUk52ai1oRXNhUG84MzNkTlI5c0R3d3hBYkVDbHJJZ0R2NkhIdklsZGxjNDBkUE4weDIzRkRSaXVyVHlUR0h2QWd2VHFhOC1NQzV3WE9MdDRNVFJPWWhxY09XQkphZElJNjNtNHJqUGV1bUpPdGxCVGJPcFhpdExwUWJHSjhKQXpNVU9DQm5WTVJWM1pIRDh6LU1xU0J6WQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Traders Bet ‘Insane’ Currency Volatility Is Here to Stay - Bloomberg",
+      "txt_translated": "Traders Bet ‘Insane’ Currency Volatility Is Here to Stay - Bloomberg",
+      "txt_final": "Traders Bet ‘Insane’ Currency Volatility Is Here to Stay - Bloomberg"
+    }
+  },
+  {
+    "title": "Airlines and Shippers Pounce on Oil Plunge to Lock in Prices - Bloomberg",
+    "date": "2025-04-09",
+    "timestamp": 1744182000000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbGpfMUlrbnc2QXJoOElXcnoxS3V2aXRkbUpfSWVKSGZlRncxQ3FQaE5VTlFiQmpTQTYwX3NjeWNrRFJRMnNIdkdTQlRjWjdkaUxYRVYwcjF1MklvX1VpcGpIZEhaS3c4YjJrTllXZ1dxWDk2NHl1ZHhmcEhWRFR2cnJKVXhEcVIzeXJtODFDVkNQbk5YQVotSEJSVEt6dFF4LVZWRXlMOGxnOHJCWWVfTA?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": -1,
+      "direction": "negative",
+      "txt_original": "Airlines and Shippers Pounce on Oil Plunge to Lock in Prices - Bloomberg",
+      "txt_translated": "Airlines and Shippers Pounce on Oil Plunge to Lock in Prices - Bloomberg",
+      "txt_final": "Airlines and Shippers Pounce on Oil Plunge to Lock in Prices - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Heads for Deep Weekly Loss on Prospects for Jump in Supply - Bloomberg",
+    "date": "2024-09-27",
+    "timestamp": 1727420400000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOEN4NGlrZGZlWmt3TEF1eGZua3F6dEYzZkRQLXhkTWVXb3JlZTE2MVBES0pKeTFuVE5KaVhmWC1sYy1xYTlRN0p6UWc2eEYtd1BKaU05SFhLR2lxano4ampzd2dCTjJZc05tLTFZVkJnTS03c25yUE92TUhGRnltRUVpVkpDbER2eHhSa1lZNmFwQVN5UmhWckFYbjFpOU0?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.139,
+      "neu": 0.727,
+      "pos": 0.133,
+      "compound": -0.0258,
+      "txt_original": "Oil Heads for Deep Weekly Loss on Prospects for Jump in Supply - Bloomberg",
+      "txt_translated": "Oil Heads for Deep Weekly Loss on Prospects for Jump in Supply - Bloomberg",
+      "txt_final": "Oil Heads for Deep Weekly Loss on Prospects for Jump in Supply - Bloomberg"
+    }
+  },
+  {
+    "title": "US Nominates Leo Brent Bozell III as Ambassador to South Africa - Bloomberg",
+    "date": "2025-03-25",
+    "timestamp": 1742886000000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWg3NFF6MVJ1Sl8zTldzRU5OWlNiZEhodjFEX0cxUzBDbTJNclFNMHRGMVNvTlhGdnRtZF8tYkVldXluZEJPVVJhN2w0Xzd0dEo2S0R6S0F5VUJRVFEzYjlzeU0yc1RzMjJCdUxISVBPaFNMa0txOVl4bENrQk9qYXd2cDhMc0x6V0NNVldndzRaX3FZOXJNRG9lSU9RbWdieHZSR1l3ODNkd2ZLMDFuQ0RzRGw?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "US Nominates Leo Brent Bozell III as Ambassador to South Africa - Bloomberg",
+      "txt_translated": "US Nominates Leo Brent Bozell III as Ambassador to South Africa - Bloomberg",
+      "txt_final": "US Nominates Leo Brent Bozell III as Ambassador to South Africa - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Rises as Trump Slaps Tariffs on Biggest Crude Supplier to US - Bloomberg",
+    "date": "2025-02-03",
+    "timestamp": 1738569600000,
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd29sNWZ0NldkMXhxMHpoZTNYdEhUSW9SVnRFbFpwZDAwcXFhU0JabXZVWE16WGlBV0RkVXZiTHdqa2hqZTBRRDlIZDZ4UU5nNWM5WG4walJYVUhpck5jc3ZnbWh1V25RN0sxcTRxbm1kd3dWdFprMXRLcVNtRjBFWFprSE9CNDY3WWNYMG9YSHQ1N2xPU2xmZHBvYzI?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "negative",
+    "sentiments": {
+      "neg": 0.222,
+      "neu": 0.778,
+      "pos": 0,
+      "compound": -0.5719,
+      "txt_original": "Oil Rises as Trump Slaps Tariffs on Biggest Crude Supplier to US - Bloomberg",
+      "txt_translated": "Oil Rises as Trump Slaps Tariffs on Biggest Crude Supplier to US - Bloomberg",
+      "txt_final": "Oil Rises as Trump Slaps Tariffs on Biggest Crude Supplier to US - Bloomberg"
+    }
+  },
+  {
+    "title": "Oil Steadies as Traders Track Risk-On Tone and Storm Francine - Bloomberg",
+    "date": "2024-09-10",
+    "timestamp": 1725951600000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM3g1RlVJcV9aaXJVdFozc3puVnRRaV9KS2M4V0JUeHpOWE5pZ1FvLWxSM3NfUktKSmhfQkU4MWNESDhpREIzaHpzSWtseWNlNjhDU1lVX0duNXVHVWxfcHo4cXd3dkF6Z2RnNWpQNDFVcnpXOEo1QzM5NnNkVDE3d3UzbGpscUIzeERqRWJqalBMRmJpekk0ZTA0ejBvR0UycENjdDUwZEU1R1hkRkdRYXd3MA?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "Oil Steadies as Traders Track Risk-On Tone and Storm Francine - Bloomberg",
+      "txt_translated": "Oil Steadies as Traders Track Risk-On Tone and Storm Francine - Bloomberg",
+      "txt_final": "Oil Steadies as Traders Track Risk-On Tone and Storm Francine - Bloomberg"
+    }
+  },
+  {
+    "title": "The Oil Market's Bumper Volatility Won't Go Away Anytime Soon - Bloomberg",
+    "date": "2024-10-07",
+    "timestamp": 1728284400000,
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYTUtQlBSNUxBUFYxUjFKVzlZLWwxTUtEeld1S0J4WnNCczlZZklXMGFEWWdhT2MtY21sZU9qT2xYcnRJTFF2X2ZBNlZ2WFd6S0xCUGdudjMtQjhaVk1tTGxHX2h2X3RUejRXdlUyXzlTTGtpclBnc1BJQXYxYWNyOFhLS3l1NlkzWFpWWlRTYnBSdUF2bXlaZVlwSmlHNFBKVmZjR1hZeG1MMjBKaHd1bQ?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "neutre",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 0,
+      "direction": "neutral",
+      "txt_original": "The Oil Market's Bumper Volatility Won't Go Away Anytime Soon - Bloomberg",
+      "txt_translated": "The Oil Market's Bumper Volatility Won't Go Away Anytime Soon - Bloomberg",
+      "txt_final": "The Oil Market's Bumper Volatility Won't Go Away Anytime Soon - Bloomberg"
+    }
+  },
+  {
+    "title": "Middle East Oil Plunges as Rising OPEC+ Supplies Rattle Market - Bloomberg",
+    "date": "2025-03-04",
+    "timestamp": 1741075200000,
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTml3eW02RjcwLXFvMm1wbWd2NlUtM3BHZzVqaHdUVUZfbVJ1aG1EYXQ5VDZiOXpmcElpN2ZkcnF5dE5nOXJHVjFNQmllSHJCSzJ6bTVqemVGTk5SR0tPVDB0OEhuZTA5OVZvM1MtT3pqWFhlNGhGTS1ORTdmSjRRLVVlLUo0blotTjEwbWhYS0RaODlObHh5YUlOdTFubTd6QXVYWTBRV0hRb2k3ZUs0Q05R?oc=5",
+    "source": "Bloomberg – Energy News",
+    "sentiment": "positive",
+    "sentiments": {
+      "neg": 0,
+      "neu": 1,
+      "pos": 0,
+      "compound": 1,
+      "direction": "positive",
+      "txt_original": "Middle East Oil Plunges as Rising OPEC+ Supplies Rattle Market - Bloomberg",
+      "txt_translated": "Middle East Oil Plunges as Rising OPEC+ Supplies Rattle Market - Bloomberg",
+      "txt_final": "Middle East Oil Plunges as Rising OPEC+ Supplies Rattle Market - Bloomberg"
+    }
+  }
+]

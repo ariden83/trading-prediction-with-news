@@ -14,16 +14,23 @@ const tough = require('tough-cookie');
 const { CookieJar } = require('tough-cookie');
 const storage = require('node-persist');
 
-// Initialisation du stockage persistant
-(async () => {
-    await storage.init({
-        dir: './cache', // Répertoire où seront stockées les données
-        stringify: JSON.stringify,
-        parse: JSON.parse,
-        encoding: 'utf8',
-        ttl: 2 * 60 * 60 * 1000 // 2 heures (en millisecondes)
-    });
-})();
+// Variable pour suivre l'état d'initialisation
+let storageInitialized = false;
+
+// Fonction d'initialisation du stockage
+async function initializeStorage() {
+    if (!storageInitialized) {
+        await storage.init({
+            dir: '/tmp/cache', // Stockage dans /tmp pour la compatibilité Docker
+            stringify: JSON.stringify,
+            parse: JSON.parse,
+            encoding: 'utf8',
+            ttl: 2 * 60 * 60 * 1000, // 2 heures (en millisecondes)
+            expiredInterval: 2 * 60 * 1000  // Nettoyage toutes les 2 minutes
+        });
+        storageInitialized = true;
+    }
+}
 
 // Configuration des sources d'actualités
 const NEWS_SOURCES = [
@@ -147,11 +154,13 @@ async function fetchWithManualRedirects(url, retries = 3, delay = 100) {
     }
 }
 
-
-const cache = new Map(); // Map<url, { data: any, expires: number }>
+const cache = new Map();
 const CACHE_DURATION_MS = 1 * 60 * 60 * 1000; // 60 minutes * 2h
 
 async function getBrentNews() {
+    // S'assurer que le stockage est initialisé
+    await initializeStorage();
+    
     const parser = new xml2js.Parser({ explicitArray: false });
     let allNews = [];
     const cacheVersion = "v1.0.0"
@@ -159,7 +168,14 @@ async function getBrentNews() {
     for (const source of NEWS_SOURCES) {
         try {
             const now = Date.now();
-            const cached = await storage.getItem(encodeURIComponent(cacheVersion+source.url));
+            const cacheKey = encodeURIComponent(cacheVersion+source.url);
+            let cached = null;
+            
+            try {
+                cached = await storage.getItem(cacheKey);
+            } catch (err) {
+                console.error(`Erreur lors de l'accès au cache pour ${source.name}:`, err);
+            }
 
             let entries;
             let allNewsFromURL = [];
@@ -167,7 +183,6 @@ async function getBrentNews() {
             if (cached && cached.expires > now) {
                 console.log('utilisation du cache pour', source.name);
                 allNewsFromURL = cached.data;
-
             } else {
                 // Fetch + parse
                 const response = await fetchWithManualRedirects(source.url);
@@ -211,10 +226,14 @@ async function getBrentNews() {
                     }
                 }
 
-                storage.setItem(encodeURIComponent(cacheVersion+source.url), {
-                    data: allNewsFromURL,
-                    expires: now + CACHE_DURATION_MS
-                });
+                try {
+                    await storage.setItem(cacheKey, {
+                        data: allNewsFromURL,
+                        expires: now + CACHE_DURATION_MS
+                    });
+                } catch (err) {
+                    console.error(`Erreur lors de la sauvegarde dans le cache pour ${source.name}:`, err);
+                }
             }
 
             allNews.push(...allNewsFromURL);
@@ -289,7 +308,7 @@ function analyzeNewsSentiment(news) {
         history[date] = dailyScore;
     }
 
-    // Calculer score et facteurs uniquement pour aujourd’hui
+    // Calculer score et facteurs uniquement pour aujourd'hui
     const todayKey = moment().format('YYYY-MM-DD');
     const todayNews = newsByDay[todayKey] || [];
 
@@ -325,7 +344,6 @@ function analyzeNewsSentiment(news) {
         scoreHistory: history
     };
 }
-
 
 function getSentimentFromPython(text) {
     return new Promise((resolve, reject) => {
