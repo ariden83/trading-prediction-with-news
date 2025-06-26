@@ -74,6 +74,33 @@ const NEWS_SOURCES = [
         titlePath: 'title',
         linkPath: 'link',
         datePath: 'pubDate'
+    },
+    {
+        name: 'Economics.com – Brent News',
+        url: 'https://news.google.com/rss/search?q=economics+brent&when:24h+allinurl:economics.com&hl=en-US&gl=US&ceid=US:en',
+        type: 'rss',
+        entriesPath: 'rss.channel.item',
+        titlePath: 'title',
+        linkPath: 'link',
+        datePath: 'pubDate'
+    },
+    {
+        name: 'Financial Times – Brent News',
+        url: 'https://news.google.com/rss/search?q=financial+times+brent&when:24h+allinurl:ft.com&hl=en-US&gl=US&ceid=US:en',
+        type: 'rss',
+        entriesPath: 'rss.channel.item',
+        titlePath: 'title',
+        linkPath: 'link',
+        datePath: 'pubDate'
+    },
+    {
+        name: 'Petrobazaar – Brent News',
+        url: 'https://news.google.com/rss/search?q=petrobazaar+brent&when:24h+allinurl:petrobazaar.com&hl=en-US&gl=US&ceid=US:en',
+        type: 'rss',
+        entriesPath: 'rss.channel.item',
+        titlePath: 'title',
+        linkPath: 'link',
+        datePath: 'pubDate'
     }/*,
     {
         name: 'U.S. Energy Information Administration (EIA)',
