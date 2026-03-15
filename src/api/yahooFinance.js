@@ -35,27 +35,43 @@ async function getBrentHistoricalData(period = '1mo', interval = '1d') {
         // Extraction des données pertinentes
         const result = response.data.chart.result[0];
 
-        if (!result.timestamp || !result.indicators || !result.indicators.quote || !result.indicators.quote[0]) {
-            throw new Error('Structure de données Yahoo Finance incomplète ' +  JSON.stringify(result, null, 2));
-        }
-
         const timestamps = result.timestamp;
-        const quote = result.indicators.quote[0];
-        const adjClose = result.indicators.adjclose ? result.indicators.adjclose[0].adjclose : null;
-        
-        // Formatage des données pour l'utilisation dans l'application
-        const formattedData = timestamps.map((timestamp, index) => {
-            return {
-                date: moment.unix(timestamp).format('YYYY-MM-DD'),
-                timestamp: timestamp,
-                open: quote.open[index],
-                high: quote.high[index],
-                low: quote.low[index],
-                close: quote.close[index],
-                volume: quote.volume[index],
-                adjClose: adjClose ? adjClose[index] : quote.close[index]
-            };
-        });
+        const quote = result.indicators && result.indicators.quote && result.indicators.quote[0];
+        const hasOHLC = quote && quote.close && quote.close.length > 0;
+
+        let formattedData = [];
+        if (timestamps && hasOHLC) {
+            const adjClose = result.indicators.adjclose ? result.indicators.adjclose[0].adjclose : null;
+            formattedData = timestamps.map((timestamp, index) => {
+                return {
+                    date: moment.unix(timestamp).format('YYYY-MM-DD'),
+                    timestamp: timestamp,
+                    open: quote.open ? quote.open[index] : null,
+                    high: quote.high ? quote.high[index] : null,
+                    low: quote.low ? quote.low[index] : null,
+                    close: quote.close[index],
+                    volume: quote.volume ? quote.volume[index] : null,
+                    adjClose: adjClose ? adjClose[index] : quote.close[index]
+                };
+            });
+        } else {
+            // Marché fermé ou données intraday indisponibles — on retourne un point synthétique
+            console.warn('Données OHLC absentes (marché probablement fermé), utilisation du prix de clôture des métadonnées');
+            const price = result.meta.regularMarketPrice || result.meta.chartPreviousClose;
+            if (price) {
+                const ts = result.meta.regularMarketTime;
+                formattedData = [{
+                    date: moment.unix(ts).format('YYYY-MM-DD'),
+                    timestamp: ts,
+                    open: price,
+                    high: result.meta.regularMarketDayHigh || price,
+                    low: result.meta.regularMarketDayLow || price,
+                    close: price,
+                    volume: result.meta.regularMarketVolume || 0,
+                    adjClose: price
+                }];
+            }
+        }
         
         // Récupération des métadonnées
         const metadata = {
