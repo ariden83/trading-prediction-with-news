@@ -35,6 +35,23 @@ L'application est structurée en deux parties principales :
    - Affichage des actualités et des prévisions
    - Communication avec le backend via les API REST
 
+## Sources d'actualités
+
+Les actualités dont on mesure l'impact sur le cours du Brent sont récupérées via des flux RSS/Atom, configurés dans `NEWS_SOURCES` (`src/api/newsAnalyzer.js`) :
+
+| Source | Accès |
+|---|---|
+| [prixdubaril.com](https://prixdubaril.com) | Flux Atom direct (`news-petrole.feed`) |
+| [Reuters](https://www.reuters.com) | Google News RSS, requête `brent` restreinte à `reuters.com` |
+| [Bloomberg](https://www.bloomberg.com) | Google News RSS, requête `brent` restreinte à `bloomberg.com` |
+| Economics.com | Google News RSS, requête `brent` restreinte à `economics.com` |
+| [Financial Times](https://www.ft.com) | Google News RSS, requête `brent` restreinte à `ft.com` |
+| Petrobazaar | Google News RSS, requête `brent` restreinte à `petrobazaar.com` |
+
+Les requêtes Google News portent sur les dernières 24 h. Le sentiment de chaque titre est ensuite évalué avec VADER (`src/python/vadersSentiment.v2.py`).
+
+Sources présentes dans le code mais désactivées (commentées) : Investing.com (Commodities), OilPrice.com et U.S. Energy Information Administration (EIA).
+
 ## Installation
 
 ### Prérequis
@@ -94,7 +111,8 @@ L'application sera disponible à l'adresse http://localhost:3001.
 
 - **Backend**: Node.js, Express, Axios
 - **Frontend**: HTML5, CSS3, JavaScript, Chart.js
-- **Données**: Yahoo Finance API
+- **Données**: Yahoo Finance API (cours), flux RSS/Atom d'actualités (voir « Sources d'actualités »)
+- **Analyse de sentiment**: Python, VADER
 
 ## Interface utilisateur
 
@@ -122,7 +140,7 @@ Le serveur expose les API REST suivantes :
 
 - Les prévisions sont générées à partir de données historiques et d'actualités, mais ne constituent pas des conseils d'investissement
 - La précision des prévisions dépend de nombreux facteurs externes qui ne peuvent pas tous être pris en compte
-- L'analyse des actualités est simulée dans cette version et pourrait être améliorée avec une API d'actualités réelle
+- L'analyse de sentiment ne porte que sur les titres des actualités et pourrait être enrichie (contenu complet des articles, modèle spécialisé finance)
 - Ajout de plus de facteurs d'influence dans l'algorithme de prévision
 - Implémentation d'un modèle d'apprentissage automatique pour améliorer la précision des prévisions
 
